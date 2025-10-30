@@ -347,8 +347,10 @@ class RestaurantApp {
         if (value == null) return '';
         if (typeof value === 'string') return value;
         if (typeof value === 'number') return String(value);
+        if (Array.isArray(value)) {
+            return value.map(v => this.normalizeLabel(v)).filter(Boolean).join(' + ');
+        }
         if (typeof value === 'object') {
-            // Try common shapes
             if (value.name && typeof value.name === 'string') return value.name;
             const lang = this.currentLanguage || 'tr';
             if (value[lang] && typeof value[lang] === 'string') return value[lang];
@@ -357,6 +359,57 @@ class RestaurantApp {
         }
         try { return String(value); } catch (_) { return ''; }
     }
+
+// --- BEGIN: Static image maps (top-level constants) ---
+}
+
+// Ürün ID -> kesin resim yolu (gerekli gördükçe doldurulabilir)
+const PRODUCT_IMAGE_MAP = {
+    // Örnek:
+    // 'p_margherita': './pic/Pizzalar/margarita.jpg',
+};
+
+// Klasörlere göre mevcut görsel dosyaları (pic/ altı)
+const AVAILABLE_IMAGES = {
+    'Pizzalar': [
+        '4-peynirli-yicem.jpg','brokoli-yicem.jpg','diavola-yicem.jpg','donerli-yicem.jpg','ıspanak-tulum-yicem.jpg','kavurmali-yicem.jpg','klasik-yicem.jpg','margarita.jpg','mix-yicem-pizza.jpg','sosisli-yicem.jpg','sucuklu-yicem.jpg','tavuklu-yicem.jpg','tonno-yicem.jpg'
+    ],
+    'Ayvalik-Tostu': [
+        'sanayi-tostu.jpg','soguk-sandvic.jpg','yicem-donerli.jpg','yicem-evkofteli.jpg','yicem-karisik.jpg','yicem-kasarli-jambon.jpg','yicem-kasarli.jpg','yicem-kavurma.jpg','yicem-mega-karisik.jpg','yicem-salam.jpg','yicem-schnitzel.jpg','yicem-sucuklu.jpg','yicem-super-karisik.jpg','yicem-yengen.jpg','yicem-yengenn.jpg'
+    ],
+    'Tavuk-Doner': [
+        '3lu-tavuk-doner.jpg','5lı-tavuk-doner.jpg','pilav-ustu-tavuk-doner.jpg','tavuk-doner-beyti.jpg','tavuk-doner-porsiyon.jpg','tavuk-doner.jpg','tavuk-iskender.jpg'
+    ],
+    'Et-Doner': [
+        '3lu-etdoner.jpg','5li-etdoner.jpg','ayvalik-etdoner.jpg','et-doner-porsiyon.jpg','et-doner.jpg','et-iskender.jpg','kasarli-etdoner.jpg','pilavustu-etdoner.jpg','soslu-doner.jpg'
+    ],
+    'Makarnalar': [
+        'alfredo.jpg','arabiata.jpg','bolonez.jpg','manti.jpg','Napoliten.jpg','pesto.jpg','ton-balikli.jpg','turkusulu.jpg'
+    ],
+    'Hamburger': [
+        'cheeseburger.jpg','hamburger.jpg','tavukburger.jpg'
+    ],
+    'Kofte-Spesiyel': [
+        'ekmekarasi.jpg','kasarli-kofte.jpg','sefin-izgarasi.jpg'
+    ],
+    'Aperatifler': [
+        'citir.jpg','elmadilim.jpg','parmakpatates.jpg'
+    ],
+    'Bistro': [
+        'barbekusoslutavuk.jpg','cafedeparis.jpg','chicken-quesadilla.jpg','chicken-stroganoff.jpg','dagkekigi-kremali.jpg','kasarli-mantarli-quesadilla.jpg','mantarli-kori-tavuk.jpg','mexicanososlutavuk.jpg','tatliacisoslutavuk.jpg','tavuk-wrap.jpg','viyana.jpg'
+    ],
+    'Salata': [
+        'baharsalata.jpg','citir-tavuk-salata.jpg','diyet-tavuk-salata.jpg','hellim-salata.jpg','sezar.jpg','tonnosalata.jpg'
+    ],
+    'Icecek': [
+        '4lucamicecek.jpg','ayran.jpg','cay.jpg','cocacola.jpg','fanta.jpg','icetea.jpg','litrelikicecek.jpg','pepsi.jpg','redbull.jpg','salgam.jpg','soda.jpg','sprite.jpg','su.jpg','turk-kahvesi.jpg'
+    ]
+};
+
+// --- END: Static image maps ---
+
+// Sınıfın devamı
+class __KeepTypes__ {}
 
 	// Build description for display: for pizzas always use language-specific description; others fallback to ingredients
 	getDisplayDescription(product, translation) {
@@ -386,31 +439,43 @@ class RestaurantApp {
 		return translation?.description || '';
 	}
 
-    // Get local image based on product name matching
+    // Get local image based on product ID/name and available files
     getLocalImage(categoryFolder, productId, productName) {
+        // 1) Explicit ID map
+        if (typeof PRODUCT_IMAGE_MAP !== 'undefined' && PRODUCT_IMAGE_MAP[productId]) {
+            return PRODUCT_IMAGE_MAP[productId];
+        }
+
         const folder = this.resolvePicFolder(categoryFolder);
-        // Özel tek-dosya senaryoları
         const key = String(categoryFolder || '').toLowerCase();
+
+        // 2) Special single-file cases
         if (key === 'soguk-sandvic') {
             return `./pic/Ayvalik-Tostu/soguk-sandvic.jpg`;
         }
         if (key === 'manti') {
             return `./pic/Makarnalar/manti.jpg`;
         }
+
+        // 3) No name → category default
         if (!productName) {
             return this.getDefaultImage(folder, productId);
         }
 
-        // Clean product name for matching
+        // 4) Try mapping by cleaned name
         const cleanName = this.cleanProductName(productName);
-        
-        // Try to find matching image file name
-        const matchedImage = this.findMatchingImage(cleanName);
-        if (matchedImage) {
-            return `./pic/${folder}/${matchedImage}`;
+        const mapped = this.findMatchingImage(cleanName);
+        if (mapped) {
+            return `./pic/${folder}/${mapped}`;
         }
 
-        // Slug-based fallback inside the resolved folder
+        // 5) Try best match from AVAILABLE_IMAGES list
+        const best = this.bestMatchFile(cleanName, folder);
+        if (best) {
+            return `./pic/${folder}/${best}`;
+        }
+
+        // 6) Slug-based fallback
         const fallbackFile = `${cleanName}.jpg`;
         return `./pic/${folder}/${fallbackFile}`;
     }
@@ -685,6 +750,39 @@ class RestaurantApp {
         return null;
     }
 
+    // Choose best matching file from AVAILABLE_IMAGES for a folder
+    bestMatchFile(cleanName, folder) {
+        const list = (typeof AVAILABLE_IMAGES !== 'undefined' && AVAILABLE_IMAGES[folder]) ? AVAILABLE_IMAGES[folder] : [];
+        if (!cleanName || !list.length) return null;
+
+        // Exact without extension
+        const exact = list.find(f => f.replace(/\.jpg$/i, '') === cleanName);
+        if (exact) return exact;
+
+        // Starts with
+        const starts = list.find(f => f.toLowerCase().startsWith(cleanName));
+        if (starts) return starts;
+
+        // Includes either way
+        const includes = list.find(f => f.toLowerCase().includes(cleanName) || cleanName.includes(f.replace(/\.jpg$/i, '').toLowerCase()));
+        if (includes) return includes;
+
+        // Alternative candidates
+        const altCandidates = [
+            cleanName.replace(/-/g, ''),
+            cleanName.replace(/-/g, '_'),
+            cleanName.split('-')[0],
+            cleanName.split('-').slice(0, 2).join('-')
+        ].filter(Boolean);
+
+        for (const c of altCandidates) {
+            const hit = list.find(f => f.toLowerCase().includes(c));
+            if (hit) return hit;
+        }
+
+        return null;
+    }
+
     // Get default image for category
     getDefaultImage(categoryFolder, productId) {
         const key = String(categoryFolder || '')
@@ -792,17 +890,23 @@ class RestaurantApp {
 			if (!Array.isArray(category.products)) continue;
 			for (const product of category.products) {
 				const nameTr = product?.name?.tr || product?.name?.en || '';
-				const mapped = {
+                const imagePath = (typeof PRODUCT_IMAGE_MAP !== 'undefined' && PRODUCT_IMAGE_MAP[product.id])
+                    ? PRODUCT_IMAGE_MAP[product.id]
+                    : this.getLocalImage(internalCat, product.id, nameTr);
+                const mapped = {
 					id: product.id,
 					category: internalCat,
 					price: product.price,
-					// Görseller daha sonra sağlanacak; mevcut isimle yerel eşleştirme yapalım
-					image: this.getLocalImage(internalCat, product.id, nameTr),
+                    image: imagePath,
 					translations: this.buildTranslations(product.name, product.description),
 					// contents çok dilli obje; mevcut dili seç ya da tüm objeyi koru
 					ingredients: (product.contents && (product.contents[this.currentLanguage] || product.contents.tr)) ? product.contents : (product.contents || {}),
 					extras: []
 				};
+                // Bellekte kesin eşleştirme tablosunu doldur (ileride kalıcıya çekilebilir)
+                if (typeof PRODUCT_IMAGE_MAP !== 'undefined' && !PRODUCT_IMAGE_MAP[product.id]) {
+                    PRODUCT_IMAGE_MAP[product.id] = imagePath;
+                }
 
 				// Boyut/seçenekler -> radio extra
 				if (Array.isArray(product.options) && product.options.length) {

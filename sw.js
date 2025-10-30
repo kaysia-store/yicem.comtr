@@ -1,4 +1,4 @@
-const CACHE_NAME = 'yicem-v2';
+const CACHE_NAME = 'yicem-v3';
 const urlsToCache = [
   '/',
   '/index.html',
