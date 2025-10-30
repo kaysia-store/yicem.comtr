@@ -1,0 +1,28 @@
+Tavuk Döner ve Et Döner Kategorilerinde tüm ürünlere açıklama olarak 'Dürüm (Lavaş) , Gobit Ekmek (Pita Ekmek), Taş Fırın Ekmeği veya Ayvalık Tostu Ekmeği Seçenekleri ile'  yazsın. 6 dil için açıklamaları optimize edelim. Menu Fiyatları Radio Buton (Cips + Ayran) +60, (Cips + Kola) +80 olacak. İçeriklerde Soğan kaldıralım.
+Tavuk Döner Beyti fiyat 250 
+Tavuk Döner Porsiyon isim Tavuk Döner Porsiyon (100gr) fiyat 180 resim:tavuk-doner-porsiyon.jpg
+Pilavüstü Tavuk Döner isim Pilav Üstü Tavuk Döner fiyat 230 içeriklerde soğan yok resim:pilav-ustu-tavuk-doner.jpg
+3 Adet Tavuk Döner fiyat 630 içerik: 3 x 100gr , Büyük Boy Cips, Litrelik İçecek resim:3lu-tavuk-doner.jpg
+5 Adet Tavuk Döner fiyat 990 içerik: 5 x 100gr  , 2 x Büyük Boy Cips, Litrelik İçecek resim:5lı-tavuk-doner.jpg
+Tavuk İskender fiyat 230 içeriklerde soğan yok resim: tavuk-iskender.jpg
+hepsini script.js içerisinde düzenleyelim 
+Et Döner kategorisinde bütün ürünlerin menülerine ilave olarak check box buton ile +10 Patates koyalım. 
+Et Döner Porsiyon fiyat 310 içeriklerde soğan yok, 100gr ekleyelim resim: pic\Et-Doner\et-doner-porsiyon.jpg
+Pilavüstü Et Döner fiyat 350 içeriklere 100gr ekleyelim resim: pilavustu-etdoner.jpg
+3 Adet Et Döner isim 3 Adet Et Döner (70gr) fiyat 780 içerik 3 x 70gr , Büyük Boy Cips, Litrelik İçecek resim:3lu-etdoner.jpg
+yeni ürün ekle 3 Adet Et Döner (100gr) fiyat 1020 içerik: 3 x 100gr , Büyük Boy Cips, Litrelik İçecek resim:3lu-etdoner.jpg
+5 Adet Et Döner isim 5 Adet Et Döner (70gr) fiyat 1240  içerik: 5 x 70gr  , 2 x Büyük Boy Cips, Litrelik İçecek resim:5li-etdoner.jpg
+yeni ürün ekle 5 Adet Et Döner (100gr) fiyat 1640  içerik: 5 x 100gr  , 2 x Büyük Boy Cips, Litrelik İçecek resim:5li-etdoner.jpg
+Et İskender fiyat 350 içeriğe ilave 100gr ekleyelim resim: et-iskender.jpg
+Yeni ürün ekle Et Döner (70gr) fiyat 210 resim: et-doner.jpg
+Yeni ürün ekle Et Döner (100gr) fiyat 290 resim: et-doner.jpg
+Kaşarlı Et Döner isim Soslu Kaşarlı Et Dürüm (70gr) fiyat 230 resim: kasarli-etdoner.jpg
+yeni ürün ekle Soslu Kaşarlı Et Dürüm (100gr) fiyat 310 resim: kasarli-etdoner.jpg
+Soslu Döner isim Soslu Et Döner içerik ilavesi olarak 100gr fiyat 310 resim: soslu-doner.jpg
+Ayvalık Et Döner isim Ayvalık Et Döner içerik ilavesi (70gr) fiyat 210 resim: ayvalik-etdoner.jpg
+yeni ürün ekle Ayvalık Kaşarlı Et Döner fiyat 230 içerik ilave olarak 70gr resim:ayvalik-etdoner.jpg
+Tüm içeriklere 6 dil optimizasyonu yapalım
+scipt.js içerisine embedded yapalım
+
+
+Tavuk Döner, Lavash, Domates yazan içerikleri Tavuk Döner, Marul, Domates olarak değiştir.

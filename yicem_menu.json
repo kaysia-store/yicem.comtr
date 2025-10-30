@@ -1,0 +1,3256 @@
+{
+  "restaurant": {
+    "name": {
+      "tr": "Yi'Cem Restoran",
+      "en": "Yi'Cem Restaurant",
+      "de": "Yi'Cem Restaurant",
+      "ru": "Ресторан Йи'Цем",
+      "fr": "Restaurant Yi'Cem",
+      "ar": "مطعم يجم"
+    },
+    "description": {
+      "tr": "Antalya Muratpaşa'da taze malzemelerle hazırlanan lezzetli pizzalar ve ayvalık tostları",
+      "en": "Delicious pizzas and Ayvalık toasts prepared with fresh ingredients in Antalya Muratpaşa",
+      "de": "Leckere Pizzas und Ayvalık-Toasts mit frischen Zutaten in Antalya Muratpaşa zubereitet",
+      "ru": "Вкусные пиццы и тосты Айвалык, приготовленные из свежих ингредиентов в Анталье Муратпаша",
+      "fr": "Délicieuses pizzas et toasts Ayvalık préparés avec des ingrédients frais à Antalya Muratpaşa",
+      "ar": "بيتزا لذيذة وخبز محمص أيفاليك محضر بمكونات طازجة في أنطاليا مراتباشا"
+    },
+    "categories": [
+      {
+        "id": "pizza",
+        "name": {
+          "tr": "Pizzalar",
+          "en": "Pizzas",
+          "de": "Pizzas",
+          "ru": "Пиццы",
+          "fr": "Pizzas",
+          "ar": "بيتزا"
+        },
+        "products": [
+          {
+            "id": "p1",
+            "name": {
+              "tr": "Margarita Yicem",
+              "en": "Margarita Yicem",
+              "de": "Margarita Yicem",
+              "ru": "Маргарита Йицем",
+              "fr": "Margarita Yicem",
+              "ar": "مارغريتا يجم"
+            },
+            "price": 180,
+            "description": {
+              "tr": "Mozarella Peyniri, Pizza Sosu, Fesleğen, Cherry Domates",
+              "en": "Mozzarella Cheese, Pizza Sauce, Basil, Cherry Tomatoes",
+              "de": "Mozzarella-Käse, Pizza-Sauce, Basilikum, Kirschtomaten",
+              "ru": "Сыр Моцарелла, Соус для пиццы, Базилик, Черри помидоры",
+              "fr": "Fromage Mozzarella, Sauce Pizza, Basilic, Tomates Cerises",
+              "ar": "جبن موزاريلا، صلصة البيتزا، ريحان، طماطم كرزية"
+            },
+            "contents": {
+              "tr": ["Pizza Sosu", "Fesleğen", "Cherry Domates"],
+              "en": ["Pizza Sauce", "Basil", "Cherry Tomatoes"],
+              "de": ["Pizza-Sauce", "Basilikum", "Kirschtomaten"],
+              "ru": ["Соус для пиццы", "Базилик", "Черри помидоры"],
+              "fr": ["Sauce Pizza", "Basilic", "Tomates Cerises"],
+              "ar": ["صلصة البيتزا", "ريحان", "طماطم كرزية"]
+            },
+            "options": [
+              {
+                "id": "o1",
+                "label": {
+                  "tr": "Small (1 Kişilik)",
+                  "en": "Small (1 Person)",
+                  "de": "Klein (1 Person)",
+                  "ru": "Маленькая (1 человек)",
+                  "fr": "Petit (1 personne)",
+                  "ar": "صغير (شخص واحد)"
+                },
+                "price": 0
+              },
+              {
+                "id": "o2",
+                "label": {
+                  "tr": "Medium (1-2 Kişilik)",
+                  "en": "Medium (1-2 People)",
+                  "de": "Mittel (1-2 Personen)",
+                  "ru": "Средняя (1-2 человека)",
+                  "fr": "Moyen (1-2 personnes)",
+                  "ar": "متوسط (1-2 أشخاص)"
+                },
+                "price": 60
+              },
+              {
+                "id": "o3",
+                "label": {
+                  "tr": "Large (2-3 Kişilik)",
+                  "en": "Large (2-3 People)",
+                  "de": "Groß (2-3 Personen)",
+                  "ru": "Большая (2-3 человека)",
+                  "fr": "Grand (2-3 personnes)",
+                  "ar": "كبير (2-3 أشخاص)"
+                },
+                "price": 120
+              },
+              {
+                "id": "o4",
+                "label": {
+                  "tr": "XLarge (3-4 Kişilik)",
+                  "en": "XLarge (3-4 People)",
+                  "de": "Extra Groß (3-4 Personen)",
+                  "ru": "Очень большая (3-4 человека)",
+                  "fr": "Très grand (3-4 personnes)",
+                  "ar": "كبير جداً (3-4 أشخاص)"
+                },
+                "price": 180
+              }
+            ]
+          },
+          {
+            "id": "p2",
+            "name": {
+              "tr": "Mix Yicem",
+              "en": "Mix Yicem",
+              "de": "Mix Yicem",
+              "ru": "Микс Йицем",
+              "fr": "Mix Yicem",
+              "ar": "ميكس يجم"
+            },
+            "price": 240,
+            "description": {
+              "tr": "Mozarella Peyniri, Pizza Sosu, Sucuk, Sosis, Salam, Zeytin, Mısır, Mantar",
+              "en": "Mozzarella Cheese, Pizza Sauce, Sucuk, Sausage, Salami, Olives, Corn, Mushrooms",
+              "de": "Mozzarella-Käse, Pizza-Sauce, Sucuk, Wurst, Salami, Oliven, Mais, Pilze",
+              "ru": "Сыр Моцарелла, Соус для пиццы, Суджук, Колбаса, Салами, Оливки, Кукуруза, Грибы",
+              "fr": "Fromage Mozzarella, Sauce Pizza, Sucuk, Saucisse, Salami, Olives, Maïs, Champignons",
+              "ar": "جبن موزاريلا، صلصة البيتزا، سوجق، سجق، سلامي، زيتون، ذرة، فطر"
+            },
+            "contents": {
+              "tr": ["Pizza Sosu", "Sucuk", "Sosis", "Salam", "Zeytin", "Mısır", "Mantar"],
+              "en": ["Pizza Sauce", "Sucuk", "Sausage", "Salami", "Olives", "Corn", "Mushrooms"],
+              "de": ["Pizza-Sauce", "Sucuk", "Wurst", "Salami", "Oliven", "Mais", "Pilze"],
+              "ru": ["Соус для пиццы", "Суджук", "Колбаса", "Салами", "Оливки", "Кукуруза", "Грибы"],
+              "fr": ["Sauce Pizza", "Sucuk", "Saucisse", "Salami", "Olives", "Maïs", "Champignons"],
+              "ar": ["صلصة البيتزا", "سوجق", "سجق", "سلامي", "زيتون", "ذرة", "فطر"]
+            },
+            "options": [
+              {
+                "id": "o5",
+                "label": {
+                  "tr": "Small (1 Kişilik)",
+                  "en": "Small (1 Person)",
+                  "de": "Klein (1 Person)",
+                  "ru": "Маленькая (1 человек)",
+                  "fr": "Petit (1 personne)",
+                  "ar": "صغير (شخص واحد)"
+                },
+                "price": 0
+              },
+              {
+                "id": "o6",
+                "label": {
+                  "tr": "Medium (1-2 Kişilik)",
+                  "en": "Medium (1-2 People)",
+                  "de": "Mittel (1-2 Personen)",
+                  "ru": "Средняя (1-2 человека)",
+                  "fr": "Moyen (1-2 personnes)",
+                  "ar": "متوسط (1-2 أشخاص)"
+                },
+                "price": 60
+              },
+              {
+                "id": "o7",
+                "label": {
+                  "tr": "Large (2-3 Kişilik)",
+                  "en": "Large (2-3 People)",
+                  "de": "Groß (2-3 Personen)",
+                  "ru": "Большая (2-3 человека)",
+                  "fr": "Grand (2-3 personnes)",
+                  "ar": "كبير (2-3 أشخاص)"
+                },
+                "price": 120
+              },
+              {
+                "id": "o8",
+                "label": {
+                  "tr": "XLarge (3-4 Kişilik)",
+                  "en": "XLarge (3-4 People)",
+                  "de": "Extra Groß (3-4 Personen)",
+                  "ru": "Очень большая (3-4 человека)",
+                  "fr": "Très grand (3-4 personnes)",
+                  "ar": "كبير جداً (3-4 أشخاص)"
+                },
+                "price": 180
+              }
+            ]
+          },
+          {
+            "id": "p3",
+            "name": {
+              "tr": "Kavurmalı Yicem",
+              "en": "Beef Stew Yicem",
+              "de": "Rindfleisch-Eintopf Yicem",
+              "ru": "Йицем с тушеной говядиной",
+              "fr": "Yicem au Ragoût de Bœuf",
+              "ar": "يجم باللحم المطبوخ"
+            },
+            "price": 300,
+            "description": {
+              "tr": "Mozarella, Pizza Sosu, Dana Kavurma, Soğan, Biber, Kekik",
+              "en": "Mozzarella, Pizza Sauce, Beef Stew, Onion, Pepper, Thyme",
+              "de": "Mozzarella, Pizza-Sauce, Rindfleisch-Eintopf, Zwiebel, Paprika, Thymian",
+              "ru": "Моцарелла, Соус для пиццы, Тушеная говядина, Лук, Перец, Тимьян",
+              "fr": "Mozzarella, Sauce Pizza, Ragoût de Bœuf, Oignon, Poivron, Thym",
+              "ar": "موزاريلا، صلصة البيتزا، لحم مطبوخ، بصل، فلفل، زعتر"
+            },
+            "contents": {
+              "tr": ["Pizza Sosu", "Dana Kavurma", "Soğan", "Biber", "Kekik"],
+              "en": ["Pizza Sauce", "Beef Stew", "Onion", "Pepper", "Thyme"],
+              "de": ["Pizza-Sauce", "Rindfleisch-Eintopf", "Zwiebel", "Paprika", "Thymian"],
+              "ru": ["Соус для пиццы", "Тушеная говядина", "Лук", "Перец", "Тимьян"],
+              "fr": ["Sauce Pizza", "Ragoût de Bœuf", "Oignon", "Poivron", "Thym"],
+              "ar": ["صلصة البيتزا", "لحم مطبوخ", "بصل", "فلفل", "زعتر"]
+            },
+            "options": [
+              {
+                "id": "o9",
+                "label": {
+                  "tr": "Small (1 Kişilik)",
+                  "en": "Small (1 Person)",
+                  "de": "Klein (1 Person)",
+                  "ru": "Маленькая (1 человек)",
+                  "fr": "Petit (1 personne)",
+                  "ar": "صغير (شخص واحد)"
+                },
+                "price": 0
+              },
+              {
+                "id": "o10",
+                "label": {
+                  "tr": "Medium (1-2 Kişilik)",
+                  "en": "Medium (1-2 People)",
+                  "de": "Mittel (1-2 Personen)",
+                  "ru": "Средняя (1-2 человека)",
+                  "fr": "Moyen (1-2 personnes)",
+                  "ar": "متوسط (1-2 أشخاص)"
+                },
+                "price": 60
+              },
+              {
+                "id": "o11",
+                "label": {
+                  "tr": "Large (2-3 Kişilik)",
+                  "en": "Large (2-3 People)",
+                  "de": "Groß (2-3 Personen)",
+                  "ru": "Большая (2-3 человека)",
+                  "fr": "Grand (2-3 personnes)",
+                  "ar": "كبير (2-3 أشخاص)"
+                },
+                "price": 120
+              },
+              {
+                "id": "o12",
+                "label": {
+                  "tr": "XLarge (3-4 Kişilik)",
+                  "en": "XLarge (3-4 People)",
+                  "de": "Extra Groß (3-4 Personen)",
+                  "ru": "Очень большая (3-4 человека)",
+                  "fr": "Très grand (3-4 personnes)",
+                  "ar": "كبير جداً (3-4 أشخاص)"
+                },
+                "price": 180
+              }
+            ]
+          },
+          {
+            "id": "p4",
+            "name": {
+              "tr": "Tavuklu Yicem",
+              "en": "Chicken Yicem",
+              "de": "Hähnchen Yicem",
+              "ru": "Йицем с курицей",
+              "fr": "Yicem au Poulet",
+              "ar": "يجم بالدجاج"
+            },
+            "price": 240,
+            "description": {
+              "tr": "Mozarella, Pizza Sosu, Tavuk Göğsü, Mantar, Mısır, Jalapeno Biber, Kekik",
+              "en": "Mozzarella, Pizza Sauce, Chicken Breast, Mushrooms, Corn, Jalapeño Pepper, Thyme",
+              "de": "Mozzarella, Pizza-Sauce, Hähnchenbrust, Pilze, Mais, Jalapeño-Paprika, Thymian",
+              "ru": "Моцарелла, Соус для пиццы, Куриная грудка, Грибы, Кукуруза, Перец халапеньо, Тимьян",
+              "fr": "Mozzarella, Sauce Pizza, Blanc de Poulet, Champignons, Maïs, Poivron Jalapeño, Thym",
+              "ar": "موزاريلا، صلصة البيتزا، صدر دجاج، فطر، ذرة، فلفل هالبينو، زعتر"
+            },
+            "contents": {
+              "tr": ["Pizza Sosu", "Tavuk Göğsü", "Mantar", "Mısır", "Jalapeno Biber", "Kekik"],
+              "en": ["Pizza Sauce", "Chicken Breast", "Mushrooms", "Corn", "Jalapeño Pepper", "Thyme"],
+              "de": ["Pizza-Sauce", "Hähnchenbrust", "Pilze", "Mais", "Jalapeño-Paprika", "Thymian"],
+              "ru": ["Соус для пиццы", "Куриная грудка", "Грибы", "Кукуруза", "Перец халапеньо", "Тимьян"],
+              "fr": ["Sauce Pizza", "Blanc de Poulet", "Champignons", "Maïs", "Poivron Jalapeño", "Thym"],
+              "ar": ["صلصة البيتزا", "صدر دجاج", "فطر", "ذرة", "فلفل هالبينو", "زعتر"]
+            },
+            "options": [
+              {
+                "id": "o13",
+                "label": {
+                  "tr": "Small (1 Kişilik)",
+                  "en": "Small (1 Person)",
+                  "de": "Klein (1 Person)",
+                  "ru": "Маленькая (1 человек)",
+                  "fr": "Petit (1 personne)",
+                  "ar": "صغير (شخص واحد)"
+                },
+                "price": 0
+              },
+              {
+                "id": "o14",
+                "label": {
+                  "tr": "Medium (1-2 Kişilik)",
+                  "en": "Medium (1-2 People)",
+                  "de": "Mittel (1-2 Personen)",
+                  "ru": "Средняя (1-2 человека)",
+                  "fr": "Moyen (1-2 personnes)",
+                  "ar": "متوسط (1-2 أشخاص)"
+                },
+                "price": 60
+              },
+              {
+                "id": "o15",
+                "label": {
+                  "tr": "Large (2-3 Kişilik)",
+                  "en": "Large (2-3 People)",
+                  "de": "Groß (2-3 Personen)",
+                  "ru": "Большая (2-3 человека)",
+                  "fr": "Grand (2-3 personnes)",
+                  "ar": "كبير (2-3 أشخاص)"
+                },
+                "price": 120
+              },
+              {
+                "id": "o16",
+                "label": {
+                  "tr": "XLarge (3-4 Kişilik)",
+                  "en": "XLarge (3-4 People)",
+                  "de": "Extra Groß (3-4 Personen)",
+                  "ru": "Очень большая (3-4 человека)",
+                  "fr": "Très grand (3-4 personnes)",
+                  "ar": "كبير جداً (3-4 أشخاص)"
+                },
+                "price": 180
+              }
+            ]
+          },
+          {
+            "id": "p5",
+            "name": {
+              "tr": "Dönerli Yicem",
+              "en": "Doner Yicem",
+              "de": "Döner Yicem",
+              "ru": "Йицем с донером",
+              "fr": "Yicem au Döner",
+              "ar": "يجم بالدونر"
+            },
+            "price": 300,
+            "description": {
+              "tr": "Mozarella, Pizza Sosu, Et Döner, Mantar, Soğan, Biber, Kekik",
+              "en": "Mozzarella, Pizza Sauce, Beef Doner, Mushrooms, Onion, Pepper, Thyme",
+              "de": "Mozzarella, Pizza-Sauce, Rindfleisch-Döner, Pilze, Zwiebel, Paprika, Thymian",
+              "ru": "Моцарелла, Соус для пиццы, Говяжий донер, Грибы, Лук, Перец, Тимьян",
+              "fr": "Mozzarella, Sauce Pizza, Döner Bœuf, Champignons, Oignon, Poivron, Thym",
+              "ar": "موزاريلا، صلصة البيتزا، دونر لحم، فطر، بصل، فلفل، زعتر"
+            },
+            "contents": {
+              "tr": ["Pizza Sosu", "Et Döner", "Mantar", "Soğan", "Biber", "Kekik"],
+              "en": ["Pizza Sauce", "Beef Doner", "Mushrooms", "Onion", "Pepper", "Thyme"],
+              "de": ["Pizza-Sauce", "Rindfleisch-Döner", "Pilze", "Zwiebel", "Paprika", "Thymian"],
+              "ru": ["Соус для пиццы", "Говяжий донер", "Грибы", "Лук", "Перец", "Тимьян"],
+              "fr": ["Sauce Pizza", "Döner Bœuf", "Champignons", "Oignon", "Poivron", "Thym"],
+              "ar": ["صلصة البيتزا", "دونر لحم", "فطر", "بصل", "فلفل", "زعتر"]
+            },
+            "options": [
+              {
+                "id": "o17",
+                "label": {
+                  "tr": "Small (1 Kişilik)",
+                  "en": "Small (1 Person)",
+                  "de": "Klein (1 Person)",
+                  "ru": "Маленькая (1 человек)",
+                  "fr": "Petit (1 personne)",
+                  "ar": "صغير (شخص واحد)"
+                },
+                "price": 0
+              },
+              {
+                "id": "o18",
+                "label": {
+                  "tr": "Medium (1-2 Kişilik)",
+                  "en": "Medium (1-2 People)",
+                  "de": "Mittel (1-2 Personen)",
+                  "ru": "Средняя (1-2 человека)",
+                  "fr": "Moyen (1-2 personnes)",
+                  "ar": "متوسط (1-2 أشخاص)"
+                },
+                "price": 60
+              },
+              {
+                "id": "o19",
+                "label": {
+                  "tr": "Large (2-3 Kişilik)",
+                  "en": "Large (2-3 People)",
+                  "de": "Groß (2-3 Personen)",
+                  "ru": "Большая (2-3 человека)",
+                  "fr": "Grand (2-3 personnes)",
+                  "ar": "كبير (2-3 أشخاص)"
+                },
+                "price": 120
+              },
+              {
+                "id": "o20",
+                "label": {
+                  "tr": "XLarge (3-4 Kişilik)",
+                  "en": "XLarge (3-4 People)",
+                  "de": "Extra Groß (3-4 Personen)",
+                  "ru": "Очень большая (3-4 человека)",
+                  "fr": "Très grand (3-4 personnes)",
+                  "ar": "كبير جداً (3-4 أشخاص)"
+                },
+                "price": 180
+              }
+            ]
+          },
+          {
+            "id": "p6",
+            "name": {
+              "tr": "Tonno Yicem",
+              "en": "Tuna Yicem",
+              "de": "Thunfisch Yicem",
+              "ru": "Йицем с тунцом",
+              "fr": "Yicem au Thon",
+              "ar": "يجم بالتونة"
+            },
+            "price": 260,
+            "description": {
+              "tr": "Mozarella, Pizza Sosu, Ton Balığı, Domates, Soğan, Mısır",
+              "en": "Mozzarella, Pizza Sauce, Tuna Fish, Tomatoes, Onion, Corn",
+              "de": "Mozzarella, Pizza-Sauce, Thunfisch, Tomaten, Zwiebel, Mais",
+              "ru": "Моцарелла, Соус для пиццы, Тунец, Помидоры, Лук, Кукуруза",
+              "fr": "Mozzarella, Sauce Pizza, Thon, Tomates, Oignon, Maïs",
+              "ar": "موزاريلا، صلصة البيتزا، تونة، طماطم، بصل، ذرة"
+            },
+            "contents": {
+              "tr": ["Pizza Sosu", "Ton Balığı", "Domates", "Soğan", "Mısır"],
+              "en": ["Pizza Sauce", "Tuna Fish", "Tomatoes", "Onion", "Corn"],
+              "de": ["Pizza-Sauce", "Thunfisch", "Tomaten", "Zwiebel", "Mais"],
+              "ru": ["Соус для пиццы", "Тунец", "Помидоры", "Лук", "Кукуруза"],
+              "fr": ["Sauce Pizza", "Thon", "Tomates", "Oignon", "Maïs"],
+              "ar": ["صلصة البيتزا", "تونة", "طماطم", "بصل", "ذرة"]
+            },
+            "options": [
+              {
+                "id": "o21",
+                "label": {
+                  "tr": "Small (1 Kişilik)",
+                  "en": "Small (1 Person)",
+                  "de": "Klein (1 Person)",
+                  "ru": "Маленькая (1 человек)",
+                  "fr": "Petit (1 personne)",
+                  "ar": "صغير (شخص واحد)"
+                },
+                "price": 0
+              },
+              {
+                "id": "o22",
+                "label": {
+                  "tr": "Medium (1-2 Kişilik)",
+                  "en": "Medium (1-2 People)",
+                  "de": "Mittel (1-2 Personen)",
+                  "ru": "Средняя (1-2 человека)",
+                  "fr": "Moyen (1-2 personnes)",
+                  "ar": "متوسط (1-2 أشخاص)"
+                },
+                "price": 60
+              },
+              {
+                "id": "o23",
+                "label": {
+                  "tr": "Large (2-3 Kişilik)",
+                  "en": "Large (2-3 People)",
+                  "de": "Groß (2-3 Personen)",
+                  "ru": "Большая (2-3 человека)",
+                  "fr": "Grand (2-3 personnes)",
+                  "ar": "كبير (2-3 أشخاص)"
+                },
+                "price": 120
+              },
+              {
+                "id": "o24",
+                "label": {
+                  "tr": "XLarge (3-4 Kişilik)",
+                  "en": "XLarge (3-4 People)",
+                  "de": "Extra Groß (3-4 Personen)",
+                  "ru": "Очень большая (3-4 человека)",
+                  "fr": "Très grand (3-4 personnes)",
+                  "ar": "كبير جداً (3-4 أشخاص)"
+                },
+                "price": 180
+              }
+            ]
+          },
+          {
+            "id": "p7",
+            "name": {
+              "tr": "Sosisli Yicem",
+              "en": "Sausage Yicem",
+              "de": "Wurst Yicem",
+              "ru": "Йицем с колбасой",
+              "fr": "Yicem aux Saucisses",
+              "ar": "يجم بالسجق"
+            },
+            "price": 240,
+            "description": {
+              "tr": "Mozarella, Pizza Sosu, Sosis, Mantar, Zeytin, Biber, Mısır, Kekik",
+              "en": "Mozzarella, Pizza Sauce, Sausage, Mushrooms, Olives, Pepper, Corn, Thyme",
+              "de": "Mozzarella, Pizza-Sauce, Wurst, Pilze, Oliven, Paprika, Mais, Thymian",
+              "ru": "Моцарелла, Соус для пиццы, Колбаса, Грибы, Оливки, Перец, Кукуруза, Тимьян",
+              "fr": "Mozzarella, Sauce Pizza, Saucisse, Champignons, Olives, Poivron, Maïs, Thym",
+              "ar": "موزاريلا، صلصة البيتزا، سجق، فطر، زيتون، فلفل، ذرة، زعتر"
+            },
+            "contents": {
+              "tr": ["Pizza Sosu", "Sosis", "Mantar", "Zeytin", "Biber", "Mısır", "Kekik"],
+              "en": ["Pizza Sauce", "Sausage", "Mushrooms", "Olives", "Pepper", "Corn", "Thyme"],
+              "de": ["Pizza-Sauce", "Wurst", "Pilze", "Oliven", "Paprika", "Mais", "Thymian"],
+              "ru": ["Соус для пиццы", "Колбаса", "Грибы", "Оливки", "Перец", "Кукуруза", "Тимьян"],
+              "fr": ["Sauce Pizza", "Saucisse", "Champignons", "Olives", "Poivron", "Maïs", "Thym"],
+              "ar": ["صلصة البيتزا", "سجق", "فطر", "زيتون", "فلفل", "ذرة", "زعتر"]
+            },
+            "options": [
+              {
+                "id": "o25",
+                "label": {
+                  "tr": "Small (1 Kişilik)",
+                  "en": "Small (1 Person)",
+                  "de": "Klein (1 Person)",
+                  "ru": "Маленькая (1 человек)",
+                  "fr": "Petit (1 personne)",
+                  "ar": "صغير (شخص واحد)"
+                },
+                "price": 0
+              },
+              {
+                "id": "o26",
+                "label": {
+                  "tr": "Medium (1-2 Kişilik)",
+                  "en": "Medium (1-2 People)",
+                  "de": "Mittel (1-2 Personen)",
+                  "ru": "Средняя (1-2 человека)",
+                  "fr": "Moyen (1-2 personnes)",
+                  "ar": "متوسط (1-2 أشخاص)"
+                },
+                "price": 60
+              },
+              {
+                "id": "o27",
+                "label": {
+                  "tr": "Large (2-3 Kişilik)",
+                  "en": "Large (2-3 People)",
+                  "de": "Groß (2-3 Personen)",
+                  "ru": "Большая (2-3 человека)",
+                  "fr": "Grand (2-3 personnes)",
+                  "ar": "كبير (2-3 أشخاص)"
+                },
+                "price": 120
+              },
+              {
+                "id": "o28",
+                "label": {
+                  "tr": "XLarge (3-4 Kişilik)",
+                  "en": "XLarge (3-4 People)",
+                  "de": "Extra Groß (3-4 Personen)",
+                  "ru": "Очень большая (3-4 человека)",
+                  "fr": "Très grand (3-4 personnes)",
+                  "ar": "كبير جداً (3-4 أشخاص)"
+                },
+                "price": 180
+              }
+            ]
+          },
+          {
+            "id": "p8",
+            "name": {
+              "tr": "Sucuklu Yicem",
+              "en": "Sucuk Yicem",
+              "de": "Sucuk Yicem",
+              "ru": "Йицем с суджуком",
+              "fr": "Yicem au Sucuk",
+              "ar": "يجم بالسوجق"
+            },
+            "price": 240,
+            "description": {
+              "tr": "Mozarella, Pizza Sosu, Sucuk, Mantar, Zeytin, Biber, Mısır, Kekik",
+              "en": "Mozzarella, Pizza Sauce, Sucuk, Mushrooms, Olives, Pepper, Corn, Thyme",
+              "de": "Mozzarella, Pizza-Sauce, Sucuk, Pilze, Oliven, Paprika, Mais, Thymian",
+              "ru": "Моцарелла, Соус для пиццы, Суджук, Грибы, Оливки, Перец, Кукуруза, Тимьян",
+              "fr": "Mozzarella, Sauce Pizza, Sucuk, Champignons, Olives, Poivron, Maïs, Thym",
+              "ar": "موزاريلا، صلصة البيتزا، سوجق، فطر، زيتون، فلفل، ذرة، زعتر"
+            },
+            "contents": {
+              "tr": ["Pizza Sosu", "Sucuk", "Mantar", "Zeytin", "Biber", "Mısır", "Kekik"],
+              "en": ["Pizza Sauce", "Sucuk", "Mushrooms", "Olives", "Pepper", "Corn", "Thyme"],
+              "de": ["Pizza-Sauce", "Sucuk", "Pilze", "Oliven", "Paprika", "Mais", "Thymian"],
+              "ru": ["Соус для пиццы", "Суджук", "Грибы", "Оливки", "Перец", "Кукуруза", "Тимьян"],
+              "fr": ["Sauce Pizza", "Sucuk", "Champignons", "Olives", "Poivron", "Maïs", "Thym"],
+              "ar": ["صلصة البيتزا", "سوجق", "فطر", "زيتون", "فلفل", "ذرة", "زعتر"]
+            },
+            "options": [
+              {
+                "id": "o29",
+                "label": {
+                  "tr": "Small (1 Kişilik)",
+                  "en": "Small (1 Person)",
+                  "de": "Klein (1 Person)",
+                  "ru": "Маленькая (1 человек)",
+                  "fr": "Petit (1 personne)",
+                  "ar": "صغير (شخص واحد)"
+                },
+                "price": 0
+              },
+              {
+                "id": "o30",
+                "label": {
+                  "tr": "Medium (1-2 Kişilik)",
+                  "en": "Medium (1-2 People)",
+                  "de": "Mittel (1-2 Personen)",
+                  "ru": "Средняя (1-2 человека)",
+                  "fr": "Moyen (1-2 personnes)",
+                  "ar": "متوسط (1-2 أشخاص)"
+                },
+                "price": 60
+              },
+              {
+                "id": "o31",
+                "label": {
+                  "tr": "Large (2-3 Kişilik)",
+                  "en": "Large (2-3 People)",
+                  "de": "Groß (2-3 Personen)",
+                  "ru": "Большая (2-3 человека)",
+                  "fr": "Grand (2-3 personnes)",
+                  "ar": "كبير (2-3 أشخاص)"
+                },
+                "price": 120
+              },
+              {
+                "id": "o32",
+                "label": {
+                  "tr": "XLarge (3-4 Kişilik)",
+                  "en": "XLarge (3-4 People)",
+                  "de": "Extra Groß (3-4 Personen)",
+                  "ru": "Очень большая (3-4 человека)",
+                  "fr": "Très grand (3-4 personnes)",
+                  "ar": "كبير جداً (3-4 أشخاص)"
+                },
+                "price": 180
+              }
+            ]
+          },
+          {
+            "id": "p9",
+            "name": {
+              "tr": "Diavola Yicem",
+              "en": "Diavola Yicem",
+              "de": "Diavola Yicem",
+              "ru": "Диавола Йицем",
+              "fr": "Diavola Yicem",
+              "ar": "ديافولا يجم"
+            },
+            "price": 240,
+            "description": {
+              "tr": "Mozarella, Pizza Sosu, Salam, Acı Sos, Mantar, Domates, Kekik",
+              "en": "Mozzarella, Pizza Sauce, Salami, Hot Sauce, Mushrooms, Tomatoes, Thyme",
+              "de": "Mozzarella, Pizza-Sauce, Salami, Scharfe Sauce, Pilze, Tomaten, Thymian",
+              "ru": "Моцарелла, Соус для пиццы, Салами, Острый соус, Грибы, Помидоры, Тимьян",
+              "fr": "Mozzarella, Sauce Pizza, Salami, Sauce Piquante, Champignons, Tomates, Thym",
+              "ar": "موزاريلا، صلصة البيتزا، سلامي، صلصة حارة، فطر، طماطم، زعتر"
+            },
+            "contents": {
+              "tr": ["Pizza Sosu", "Salam", "Acı Sos", "Mantar", "Domates", "Kekik"],
+              "en": ["Pizza Sauce", "Salami", "Hot Sauce", "Mushrooms", "Tomatoes", "Thyme"],
+              "de": ["Pizza-Sauce", "Salami", "Scharfe Sauce", "Pilze", "Tomaten", "Thymian"],
+              "ru": ["Соус для пиццы", "Салами", "Острый соус", "Грибы", "Помидоры", "Тимьян"],
+              "fr": ["Sauce Pizza", "Salami", "Sauce Piquante", "Champignons", "Tomates", "Thym"],
+              "ar": ["صلصة البيتزا", "سلامي", "صلصة حارة", "فطر", "طماطم", "زعتر"]
+            },
+            "options": [
+              {
+                "id": "o33",
+                "label": {
+                  "tr": "Small (1 Kişilik)",
+                  "en": "Small (1 Person)",
+                  "de": "Klein (1 Person)",
+                  "ru": "Маленькая (1 человек)",
+                  "fr": "Petit (1 personne)",
+                  "ar": "صغير (شخص واحد)"
+                },
+                "price": 0
+              },
+              {
+                "id": "o34",
+                "label": {
+                  "tr": "Medium (1-2 Kişilik)",
+                  "en": "Medium (1-2 People)",
+                  "de": "Mittel (1-2 Personen)",
+                  "ru": "Средняя (1-2 человека)",
+                  "fr": "Moyen (1-2 personnes)",
+                  "ar": "متوسط (1-2 أشخاص)"
+                },
+                "price": 60
+              },
+              {
+                "id": "o35",
+                "label": {
+                  "tr": "Large (2-3 Kişilik)",
+                  "en": "Large (2-3 People)",
+                  "de": "Groß (2-3 Personen)",
+                  "ru": "Большая (2-3 человека)",
+                  "fr": "Grand (2-3 personnes)",
+                  "ar": "كبير (2-3 أشخاص)"
+                },
+                "price": 120
+              },
+              {
+                "id": "o36",
+                "label": {
+                  "tr": "XLarge (3-4 Kişilik)",
+                  "en": "XLarge (3-4 People)",
+                  "de": "Extra Groß (3-4 Personen)",
+                  "ru": "Очень большая (3-4 человека)",
+                  "fr": "Très grand (3-4 personnes)",
+                  "ar": "كبير جداً (3-4 أشخاص)"
+                },
+                "price": 180
+              }
+            ]
+          },
+          {
+            "id": "p10",
+            "name": {
+              "tr": "Klasik Vejeteryan",
+              "en": "Classic Vegetarian",
+              "de": "Klassisch Vegetarisch",
+              "ru": "Классический Вегетарианский",
+              "fr": "Végétarien Classique",
+              "ar": "نباتي كلاسيكي"
+            },
+            "price": 240,
+            "description": {
+              "tr": "Mozarella, Pizza Sosu, Mantar, Mısır, Biber, Zeytin, Cherry Domates",
+              "en": "Mozzarella, Pizza Sauce, Mushrooms, Corn, Pepper, Olives, Cherry Tomatoes",
+              "de": "Mozzarella, Pizza-Sauce, Pilze, Mais, Paprika, Oliven, Kirschtomaten",
+              "ru": "Моцарелла, Соус для пиццы, Грибы, Кукуруза, Перец, Оливки, Черри помидоры",
+              "fr": "Mozzarella, Sauce Pizza, Champignons, Maïs, Poivron, Olives, Tomates Cerises",
+              "ar": "موزاريلا، صلصة البيتزا، فطر، ذرة، فلفل، زيتون، طماطم كرزية"
+            },
+            "contents": {
+              "tr": ["Pizza Sosu", "Mantar", "Mısır", "Biber", "Zeytin", "Cherry Domates"],
+              "en": ["Pizza Sauce", "Mushrooms", "Corn", "Pepper", "Olives", "Cherry Tomatoes"],
+              "de": ["Pizza-Sauce", "Pilze", "Mais", "Paprika", "Oliven", "Kirschtomaten"],
+              "ru": ["Соус для пиццы", "Грибы", "Кукуруза", "Перец", "Оливки", "Черри помидоры"],
+              "fr": ["Sauce Pizza", "Champignons", "Maïs", "Poivron", "Olives", "Tomates Cerises"],
+              "ar": ["صلصة البيتزا", "فطر", "ذرة", "فلفل", "زيتون", "طماطم كرزية"]
+            },
+            "options": [
+              {
+                "id": "o37",
+                "label": {
+                  "tr": "Small (1 Kişilik)",
+                  "en": "Small (1 Person)",
+                  "de": "Klein (1 Person)",
+                  "ru": "Маленькая (1 человек)",
+                  "fr": "Petit (1 personne)",
+                  "ar": "صغير (شخص واحد)"
+                },
+                "price": 0
+              },
+              {
+                "id": "o38",
+                "label": {
+                  "tr": "Medium (1-2 Kişilik)",
+                  "en": "Medium (1-2 People)",
+                  "de": "Mittel (1-2 Personen)",
+                  "ru": "Средняя (1-2 человека)",
+                  "fr": "Moyen (1-2 personnes)",
+                  "ar": "متوسط (1-2 أشخاص)"
+                },
+                "price": 60
+              },
+              {
+                "id": "o39",
+                "label": {
+                  "tr": "Large (2-3 Kişilik)",
+                  "en": "Large (2-3 People)",
+                  "de": "Groß (2-3 Personen)",
+                  "ru": "Большая (2-3 человека)",
+                  "fr": "Grand (2-3 personnes)",
+                  "ar": "كبير (2-3 أشخاص)"
+                },
+                "price": 120
+              },
+              {
+                "id": "o40",
+                "label": {
+                  "tr": "XLarge (3-4 Kişilik)",
+                  "en": "XLarge (3-4 People)",
+                  "de": "Extra Groß (3-4 Personen)",
+                  "ru": "Очень большая (3-4 человека)",
+                  "fr": "Très grand (3-4 personnes)",
+                  "ar": "كبير جداً (3-4 أشخاص)"
+                },
+                "price": 180
+              }
+            ]
+          },
+          {
+            "id": "p11",
+            "name": {
+              "tr": "4 Peynirli Yicem",
+              "en": "4 Cheese Yicem",
+              "de": "4-Käse Yicem",
+              "ru": "Йицем с 4 сырами",
+              "fr": "Yicem aux 4 Fromages",
+              "ar": "يجم بـ4 أجبان"
+            },
+            "price": 300,
+            "description": {
+              "tr": "Mozarella, Pizza Sosu, Ezine, Taze Kaşar, Bergama Tulumu, Fesleğen, Cherry Domates",
+              "en": "Mozzarella, Pizza Sauce, Ezine, Fresh Cheddar, Bergama Tulum, Basil, Cherry Tomatoes",
+              "de": "Mozzarella, Pizza-Sauce, Ezine, Frischer Cheddar, Bergama Tulum, Basilikum, Kirschtomaten",
+              "ru": "Моцарелла, Соус для пиццы, Эзине, Свежий Чеддер, Бергама Туллум, Базилик, Черри помидоры",
+              "fr": "Mozzarella, Sauce Pizza, Ezine, Cheddar Frais, Bergama Tulum, Basilic, Tomates Cerises",
+              "ar": "موزاريلا، صلصة البيتزا، إزينه، شيدر طازج، برغاما تولوم، ريحان، طماطم كرزية"
+            },
+            "contents": {
+              "tr": ["Pizza Sosu", "Ezine", "Taze Kaşar", "Bergama Tulumu", "Fesleğen", "Cherry Domates"],
+              "en": ["Pizza Sauce", "Ezine", "Fresh Cheddar", "Bergama Tulum", "Basil", "Cherry Tomatoes"],
+              "de": ["Pizza-Sauce", "Ezine", "Frischer Cheddar", "Bergama Tulum", "Basilikum", "Kirschtomaten"],
+              "ru": ["Соус для пиццы", "Эзине", "Свежий Чеддер", "Бергама Туллум", "Базилик", "Черри помидоры"],
+              "fr": ["Sauce Pizza", "Ezine", "Cheddar Frais", "Bergama Tulum", "Basilic", "Tomates Cerises"],
+              "ar": ["صلصة البيتزا", "إزينه", "شيدر طازج", "برغاما تولوم", "ريحان", "طماطم كرزية"]
+            },
+            "options": [
+              {
+                "id": "o41",
+                "label": {
+                  "tr": "Small (1 Kişilik)",
+                  "en": "Small (1 Person)",
+                  "de": "Klein (1 Person)",
+                  "ru": "Маленькая (1 человек)",
+                  "fr": "Petit (1 personne)",
+                  "ar": "صغير (شخص واحد)"
+                },
+                "price": 0
+              },
+              {
+                "id": "o42",
+                "label": {
+                  "tr": "Medium (1-2 Kişilik)",
+                  "en": "Medium (1-2 People)",
+                  "de": "Mittel (1-2 Personen)",
+                  "ru": "Средняя (1-2 человека)",
+                  "fr": "Moyen (1-2 personnes)",
+                  "ar": "متوسط (1-2 أشخاص)"
+                },
+                "price": 60
+              },
+              {
+                "id": "o43",
+                "label": {
+                  "tr": "Large (2-3 Kişilik)",
+                  "en": "Large (2-3 People)",
+                  "de": "Groß (2-3 Personen)",
+                  "ru": "Большая (2-3 человека)",
+                  "fr": "Grand (2-3 personnes)",
+                  "ar": "كبير (2-3 أشخاص)"
+                },
+                "price": 120
+              },
+              {
+                "id": "o44",
+                "label": {
+                  "tr": "XLarge (3-4 Kişilik)",
+                  "en": "XLarge (3-4 People)",
+                  "de": "Extra Groß (3-4 Personen)",
+                  "ru": "Очень большая (3-4 человека)",
+                  "fr": "Très grand (3-4 personnes)",
+                  "ar": "كبير جداً (3-4 أشخاص)"
+                },
+                "price": 180
+              }
+            ]
+          },
+          {
+            "id": "p12",
+            "name": {
+              "tr": "Ispanak + Tulum Yicem",
+              "en": "Spinach + Tulum Yicem",
+              "de": "Spinat + Tulum Yicem",
+              "ru": "Йицем со шпинатом и тулумом",
+              "fr": "Yicem aux Épinards + Tulum",
+              "ar": "يجم بالسبانخ وتولوم"
+            },
+            "price": 250,
+            "description": {
+              "tr": "Mozarella, Pizza Sosu, Bergama Tulumu, Taze Ispanak, Ceviz, Zeytin, Cherry Domates",
+              "en": "Mozzarella, Pizza Sauce, Bergama Tulum, Fresh Spinach, Walnuts, Olives, Cherry Tomatoes",
+              "de": "Mozzarella, Pizza-Sauce, Bergama Tulum, Frischer Spinat, Walnüsse, Oliven, Kirschtomaten",
+              "ru": "Моцарелла, Соус для пиццы, Бергама Туллум, Свежий шпинат, Грецкие орехи, Оливки, Черри помидоры",
+              "fr": "Mozzarella, Sauce Pizza, Bergama Tulum, Épinards Frais, Noix, Olives, Tomates Cerises",
+              "ar": "موزاريلا، صلصة البيتزا، برغاما تولوم، سبانخ طازج، جوز، زيتون، طماطم كرزية"
+            },
+            "contents": {
+              "tr": ["Pizza Sosu", "Bergama Tulumu", "Taze Ispanak", "Ceviz", "Zeytin", "Cherry Domates"],
+              "en": ["Pizza Sauce", "Bergama Tulum", "Fresh Spinach", "Walnuts", "Olives", "Cherry Tomatoes"],
+              "de": ["Pizza-Sauce", "Bergama Tulum", "Frischer Spinat", "Walnüsse", "Oliven", "Kirschtomaten"],
+              "ru": ["Соус для пиццы", "Бергама Туллум", "Свежий шпинат", "Грецкие орехи", "Оливки", "Черри помидоры"],
+              "fr": ["Sauce Pizza", "Bergama Tulum", "Épinards Frais", "Noix", "Olives", "Tomates Cerises"],
+              "ar": ["صلصة البيتزا", "برغاما تولوم", "سبانخ طازج", "جوز", "زيتون", "طماطم كرزية"]
+            },
+            "options": [
+              {
+                "id": "o45",
+                "label": {
+                  "tr": "Small (1 Kişilik)",
+                  "en": "Small (1 Person)",
+                  "de": "Klein (1 Person)",
+                  "ru": "Маленькая (1 человек)",
+                  "fr": "Petit (1 personne)",
+                  "ar": "صغير (شخص واحد)"
+                },
+                "price": 0
+              },
+              {
+                "id": "o46",
+                "label": {
+                  "tr": "Medium (1-2 Kişilik)",
+                  "en": "Medium (1-2 People)",
+                  "de": "Mittel (1-2 Personen)",
+                  "ru": "Средняя (1-2 человека)",
+                  "fr": "Moyen (1-2 personnes)",
+                  "ar": "متوسط (1-2 أشخاص)"
+                },
+                "price": 60
+              },
+              {
+                "id": "o47",
+                "label": {
+                  "tr": "Large (2-3 Kişilik)",
+                  "en": "Large (2-3 People)",
+                  "de": "Groß (2-3 Personen)",
+                  "ru": "Большая (2-3 человека)",
+                  "fr": "Grand (2-3 personnes)",
+                  "ar": "كبير (2-3 أشخاص)"
+                },
+                "price": 120
+              },
+              {
+                "id": "o48",
+                "label": {
+                  "tr": "XLarge (3-4 Kişilik)",
+                  "en": "XLarge (3-4 People)",
+                  "de": "Extra Groß (3-4 Personen)",
+                  "ru": "Очень большая (3-4 человека)",
+                  "fr": "Très grand (3-4 personnes)",
+                  "ar": "كبير جداً (3-4 أشخاص)"
+                },
+                "price": 180
+              }
+            ]
+          },
+          {
+            "id": "p13",
+            "name": {
+              "tr": "Brokoli Peynir Yicem",
+              "en": "Broccoli Cheese Yicem",
+              "de": "Brokkoli-Käse Yicem",
+              "ru": "Йицем с брокколи и сыром",
+              "fr": "Yicem au Brocoli et Fromage",
+              "ar": "يجم بالبروكلي والجبن"
+            },
+            "price": 250,
+            "description": {
+              "tr": "Mozarella, Pizza Sosu, Beyaz Peynir, Brokoli, Zeytin, Domates",
+              "en": "Mozzarella, Pizza Sauce, White Cheese, Broccoli, Olives, Tomatoes",
+              "de": "Mozzarella, Pizza-Sauce, Weißer Käse, Brokkoli, Oliven, Tomaten",
+              "ru": "Моцарелла, Соус для пиццы, Белый сыр, Брокколи, Оливки, Помидоры",
+              "fr": "Mozzarella, Sauce Pizza, Fromage Blanc, Brocoli, Olives, Tomates",
+              "ar": "موزاريلا، صلصة البيتزا، جبن أبيض، بروكلي، زيتون، طماطم"
+            },
+            "contents": {
+              "tr": ["Pizza Sosu", "Beyaz Peynir", "Brokoli", "Zeytin", "Domates"],
+              "en": ["Pizza Sauce", "White Cheese", "Broccoli", "Olives", "Tomatoes"],
+              "de": ["Pizza-Sauce", "Weißer Käse", "Brokkoli", "Oliven", "Tomaten"],
+              "ru": ["Соус для пиццы", "Белый сыр", "Брокколи", "Оливки", "Помидоры"],
+              "fr": ["Sauce Pizza", "Fromage Blanc", "Brocoli", "Olives", "Tomates"],
+              "ar": ["صلصة البيتزا", "جبن أبيض", "بروكلي", "زيتون", "طماطم"]
+            },
+            "options": [
+              {
+                "id": "o49",
+                "label": {
+                  "tr": "Small (1 Kişilik)",
+                  "en": "Small (1 Person)",
+                  "de": "Klein (1 Person)",
+                  "ru": "Маленькая (1 человек)",
+                  "fr": "Petit (1 personne)",
+                  "ar": "صغير (شخص واحد)"
+                },
+                "price": 0
+              },
+              {
+                "id": "o50",
+                "label": {
+                  "tr": "Medium (1-2 Kişilik)",
+                  "en": "Medium (1-2 People)",
+                  "de": "Mittel (1-2 Personen)",
+                  "ru": "Средняя (1-2 человека)",
+                  "fr": "Moyen (1-2 personnes)",
+                  "ar": "متوسط (1-2 أشخاص)"
+                },
+                "price": 60
+              },
+              {
+                "id": "o51",
+                "label": {
+                  "tr": "Large (2-3 Kişilik)",
+                  "en": "Large (2-3 People)",
+                  "de": "Groß (2-3 Personen)",
+                  "ru": "Большая (2-3 человека)",
+                  "fr": "Grand (2-3 personnes)",
+                  "ar": "كبير (2-3 أشخاص)"
+                },
+                "price": 120
+              },
+              {
+                "id": "o52",
+                "label": {
+                  "tr": "XLarge (3-4 Kişilik)",
+                  "en": "XLarge (3-4 People)",
+                  "de": "Extra Groß (3-4 Personen)",
+                  "ru": "Очень большая (3-4 человека)",
+                  "fr": "Très grand (3-4 personnes)",
+                  "ar": "كبير جداً (3-4 أشخاص)"
+                },
+                "price": 180
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "toast",
+        "name": {
+          "tr": "Ayvalık Tostu",
+          "en": "Ayvalık Toast",
+          "de": "Ayvalık-Toast",
+          "ru": "Тост Айвалык",
+          "fr": "Toast Ayvalık",
+          "ar": "خبز محمص أيفاليك"
+        },
+        "products": [
+          {
+            "id": "t1",
+            "name": {
+              "tr": "Yicem Yengen",
+              "en": "Yicem Yengen",
+              "de": "Yicem Yengen",
+              "ru": "Йицем Йенген",
+              "fr": "Yicem Yengen",
+              "ar": "يجم ينغن"
+            },
+            "price": 170,
+            "description": {
+              "tr": "Sosis, Sucuk, Kaşar, Turşu, Ketçap, Mayonez",
+              "en": "Sausage, Sucuk, Cheddar, Pickles, Ketchup, Mayonnaise",
+              "de": "Wurst, Sucuk, Cheddar, Essiggurken, Ketchup, Mayonnaise",
+              "ru": "Колбаса, Суджук, Чеддер, Маринованные огурцы, Кетчуп, Майонез",
+              "fr": "Saucisse, Sucuk, Cheddar, Cornichons, Ketchup, Mayonnaise",
+              "ar": "سجق، سوجق، شيدر، مخلل، كاتشب، مايونيز"
+            },
+            "contents": {
+              "tr": ["Sosis", "Sucuk", "Kaşar", "Turşu", "Ketçap", "Mayonez"],
+              "en": ["Sausage", "Sucuk", "Cheddar", "Pickles", "Ketchup", "Mayonnaise"],
+              "de": ["Wurst", "Sucuk", "Cheddar", "Essiggurken", "Ketchup", "Mayonnaise"],
+              "ru": ["Колбаса", "Суджук", "Чеддер", "Маринованные огурцы", "Кетчуп", "Майонез"],
+              "fr": ["Saucisse", "Sucuk", "Cheddar", "Cornichons", "Ketchup", "Mayonnaise"],
+              "ar": ["سجق", "سوجق", "شيدر", "مخلل", "كاتشب", "مايونيز"]
+            },
+            "options": [
+              {
+                "id": "t1_o1",
+                "label": {
+                  "tr": "Sade Tost",
+                  "en": "Plain Toast",
+                  "de": "Einfacher Toast",
+                  "ru": "Обычный тост",
+                  "fr": "Toast Simple",
+                  "ar": "خبز محمص عادي"
+                },
+                "price": 0
+              },
+              {
+                "id": "t1_o2",
+                "label": {
+                  "tr": "Menü (Cips + İçecek)",
+                  "en": "Menu (Chips + Drink)",
+                  "de": "Menü (Chips + Getränk)",
+                  "ru": "Меню (Чипсы + Напиток)",
+                  "fr": "Menu (Chips + Boisson)",
+                  "ar": "قائمة (رقائق + مشروب)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "t2",
+            "name": {
+              "tr": "Yicem Karışık",
+              "en": "Yicem Mixed",
+              "de": "Yicem Gemischt",
+              "ru": "Йицем Смешанный",
+              "fr": "Yicem Mélangé",
+              "ar": "يجم مختلط"
+            },
+            "price": 170,
+            "description": {
+              "tr": "Kaşar, Sucuk, Salam, Sosis, Turşu, Domates, Rus Salatası, Ketçap, Mayonez",
+              "en": "Cheddar, Sucuk, Salami, Sausage, Pickles, Tomatoes, Russian Salad, Ketchup, Mayonnaise",
+              "de": "Cheddar, Sucuk, Salami, Wurst, Essiggurken, Tomaten, Russischer Salat, Ketchup, Mayonnaise",
+              "ru": "Чеддер, Суджук, Салами, Колбаса, Маринованные огурцы, Помидоры, Русский салат, Кетчуп, Майонез",
+              "fr": "Cheddar, Sucuk, Salami, Saucisse, Cornichons, Tomates, Salade Russe, Ketchup, Mayonnaise",
+              "ar": "شيدر، سوجق، سلامي، سجق، مخلل، طماطم، سلطة روسية، كاتشب، مايونيز"
+            },
+            "contents": {
+              "tr": ["Kaşar", "Sucuk", "Salam", "Sosis", "Turşu", "Domates", "Rus Salatası", "Ketçap", "Mayonez"],
+              "en": ["Cheddar", "Sucuk", "Salami", "Sausage", "Pickles", "Tomatoes", "Russian Salad", "Ketchup", "Mayonnaise"],
+              "de": ["Cheddar", "Sucuk", "Salami", "Wurst", "Essiggurken", "Tomaten", "Russischer Salat", "Ketchup", "Mayonnaise"],
+              "ru": ["Чеддер", "Суджук", "Салами", "Колбаса", "Маринованные огурцы", "Помидоры", "Русский салат", "Кетчуп", "Майонез"],
+              "fr": ["Cheddar", "Sucuk", "Salami", "Saucisse", "Cornichons", "Tomates", "Salade Russe", "Ketchup", "Mayonnaise"],
+              "ar": ["شيدر", "سوجق", "سلامي", "سجق", "مخلل", "طماطم", "سلطة روسية", "كاتشب", "مايونيز"]
+            },
+            "options": [
+              {
+                "id": "t2_o1",
+                "label": {
+                  "tr": "Sade Tost",
+                  "en": "Plain Toast",
+                  "de": "Einfacher Toast",
+                  "ru": "Обычный тост",
+                  "fr": "Toast Simple",
+                  "ar": "خبز محمص عادي"
+                },
+                "price": 0
+              },
+              {
+                "id": "t2_o2",
+                "label": {
+                  "tr": "Menü (Cips + İçecek)",
+                  "en": "Menu (Chips + Drink)",
+                  "de": "Menü (Chips + Getränk)",
+                  "ru": "Меню (Чипсы + Напиток)",
+                  "fr": "Menu (Chips + Boisson)",
+                  "ar": "قائمة (رقائق + مشروب)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "t3",
+            "name": {
+              "tr": "Yicem Mega Karışık",
+              "en": "Yicem Mega Mixed",
+              "de": "Yicem Mega Gemischt",
+              "ru": "Йицем Мега Смешанный",
+              "fr": "Yicem Mega Mélangé",
+              "ar": "يجم ميجا مختلط"
+            },
+            "price": 190,
+            "description": {
+              "tr": "Kaşar, Sucuk, Salam, Sosis, Jambon, Turşu, Domates, Rus Salatası, Ketçap, Mayonez",
+              "en": "Cheddar, Sucuk, Salami, Sausage, Ham, Pickles, Tomatoes, Russian Salad, Ketchup, Mayonnaise",
+              "de": "Cheddar, Sucuk, Salami, Wurst, Schinken, Essiggurken, Tomaten, Russischer Salat, Ketchup, Mayonnaise",
+              "ru": "Чеддер, Суджук, Салами, Колбаса, Ветчина, Маринованные огурцы, Помидоры, Русский салат, Кетчуп, Майонез",
+              "fr": "Cheddar, Sucuk, Salami, Saucisse, Jambon, Cornichons, Tomates, Salade Russe, Ketchup, Mayonnaise",
+              "ar": "شيدر، سوجق، سلامي، سجق، لحم خنزير، مخلل، طماطم، سلطة روسية، كاتشب، مايونيز"
+            },
+            "contents": {
+              "tr": ["Kaşar", "Sucuk", "Salam", "Sosis", "Jambon", "Turşu", "Domates", "Rus Salatası", "Ketçap", "Mayonez"],
+              "en": ["Cheddar", "Sucuk", "Salami", "Sausage", "Ham", "Pickles", "Tomatoes", "Russian Salad", "Ketchup", "Mayonnaise"],
+              "de": ["Cheddar", "Sucuk", "Salami", "Wurst", "Schinken", "Essiggurken", "Tomaten", "Russischer Salat", "Ketchup", "Mayonnaise"],
+              "ru": ["Чеддер", "Суджук", "Салами", "Колбаса", "Ветчина", "Маринованные огурцы", "Помидоры", "Русский салат", "Кетчуп", "Майонез"],
+              "fr": ["Cheddar", "Sucuk", "Salami", "Saucisse", "Jambon", "Cornichons", "Tomates", "Salade Russe", "Ketchup", "Mayonnaise"],
+              "ar": ["شيدر", "سوجق", "سلامي", "سجق", "لحم خنزير", "مخلل", "طماطم", "سلطة روسية", "كاتشب", "مايونيز"]
+            },
+            "options": [
+              {
+                "id": "t3_o1",
+                "label": {
+                  "tr": "Sade Tost",
+                  "en": "Plain Toast",
+                  "de": "Einfacher Toast",
+                  "ru": "Обычный тост",
+                  "fr": "Toast Simple",
+                  "ar": "خبز محمص عادي"
+                },
+                "price": 0
+              },
+              {
+                "id": "t3_o2",
+                "label": {
+                  "tr": "Menü (Cips + İçecek)",
+                  "en": "Menu (Chips + Drink)",
+                  "de": "Menü (Chips + Getränk)",
+                  "ru": "Меню (Чипсы + Напиток)",
+                  "fr": "Menu (Chips + Boisson)",
+                  "ar": "قائمة (رقائق + مشروب)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "t4",
+            "name": {
+              "tr": "Yicem Süper Karışık",
+              "en": "Yicem Super Mixed",
+              "de": "Yicem Super Gemischt",
+              "ru": "Йицем Супер Смешанный",
+              "fr": "Yicem Super Mélangé",
+              "ar": "يجم سوبر مختلط"
+            },
+            "price": 220,
+            "description": {
+              "tr": "Çift Katlı Ekmek, Kaşar, Sucuk, Salam, Sosis, Turşu, Domates, Rus Salatası, Ketçap, Mayonez",
+              "en": "Double Layer Bread, Cheddar, Sucuk, Salami, Sausage, Pickles, Tomatoes, Russian Salad, Ketchup, Mayonnaise",
+              "de": "Doppelschichtiges Brot, Cheddar, Sucuk, Salami, Wurst, Essiggurken, Tomaten, Russischer Salat, Ketchup, Mayonnaise",
+              "ru": "Двухслойный хлеб, Чеддер, Суджук, Салами, Колбаса, Маринованные огурцы, Помидоры, Русский салат, Кетчуп, Майонез",
+              "fr": "Pain Double Couche, Cheddar, Sucuk, Salami, Saucisse, Cornichons, Tomates, Salade Russe, Ketchup, Mayonnaise",
+              "ar": "خبز مزدوج الطبقات، شيدر، سوجق، سلامي، سجق، مخلل، طماطم، سلطة روسية، كاتشب، مايونيز"
+            },
+            "contents": {
+              "tr": ["Çift Katlı Ekmek", "Kaşar", "Sucuk", "Salam", "Sosis", "Turşu", "Domates", "Rus Salatası", "Ketçap", "Mayonez"],
+              "en": ["Double Layer Bread", "Cheddar", "Sucuk", "Salami", "Sausage", "Pickles", "Tomatoes", "Russian Salad", "Ketchup", "Mayonnaise"],
+              "de": ["Doppelschichtiges Brot", "Cheddar", "Sucuk", "Salami", "Wurst", "Essiggurken", "Tomaten", "Russischer Salat", "Ketchup", "Mayonnaise"],
+              "ru": ["Двухслойный хлеб", "Чеддер", "Суджук", "Салами", "Колбаса", "Маринованные огурцы", "Помидоры", "Русский салат", "Кетчуп", "Майонез"],
+              "fr": ["Pain Double Couche", "Cheddar", "Sucuk", "Salami", "Saucisse", "Cornichons", "Tomates", "Salade Russe", "Ketchup", "Mayonnaise"],
+              "ar": ["خبز مزدوج الطبقات", "شيدر", "سوجق", "سلامي", "سجق", "مخلل", "طماطم", "سلطة روسية", "كاتشب", "مايونيز"]
+            },
+            "options": [
+              {
+                "id": "t4_o1",
+                "label": {
+                  "tr": "Sade Tost",
+                  "en": "Plain Toast",
+                  "de": "Einfacher Toast",
+                  "ru": "Обычный тост",
+                  "fr": "Toast Simple",
+                  "ar": "خبز محمص عادي"
+                },
+                "price": 0
+              },
+              {
+                "id": "t4_o2",
+                "label": {
+                  "tr": "Menü (Cips + İçecek)",
+                  "en": "Menu (Chips + Drink)",
+                  "de": "Menü (Chips + Getränk)",
+                  "ru": "Меню (Чипсы + Напиток)",
+                  "fr": "Menu (Chips + Boisson)",
+                  "ar": "قائمة (رقائق + مشروب)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "t5",
+            "name": {
+              "tr": "Yicem Kavurma",
+              "en": "Yicem Beef Stew"
+            },
+            "price": 210,
+            "description": {
+              "tr": "Kaşar, Kavurma (70gr), Turşu, Domates",
+              "en": "Cheddar, Beef Stew (70gr), Pickles, Tomatoes"
+            },
+            "contents": {
+              "tr": ["Kaşar", "Kavurma (70gr)", "Turşu", "Domates"],
+              "en": ["Cheddar", "Beef Stew (70gr)", "Pickles", "Tomatoes"]
+            },
+            "options": [
+              {
+                "id": "t5_o1",
+                "label": {
+                  "tr": "Sade Tost",
+                  "en": "Plain Toast"
+                },
+                "price": 0
+              },
+              {
+                "id": "t5_o2",
+                "label": {
+                  "tr": "Menü (Cips + İçecek)",
+                  "en": "Menu (Chips + Drink)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "t6",
+            "name": {
+              "tr": "Yicem Dönerli",
+              "en": "Yicem with Doner"
+            },
+            "price": 300,
+            "description": {
+              "tr": "Kaşar, Et Döner (100gr), Marul, Turşu, Domates (İsteğe Bağlı Ketçap Mayonez)",
+              "en": "Cheddar, Beef Doner (100gr), Lettuce, Pickles, Tomatoes (Optional Ketchup Mayonnaise)"
+            },
+            "contents": {
+              "tr": ["Kaşar", "Et Döner (100gr)", "Marul", "Turşu", "Domates"],
+              "en": ["Cheddar", "Beef Doner (100gr)", "Lettuce", "Pickles", "Tomatoes"]
+            },
+            "options": [
+              {
+                "id": "t6_o1",
+                "label": {
+                  "tr": "Sade Tost",
+                  "en": "Plain Toast"
+                },
+                "price": 0
+              },
+              {
+                "id": "t6_o2",
+                "label": {
+                  "tr": "Menü (Cips + İçecek)",
+                  "en": "Menu (Chips + Drink)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "t7",
+            "name": {
+              "tr": "Yicem Sucuk",
+              "en": "Yicem Sucuk"
+            },
+            "price": 130,
+            "description": {
+              "tr": "Kaşar, Sucuk, Turşu, Domates (İsteğe Bağlı Ketçap Mayonez)",
+              "en": "Cheddar, Sucuk, Pickles, Tomatoes (Optional Ketchup Mayonnaise)"
+            },
+            "contents": {
+              "tr": ["Kaşar", "Sucuk", "Turşu", "Domates"],
+              "en": ["Cheddar", "Sucuk", "Pickles", "Tomatoes"]
+            },
+            "options": [
+              {
+                "id": "t7_o1",
+                "label": {
+                  "tr": "Sade Tost",
+                  "en": "Plain Toast"
+                },
+                "price": 0
+              },
+              {
+                "id": "t7_o2",
+                "label": {
+                  "tr": "Menü (Cips + İçecek)",
+                  "en": "Menu (Chips + Drink)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "t8",
+            "name": {
+              "tr": "Yicem Schnitzel",
+              "en": "Yicem Schnitzel"
+            },
+            "price": 130,
+            "description": {
+              "tr": "Schnitzel, Marul, Turşu, Domates (İsteğe Bağlı Ketçap Mayonez)",
+              "en": "Schnitzel, Lettuce, Pickles, Tomatoes (Optional Ketchup Mayonnaise)"
+            },
+            "contents": {
+              "tr": ["Schnitzel", "Marul", "Turşu", "Domates"],
+              "en": ["Schnitzel", "Lettuce", "Pickles", "Tomatoes"]
+            },
+            "options": [
+              {
+                "id": "t8_o1",
+                "label": {
+                  "tr": "Sade Tost",
+                  "en": "Plain Toast"
+                },
+                "price": 0
+              },
+              {
+                "id": "t8_o2",
+                "label": {
+                  "tr": "Menü (Cips + İçecek)",
+                  "en": "Menu (Chips + Drink)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "t9",
+            "name": {
+              "tr": "Yicem Salam",
+              "en": "Yicem Salami"
+            },
+            "price": 130,
+            "description": {
+              "tr": "Salam, Kaşar, Turşu, Domates (İsteğe Bağlı Ketçap Mayonez)",
+              "en": "Salami, Cheddar, Pickles, Tomatoes (Optional Ketchup Mayonnaise)"
+            },
+            "contents": {
+              "tr": ["Salam", "Kaşar", "Turşu", "Domates"],
+              "en": ["Salami", "Cheddar", "Pickles", "Tomatoes"]
+            },
+            "options": [
+              {
+                "id": "t9_o1",
+                "label": {
+                  "tr": "Sade Tost",
+                  "en": "Plain Toast"
+                },
+                "price": 0
+              },
+              {
+                "id": "t9_o2",
+                "label": {
+                  "tr": "Menü (Cips + İçecek)",
+                  "en": "Menu (Chips + Drink)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "t10",
+            "name": {
+              "tr": "Yicem Kaşarlı Jambon",
+              "en": "Yicem Cheddar Ham"
+            },
+            "price": 130,
+            "description": {
+              "tr": "Kaşar, Jambon, Turşu, Domates (İsteğe Bağlı Ketçap Mayonez)",
+              "en": "Cheddar, Ham, Pickles, Tomatoes (Optional Ketchup Mayonnaise)"
+            },
+            "contents": {
+              "tr": ["Kaşar", "Jambon", "Turşu", "Domates"],
+              "en": ["Cheddar", "Ham", "Pickles", "Tomatoes"]
+            },
+            "options": [
+              {
+                "id": "t10_o1",
+                "label": {
+                  "tr": "Sade Tost",
+                  "en": "Plain Toast"
+                },
+                "price": 0
+              },
+              {
+                "id": "t10_o2",
+                "label": {
+                  "tr": "Menü (Cips + İçecek)",
+                  "en": "Menu (Chips + Drink)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "t11",
+            "name": {
+              "tr": "Yicem Kaşar",
+              "en": "Yicem Cheddar"
+            },
+            "price": 100,
+            "description": {
+              "tr": "İsteğe Bağlı; Kaşar veya Beyaz Peynir, Siyah Zeytin, Ceviz, Domates, Yeşil Biber, Kekik",
+              "en": "Optional; Cheddar or White Cheese, Black Olives, Walnuts, Tomatoes, Green Pepper, Thyme"
+            },
+            "contents": {
+              "tr": ["Kaşar veya Beyaz Peynir", "Siyah Zeytin", "Ceviz", "Domates", "Yeşil Biber", "Kekik"],
+              "en": ["Cheddar or White Cheese", "Black Olives", "Walnuts", "Tomatoes", "Green Pepper", "Thyme"]
+            },
+            "options": [
+              {
+                "id": "t11_o1",
+                "label": {
+                  "tr": "Sade Tost",
+                  "en": "Plain Toast"
+                },
+                "price": 0
+              },
+              {
+                "id": "t11_o2",
+                "label": {
+                  "tr": "Menü (Cips + İçecek)",
+                  "en": "Menu (Chips + Drink)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "t12",
+            "name": {
+              "tr": "Yicem Ev Köfteli",
+              "en": "Yicem Homemade Meatball"
+            },
+            "price": 200,
+            "description": {
+              "tr": "Ev Köftesi (120gr), Marul, Turşu, Domates (İsteğe Bağlı Ketçap Mayonez Rus Salatası)",
+              "en": "Homemade Meatball (120gr), Lettuce, Pickles, Tomatoes (Optional Ketchup Mayonnaise Russian Salad)"
+            },
+            "contents": {
+              "tr": ["Ev Köftesi (120gr)", "Marul", "Turşu", "Domates"],
+              "en": ["Homemade Meatball (120gr)", "Lettuce", "Pickles", "Tomatoes"]
+            },
+            "options": [
+              {
+                "id": "t12_o1",
+                "label": {
+                  "tr": "Sade Tost",
+                  "en": "Plain Toast"
+                },
+                "price": 0
+              },
+              {
+                "id": "t12_o2",
+                "label": {
+                  "tr": "Menü (Cips + İçecek)",
+                  "en": "Menu (Chips + Drink)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "t13",
+            "name": {
+              "tr": "Yicem Sanayi Tostu",
+              "en": "Yicem Industrial Toast"
+            },
+            "price": 130,
+            "description": {
+              "tr": "Taş Fırın Ekmeği, Sucuk, Kaşar, Salça",
+              "en": "Stone Oven Bread, Sucuk, Cheddar, Tomato Paste"
+            },
+            "contents": {
+              "tr": ["Taş Fırın Ekmeği", "Sucuk", "Kaşar", "Salça"],
+              "en": ["Stone Oven Bread", "Sucuk", "Cheddar", "Tomato Paste"]
+            },
+            "options": [
+              {
+                "id": "t13_o1",
+                "label": {
+                  "tr": "Sade Tost",
+                  "en": "Plain Toast"
+                },
+                "price": 0
+              },
+              {
+                "id": "t13_o2",
+                "label": {
+                  "tr": "Menü (Cips + İçecek)",
+                  "en": "Menu (Chips + Drink)"
+                },
+                "price": 80
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sandwich",
+        "name": {
+          "tr": "Soğuk Sandviç",
+          "en": "Cold Sandwich"
+        },
+        "products": [
+          {
+            "id": "s1",
+            "name": {
+              "tr": "Yicem Soğuk Sandviç",
+              "en": "Yicem Cold Sandwich"
+            },
+            "price": 220,
+            "description": {
+              "tr": "2 Ana Ürün + 4 Yan Ürün dahil, fazlası ekstra",
+              "en": "2 Main Products + 4 Side Products included, extras additional"
+            },
+            "contents": {
+              "tr": [],
+              "en": []
+            },
+            "options": [
+              {
+                "id": "s1_o1",
+                "label": {
+                  "tr": "Menü (Cips + İçecek)",
+                  "en": "Menu (Chips + Drink)"
+                },
+                "price": 80
+              }
+            ],
+            "extras": {
+              "mainProducts": [
+                {
+                  "id": "main1",
+                  "name": {
+                    "tr": "Ton Balığı",
+                    "en": "Tuna Fish"
+                  },
+                  "price": 40
+                },
+                {
+                  "id": "main2",
+                  "name": {
+                    "tr": "Beyaz Peynir",
+                    "en": "White Cheese"
+                  },
+                  "price": 40
+                },
+                {
+                  "id": "main3",
+                  "name": {
+                    "tr": "Ezine",
+                    "en": "Ezine Cheese"
+                  },
+                  "price": 40
+                },
+                {
+                  "id": "main4",
+                  "name": {
+                    "tr": "Salam",
+                    "en": "Salami"
+                  },
+                  "price": 40
+                },
+                {
+                  "id": "main5",
+                  "name": {
+                    "tr": "Jambon",
+                    "en": "Ham"
+                  },
+                  "price": 40
+                }
+              ],
+              "sideProducts": [
+                {
+                  "id": "side1",
+                  "name": {
+                    "tr": "Siyah Zeytin",
+                    "en": "Black Olives"
+                  },
+                  "price": 20
+                },
+                {
+                  "id": "side2",
+                  "name": {
+                    "tr": "Mısır",
+                    "en": "Corn"
+                  },
+                  "price": 20
+                },
+                {
+                  "id": "side3",
+                  "name": {
+                    "tr": "Domates",
+                    "en": "Tomatoes"
+                  },
+                  "price": 20
+                },
+                {
+                  "id": "side4",
+                  "name": {
+                    "tr": "Turşu",
+                    "en": "Pickles"
+                  },
+                  "price": 20
+                },
+                {
+                  "id": "side5",
+                  "name": {
+                    "tr": "Jalepeno Biber",
+                    "en": "Jalapeño Pepper"
+                  },
+                  "price": 20
+                },
+                {
+                  "id": "side6",
+                  "name": {
+                    "tr": "Yeşil Biber",
+                    "en": "Green Pepper"
+                  },
+                  "price": 20
+                },
+                {
+                  "id": "side7",
+                  "name": {
+                    "tr": "Rus Salatası",
+                    "en": "Russian Salad"
+                  },
+                  "price": 20
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "chicken-doner",
+        "name": {
+          "tr": "Tavuk Döner",
+          "en": "Chicken Doner"
+        },
+        "products": [
+          {
+            "id": "cd1",
+            "name": {
+              "tr": "Tavuk Döner",
+              "en": "Chicken Doner"
+            },
+            "price": 160,
+            "description": {
+              "tr": "Tavuk Döner (100gr) - Ekmek seçeneği ile",
+              "en": "Chicken Doner (100gr) - With bread option"
+            },
+            "contents": {
+              "tr": ["Tavuk Döner (100gr)", "Marul", "Domates", "Turşu"],
+              "en": ["Chicken Doner (100gr)", "Lettuce", "Tomatoes", "Pickles"]
+            },
+            "options": [
+              {
+                "id": "cd1_o1",
+                "label": {
+                  "tr": "Dürüm",
+                  "en": "Wrap"
+                },
+                "price": 0
+              },
+              {
+                "id": "cd1_o2",
+                "label": {
+                  "tr": "Gobit Ekmeği",
+                  "en": "Gobit Bread"
+                },
+                "price": 0
+              },
+              {
+                "id": "cd1_o3",
+                "label": {
+                  "tr": "Taş Fırın Ekmeği",
+                  "en": "Stone Oven Bread"
+                },
+                "price": 0
+              },
+              {
+                "id": "cd1_o4",
+                "label": {
+                  "tr": "Ayvalık Tost Ekmeği",
+                  "en": "Ayvalık Toast Bread"
+                },
+                "price": 0
+              }
+            ],
+            "extras": {
+              "menuOptions": [
+                {
+                  "id": "menu1",
+                  "name": {
+                    "tr": "Menü (Cips + Ayran)",
+                    "en": "Menu (Chips + Ayran)"
+                  },
+                  "price": 60
+                },
+                {
+                  "id": "kola1",
+                  "name": {
+                    "tr": "Kutu Kola Farkı",
+                    "en": "Can Cola Difference"
+                  },
+                  "price": 20
+                }
+              ]
+            }
+          },
+          {
+            "id": "cd2",
+            "name": {
+              "tr": "Kaşarlı Tavuk Dürüm",
+              "en": "Cheddar Chicken Wrap"
+            },
+            "price": 180,
+            "description": {
+              "tr": "Kaşarlı Tavuk Dürüm (100gr)",
+              "en": "Cheddar Chicken Wrap (100gr)"
+            },
+            "contents": {
+              "tr": ["Tavuk Döner (100gr)", "Kaşar", "Marul", "Domates", "Turşu"],
+              "en": ["Chicken Doner (100gr)", "Cheddar", "Lettuce", "Tomatoes", "Pickles"]
+            },
+            "options": [
+              {
+                "id": "cd2_o1",
+                "label": {
+                  "tr": "Ayran Menü (Cips + Ayran)",
+                  "en": "Ayran Menu (Chips + Ayran)"
+                },
+                "price": 60
+              },
+              {
+                "id": "cd2_o2",
+                "label": {
+                  "tr": "Kola Menü (Cips + Kola)",
+                  "en": "Cola Menu (Chips + Cola)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "cd3",
+            "name": {
+              "tr": "Tavuk İskender",
+              "en": "Chicken Iskender"
+            },
+            "price": 230,
+            "description": {
+              "tr": "Tavuk Döner Beyti (100gr) - İskender tarzı",
+              "en": "Chicken Doner Beyti (100gr) - Iskender style"
+            },
+            "contents": {
+              "tr": ["Tavuk Döner (100gr)", "Yoğurt", "Tereyağı", "Domates Sosu", "Marul", "Domates", "Turşu"],
+              "en": ["Chicken Doner (100gr)", "Yogurt", "Butter", "Tomato Sauce", "Lettuce", "Tomatoes", "Pickles"]
+            },
+            "options": [
+              {
+                "id": "cd3_o1",
+                "label": {
+                  "tr": "Ayran Menü (Cips + Ayran)",
+                  "en": "Ayran Menu (Chips + Ayran)"
+                },
+                "price": 60
+              },
+              {
+                "id": "cd3_o2",
+                "label": {
+                  "tr": "Kola Menü (Cips + Kola)",
+                  "en": "Cola Menu (Chips + Cola)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "cd4",
+            "name": {
+              "tr": "Tavuk Döner Beyti",
+              "en": "Chicken Doner Beyti"
+            },
+            "price": 250,
+            "description": {
+              "tr": "Tavuk Döner Beyti (100gr) - Özel sos ile",
+              "en": "Chicken Doner Beyti (100gr) - With special sauce"
+            },
+            "contents": {
+              "tr": ["Tavuk Döner (100gr)", "Özel Beyti Sosu", "Tereyağı", "Marul", "Domates", "Turşu"],
+              "en": ["Chicken Doner (100gr)", "Special Beyti Sauce", "Butter", "Lettuce", "Tomatoes", "Pickles"]
+            },
+            "options": [
+              {
+                "id": "cd4_o1",
+                "label": {
+                  "tr": "Ayran Menü (Cips + Ayran)",
+                  "en": "Ayran Menu (Chips + Ayran)"
+                },
+                "price": 60
+              },
+              {
+                "id": "cd4_o2",
+                "label": {
+                  "tr": "Kola Menü (Cips + Kola)",
+                  "en": "Cola Menu (Chips + Cola)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "cd5",
+            "name": {
+              "tr": "Tavuk Döner Porsiyon",
+              "en": "Chicken Doner Portion"
+            },
+            "price": 180,
+            "description": {
+              "tr": "Tavuk Döner Porsiyon (100gr) - Porsiyon tabağı",
+              "en": "Chicken Doner Portion (100gr) - Portion plate"
+            },
+            "contents": {
+              "tr": ["Tavuk Döner (100gr)", "Pilav", "Salata", "Marul", "Domates", "Turşu"],
+              "en": ["Chicken Doner (100gr)", "Rice", "Salad", "Lettuce", "Tomatoes", "Pickles"]
+            },
+            "options": [
+              {
+                "id": "cd5_o1",
+                "label": {
+                  "tr": "Ayran Menü (Cips + Ayran)",
+                  "en": "Ayran Menu (Chips + Ayran)"
+                },
+                "price": 60
+              },
+              {
+                "id": "cd5_o2",
+                "label": {
+                  "tr": "Kola Menü (Cips + Kola)",
+                  "en": "Cola Menu (Chips + Cola)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "cd6",
+            "name": {
+              "tr": "Pilavüstü Tavuk Döner",
+              "en": "Chicken Doner on Rice"
+            },
+            "price": 230,
+            "description": {
+              "tr": "Pilavüstü Tavuk Döner (100gr) - Pilav üzerine",
+              "en": "Chicken Doner on Rice (100gr) - Over rice"
+            },
+            "contents": {
+              "tr": ["Tavuk Döner (100gr)", "Pilav", "Salata", "Sos", "Marul", "Domates", "Turşu"],
+              "en": ["Chicken Doner (100gr)", "Rice", "Salad", "Sauce", "Lettuce", "Tomatoes", "Pickles"]
+            },
+            "options": [
+              {
+                "id": "cd6_o1",
+                "label": {
+                  "tr": "Ayran Menü (Cips + Ayran)",
+                  "en": "Ayran Menu (Chips + Ayran)"
+                },
+                "price": 60
+              },
+              {
+                "id": "cd6_o2",
+                "label": {
+                  "tr": "Kola Menü (Cips + Kola)",
+                  "en": "Cola Menu (Chips + Cola)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "cd7",
+            "name": {
+              "tr": "3 Adet Tavuk Döner",
+              "en": "3 Pieces Chicken Doner"
+            },
+            "price": 630,
+            "description": {
+              "tr": "3 Adet Tavuk Döner (100gr) + Büyük Boy Cips + Litrelik İçecek",
+              "en": "3 Pieces Chicken Doner (100gr) + Large Chips + Liter Drink"
+            },
+            "contents": {
+              "tr": ["3x Tavuk Döner (100gr)", "Büyük Boy Cips", "Litrelik İçecek"],
+              "en": ["3x Chicken Doner (100gr)", "Large Chips", "Liter Drink"]
+            },
+            "options": []
+          },
+          {
+            "id": "cd8",
+            "name": {
+              "tr": "5 Adet Tavuk Döner",
+              "en": "5 Pieces Chicken Doner"
+            },
+            "price": 990,
+            "description": {
+              "tr": "5 Adet Tavuk Döner + 2x Büyük Cips + Litrelik İçecek",
+              "en": "5 Pieces Chicken Doner + 2x Large Chips + Liter Drink"
+            },
+            "contents": {
+              "tr": ["5x Tavuk Döner (100gr)", "2x Büyük Boy Cips", "Litrelik İçecek"],
+              "en": ["5x Chicken Doner (100gr)", "2x Large Chips", "Liter Drink"]
+            },
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": "beef-doner",
+        "name": {
+          "tr": "Et Döner",
+          "en": "Beef Doner"
+        },
+        "products": [
+          {
+            "id": "bd1",
+            "name": {
+              "tr": "Et Döner (70gr)",
+              "en": "Beef Doner (70gr)"
+            },
+            "price": 210,
+            "description": {
+              "tr": "Et Döner (70gr) - Ekmek seçeneği ile",
+              "en": "Beef Doner (70gr) - With bread option"
+            },
+            "contents": {
+              "tr": ["Et Döner (70gr)", "Marul", "Domates", "Turşu"],
+              "en": ["Beef Doner (70gr)", "Lettuce", "Tomatoes", "Pickles"]
+            },
+            "options": [
+              {
+                "id": "bd1_o1",
+                "label": {
+                  "tr": "Dürüm",
+                  "en": "Wrap"
+                },
+                "price": 0
+              },
+              {
+                "id": "bd1_o2",
+                "label": {
+                  "tr": "Gobit Ekmeği",
+                  "en": "Gobit Bread"
+                },
+                "price": 0
+              },
+              {
+                "id": "bd1_o3",
+                "label": {
+                  "tr": "Taş Fırın Ekmeği",
+                  "en": "Stone Oven Bread"
+                },
+                "price": 0
+              },
+              {
+                "id": "bd1_o4",
+                "label": {
+                  "tr": "Ayvalık Tost Ekmeği",
+                  "en": "Ayvalık Toast Bread"
+                },
+                "price": 0
+              }
+            ],
+            "extras": {
+              "menuOptions": [
+                {
+                  "id": "bd1_menu1",
+                  "name": {
+                    "tr": "Cips + Ayran Menü",
+                    "en": "Chips + Ayran Menu"
+                  },
+                  "price": 60
+                },
+                {
+                  "id": "bd1_menu2",
+                  "name": {
+                    "tr": "Cips + Kola Menü",
+                    "en": "Chips + Cola Menu"
+                  },
+                  "price": 80
+                },
+                {
+                  "id": "bd1_patates1",
+                  "name": {
+                    "tr": "Patates İlave",
+                    "en": "Extra Potatoes"
+                  },
+                  "price": 10
+                },
+                {
+                  "id": "bd1_patates2",
+                  "name": {
+                    "tr": "Menü Patatesi",
+                    "en": "Menu Potatoes"
+                  },
+                  "price": 30
+                }
+              ]
+            }
+          },
+          {
+            "id": "bd2",
+            "name": {
+              "tr": "Et Döner (100gr)",
+              "en": "Beef Doner (100gr)"
+            },
+            "price": 290,
+            "description": {
+              "tr": "Et Döner (100gr) - Ekmek seçeneği ile",
+              "en": "Beef Doner (100gr) - With bread option"
+            },
+            "contents": {
+              "tr": ["Et Döner (100gr)", "Marul", "Domates", "Turşu"],
+              "en": ["Beef Doner (100gr)", "Lettuce", "Tomatoes", "Pickles"]
+            },
+            "options": [
+              {
+                "id": "bd2_o1",
+                "label": {
+                  "tr": "Dürüm",
+                  "en": "Wrap"
+                },
+                "price": 0
+              },
+              {
+                "id": "bd2_o2",
+                "label": {
+                  "tr": "Gobit Ekmeği",
+                  "en": "Gobit Bread"
+                },
+                "price": 0
+              },
+              {
+                "id": "bd2_o3",
+                "label": {
+                  "tr": "Taş Fırın Ekmeği",
+                  "en": "Stone Oven Bread"
+                },
+                "price": 0
+              },
+              {
+                "id": "bd2_o4",
+                "label": {
+                  "tr": "Ayvalık Tost Ekmeği",
+                  "en": "Ayvalık Toast Bread"
+                },
+                "price": 0
+              }
+            ],
+            "extras": {
+              "menuOptions": [
+                {
+                  "id": "bd2_menu1",
+                  "name": {
+                    "tr": "Cips + Ayran Menü",
+                    "en": "Chips + Ayran Menu"
+                  },
+                  "price": 60
+                },
+                {
+                  "id": "bd2_menu2",
+                  "name": {
+                    "tr": "Cips + Kola Menü",
+                    "en": "Chips + Cola Menu"
+                  },
+                  "price": 80
+                },
+                {
+                  "id": "bd2_patates1",
+                  "name": {
+                    "tr": "Patates İlave",
+                    "en": "Extra Potatoes"
+                  },
+                  "price": 10
+                },
+                {
+                  "id": "bd2_patates2",
+                  "name": {
+                    "tr": "Menü Patatesi",
+                    "en": "Menu Potatoes"
+                  },
+                  "price": 30
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "pasta",
+        "name": {
+          "tr": "Makarnalar",
+          "en": "Pasta"
+        },
+        "products": [
+          {
+            "id": "pa1",
+            "name": {
+              "tr": "Alfredo",
+              "en": "Alfredo"
+            },
+            "price": 200,
+            "description": {
+              "tr": "Jülyen Tavuk Parçaları (100-120gr), Dağ Mantarı, Sarımsak, Krema, Fesleğen - Tavsiye Penne",
+              "en": "Julienne Chicken Pieces (100-120gr), Forest Mushrooms, Garlic, Cream, Basil - Recommended Penne"
+            },
+            "contents": {
+              "tr": ["Jülyen Tavuk Parçaları (100-120gr)", "Dağ Mantarı", "Sarımsak", "Krema", "Fesleğen"],
+              "en": ["Julienne Chicken Pieces (100-120gr)", "Forest Mushrooms", "Garlic", "Cream", "Basil"]
+            },
+            "options": [
+              {
+                "id": "pa1_o1",
+                "label": {
+                  "tr": "Penne",
+                  "en": "Penne"
+                },
+                "price": 0
+              },
+              {
+                "id": "pa1_o2",
+                "label": {
+                  "tr": "Spagetti",
+                  "en": "Spaghetti"
+                },
+                "price": 0
+              },
+              {
+                "id": "pa1_o3",
+                "label": {
+                  "tr": "Fettuccine",
+                  "en": "Fettuccine"
+                },
+                "price": 0
+              }
+            ],
+            "extras": {
+              "drinkOptions": [
+                {
+                  "id": "pa1_drink1",
+                  "name": {
+                    "tr": "Ayran",
+                    "en": "Ayran"
+                  },
+                  "price": 40
+                },
+                {
+                  "id": "pa1_drink2",
+                  "name": {
+                    "tr": "Kutu İçecek",
+                    "en": "Can Drink"
+                  },
+                  "price": 60
+                },
+                {
+                  "id": "pa1_drink3",
+                  "name": {
+                    "tr": "Litrelik İçecek",
+                    "en": "Liter Drink"
+                  },
+                  "price": 90
+                }
+              ]
+            }
+          },
+          {
+            "id": "pa2",
+            "name": {
+              "tr": "Napoliten",
+              "en": "Napolitana"
+            },
+            "price": 200,
+            "description": {
+              "tr": "Domates, Sarımsak, Taze Fesleğen, Havuç, Baharat - Tavsiye Spagetti",
+              "en": "Tomatoes, Garlic, Fresh Basil, Carrot, Spices - Recommended Spaghetti"
+            },
+            "contents": {
+              "tr": ["Domates", "Sarımsak", "Taze Fesleğen", "Havuç", "Baharat"],
+              "en": ["Tomatoes", "Garlic", "Fresh Basil", "Carrot", "Spices"]
+            },
+            "options": [
+              {
+                "id": "pa2_o1",
+                "label": {
+                  "tr": "Spagetti",
+                  "en": "Spaghetti"
+                },
+                "price": 0
+              },
+              {
+                "id": "pa2_o2",
+                "label": {
+                  "tr": "Penne",
+                  "en": "Penne"
+                },
+                "price": 0
+              },
+              {
+                "id": "pa2_o3",
+                "label": {
+                  "tr": "Fettuccine",
+                  "en": "Fettuccine"
+                },
+                "price": 0
+              }
+            ],
+            "extras": {
+              "drinkOptions": [
+                {
+                  "id": "pa2_drink1",
+                  "name": {
+                    "tr": "Ayran",
+                    "en": "Ayran"
+                  },
+                  "price": 40
+                },
+                {
+                  "id": "pa2_drink2",
+                  "name": {
+                    "tr": "Kutu İçecek",
+                    "en": "Can Drink"
+                  },
+                  "price": 60
+                },
+                {
+                  "id": "pa2_drink3",
+                  "name": {
+                    "tr": "Litrelik İçecek",
+                    "en": "Liter Drink"
+                  },
+                  "price": 90
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "manti",
+        "name": {
+          "tr": "Mantı",
+          "en": "Manti",
+          "de": "Manti",
+          "ru": "Манты",
+          "fr": "Manti",
+          "ar": "منتي"
+        },
+        "products": [
+          {
+            "id": "ma1",
+            "name": {
+              "tr": "Ev Yapımı Mantı",
+              "en": "Homemade Manti",
+              "de": "Hausgemachte Manti",
+              "ru": "Домашние манты",
+              "fr": "Manti Maison",
+              "ar": "منتي منزلي"
+            },
+            "price": 200,
+            "description": {
+              "tr": "Haşlanmış Mantı, %100 Dana Kıyma (250gr), Tereyağında Kavrulmuş Pul Biber ve Nane Sosu",
+              "en": "Boiled Manti, 100% Beef Mince (250gr), Red Pepper Flakes and Mint Sauce Fried in Butter",
+              "de": "Gekochte Manti, 100% Rindfleisch-Hackfleisch (250gr), In Butter gebratene Paprikaflocken und Minzsauce",
+              "ru": "Вареные манты, 100% говяжий фарш (250гр), Обжаренные в масле хлопья перца и мятный соус",
+              "fr": "Manti Bouillis, 100% Viande de Bœuf Hachée (250gr), Flocons de Piment Frits au Beurre et Sauce à la Menthe",
+              "ar": "منتي مسلوق، 100% لحم بقري مفروم (250غ)، رقائق فلفل محمرة بالزبدة وصلصة النعناع"
+            },
+            "contents": {
+              "tr": ["Haşlanmış Mantı", "%100 Dana Kıyma (250gr)", "Tereyağında Kavrulmuş Pul Biber ve Nane Sosu"],
+              "en": ["Boiled Manti", "100% Beef Mince (250gr)", "Red Pepper Flakes and Mint Sauce Fried in Butter"],
+              "de": ["Gekochte Manti", "100% Rindfleisch-Hackfleisch (250gr)", "In Butter gebratene Paprikaflocken und Minzsauce"],
+              "ru": ["Вареные манты", "100% говяжий фарш (250гр)", "Обжаренные в масле хлопья перца и мятный соус"],
+              "fr": ["Manti Bouillis", "100% Viande de Bœuf Hachée (250gr)", "Flocons de Piment Frits au Beurre et Sauce à la Menthe"],
+              "ar": ["منتي مسلوق", "100% لحم بقري مفروم (250غ)", "رقائق فلفل محمرة بالزبدة وصلصة النعناع"]
+            },
+            "options": [
+              {
+                "id": "ma1_o1",
+                "label": {
+                  "tr": "Sade Yoğurt",
+                  "en": "Plain Yogurt",
+                  "de": "Naturjoghurt",
+                  "ru": "Обычный йогурт",
+                  "fr": "Yaourt Nature",
+                  "ar": "زبادي عادي"
+                },
+                "price": 0
+              },
+              {
+                "id": "ma1_o2",
+                "label": {
+                  "tr": "Sarımsaklı Yoğurt",
+                  "en": "Garlic Yogurt",
+                  "de": "Knoblauchjoghurt",
+                  "ru": "Йогурт с чесноком",
+                  "fr": "Yaourt à l'Ail",
+                  "ar": "زبادي بالثوم"
+                },
+                "price": 0
+              }
+            ],
+            "extras": {
+              "drinkOptions": [
+                {
+                  "id": "ma1_drink1",
+                  "name": {
+                    "tr": "Ayran",
+                    "en": "Ayran",
+                    "de": "Ayran",
+                    "ru": "Айран",
+                    "fr": "Ayran",
+                    "ar": "عيران"
+                  },
+                  "price": 40
+                },
+                {
+                  "id": "ma1_drink2",
+                  "name": {
+                    "tr": "Kutu İçecek",
+                    "en": "Can Drink",
+                    "de": "Dosengetränk",
+                    "ru": "Напиток в банке",
+                    "fr": "Boisson en Canette",
+                    "ar": "مشروب معلب"
+                  },
+                  "price": 60
+                },
+                {
+                  "id": "ma1_drink3",
+                  "name": {
+                    "tr": "Litrelik İçecek",
+                    "en": "Liter Drink",
+                    "de": "Litergetränk",
+                    "ru": "Литровый напиток",
+                    "fr": "Boisson d'un Litre",
+                    "ar": "مشروب لتر"
+                  },
+                  "price": 90
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "hamburger",
+        "name": {
+          "tr": "Hamburger",
+          "en": "Hamburger"
+        },
+        "products": [
+          {
+            "id": "h1",
+            "name": {
+              "tr": "Hamburger",
+              "en": "Hamburger"
+            },
+            "price": 250,
+            "description": {
+              "tr": "120gr Ev Yapımı Köfte, Marul, Turşu, Domates",
+              "en": "120gr Homemade Patty, Lettuce, Pickles, Tomatoes"
+            },
+            "contents": {
+              "tr": ["120gr Ev Yapımı Köfte", "Marul", "Turşu", "Domates"],
+              "en": ["120gr Homemade Patty", "Lettuce", "Pickles", "Tomatoes"]
+            },
+            "options": [
+              {
+                "id": "h1_o1",
+                "label": {
+                  "tr": "Sade Hamburger",
+                  "en": "Plain Hamburger"
+                },
+                "price": 0
+              },
+              {
+                "id": "h1_o2",
+                "label": {
+                  "tr": "Menü (Cips + Kola)",
+                  "en": "Menu (Chips + Cola)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "h2",
+            "name": {
+              "tr": "Cheeseburger",
+              "en": "Cheeseburger"
+            },
+            "price": 270,
+            "description": {
+              "tr": "120gr Ev Yapımı Köfte, Cheddar Peyniri, Marul, Turşu, Domates",
+              "en": "120gr Homemade Patty, Cheddar Cheese, Lettuce, Pickles, Tomatoes"
+            },
+            "contents": {
+              "tr": ["120gr Ev Yapımı Köfte", "Cheddar Peyniri", "Marul", "Turşu", "Domates"],
+              "en": ["120gr Homemade Patty", "Cheddar Cheese", "Lettuce", "Pickles", "Tomatoes"]
+            },
+            "options": [
+              {
+                "id": "h2_o1",
+                "label": {
+                  "tr": "Sade Cheeseburger",
+                  "en": "Plain Cheeseburger"
+                },
+                "price": 0
+              },
+              {
+                "id": "h2_o2",
+                "label": {
+                  "tr": "Menü (Cips + Kola)",
+                  "en": "Menu (Chips + Cola)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "h3",
+            "name": {
+              "tr": "Tavuk Burger",
+              "en": "Chicken Burger"
+            },
+            "price": 170,
+            "description": {
+              "tr": "Tavuk Burger, Marul, Turşu, Domates, Özel Sos",
+              "en": "Chicken Burger, Lettuce, Pickles, Tomatoes, Special Sauce"
+            },
+            "contents": {
+              "tr": ["Tavuk Burger", "Marul", "Turşu", "Domates", "Özel Sos"],
+              "en": ["Chicken Burger", "Lettuce", "Pickles", "Tomatoes", "Special Sauce"]
+            },
+            "options": [
+              {
+                "id": "h3_o1",
+                "label": {
+                  "tr": "Sade Tavuk Burger",
+                  "en": "Plain Chicken Burger"
+                },
+                "price": 0
+              },
+              {
+                "id": "h3_o2",
+                "label": {
+                  "tr": "Menü (Cips + Kola)",
+                  "en": "Menu (Chips + Cola)"
+                },
+                "price": 80
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kofte",
+        "name": {
+          "tr": "Köfte Spesiyel",
+          "en": "Meatball Special"
+        },
+        "products": [
+          {
+            "id": "k1",
+            "name": {
+              "tr": "Şefin Izgara Köftesi",
+              "en": "Chef's Grilled Meatballs"
+            },
+            "price": 300,
+            "description": {
+              "tr": "180gr Izgara Köfte, Pilav, Salata",
+              "en": "180gr Grilled Meatballs, Rice, Salad"
+            },
+            "contents": {
+              "tr": ["180gr Izgara Köfte", "Pilav", "Salata"],
+              "en": ["180gr Grilled Meatballs", "Rice", "Salad"]
+            },
+            "options": [
+              {
+                "id": "k1_o1",
+                "label": {
+                  "tr": "Sade Köfte",
+                  "en": "Plain Meatballs"
+                },
+                "price": 0
+              },
+              {
+                "id": "k1_o2",
+                "label": {
+                  "tr": "Menü (Cips + Kola)",
+                  "en": "Menu (Chips + Cola)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "k2",
+            "name": {
+              "tr": "Ekmek Arası Köfte",
+              "en": "Meatball Sandwich"
+            },
+            "price": 200,
+            "description": {
+              "tr": "120gr Ekmek Arası Köfte",
+              "en": "120gr Meatball Sandwich"
+            },
+            "contents": {
+              "tr": ["120gr Ekmek Arası Köfte"],
+              "en": ["120gr Meatball Sandwich"]
+            },
+            "options": [
+              {
+                "id": "k2_o1",
+                "label": {
+                  "tr": "Sade Ekmek Arası",
+                  "en": "Plain Sandwich"
+                },
+                "price": 0
+              },
+              {
+                "id": "k2_o2",
+                "label": {
+                  "tr": "Menü (Cips + Kola)",
+                  "en": "Menu (Chips + Cola)"
+                },
+                "price": 80
+              }
+            ]
+          },
+          {
+            "id": "k3",
+            "name": {
+              "tr": "Ekmek Arası Kaşarlı Köfte",
+              "en": "Cheddar Meatball Sandwich"
+            },
+            "price": 220,
+            "description": {
+              "tr": "120gr Ekmek Arası Kaşarlı Köfte",
+              "en": "120gr Cheddar Meatball Sandwich"
+            },
+            "contents": {
+              "tr": ["120gr Ekmek Arası Kaşarlı Köfte"],
+              "en": ["120gr Cheddar Meatball Sandwich"]
+            },
+            "options": [
+              {
+                "id": "k3_o1",
+                "label": {
+                  "tr": "Sade Kaşarlı Köfte",
+                  "en": "Plain Cheddar Meatballs"
+                },
+                "price": 0
+              },
+              {
+                "id": "k3_o2",
+                "label": {
+                  "tr": "Menü (Cips + Kola)",
+                  "en": "Menu (Chips + Cola)"
+                },
+                "price": 80
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aperatifler",
+        "name": {
+          "tr": "Aperatifler",
+          "en": "Appetizers"
+        },
+        "products": [
+          {
+            "id": "a1",
+            "name": {
+              "tr": "Elma Dilim Patates",
+              "en": "Apple Slice Potatoes"
+            },
+            "price": 100,
+            "description": {
+              "tr": "Elma Dilim Patates",
+              "en": "Apple Slice Potatoes"
+            },
+            "contents": {
+              "tr": ["Elma Dilim Patates"],
+              "en": ["Apple Slice Potatoes"]
+            },
+            "options": []
+          },
+          {
+            "id": "a2",
+            "name": {
+              "tr": "Parmak Patates",
+              "en": "Finger Potatoes"
+            },
+            "price": 100,
+            "description": {
+              "tr": "Parmak Patates",
+              "en": "Finger Potatoes"
+            },
+            "contents": {
+              "tr": ["Parmak Patates"],
+              "en": ["Finger Potatoes"]
+            },
+            "options": []
+          },
+          {
+            "id": "a3",
+            "name": {
+              "tr": "Çıtır Tavuk Tabağı",
+              "en": "Crispy Chicken Plate"
+            },
+            "price": 200,
+            "description": {
+              "tr": "Çıtır Tavuk Taneleri ve Patates",
+              "en": "Crispy Chicken Pieces and Potatoes"
+            },
+            "contents": {
+              "tr": ["Çıtır Tavuk Taneleri"],
+              "en": ["Crispy Chicken Pieces"]
+            },
+            "options": [
+              {
+                "id": "a3_o1",
+                "label": {
+                  "tr": "Elma Dilim Patates",
+                  "en": "Apple Slice Potatoes"
+                },
+                "price": 0
+              },
+              {
+                "id": "a3_o2",
+                "label": {
+                  "tr": "Parmak Patates",
+                  "en": "Finger Potatoes"
+                },
+                "price": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bistro",
+        "name": {
+          "tr": "Bistro",
+          "en": "Bistro"
+        },
+        "products": [
+          {
+            "id": "b1",
+            "name": {
+              "tr": "Chicken Stroganoff",
+              "en": "Chicken Stroganoff"
+            },
+            "price": 300,
+            "description": {
+              "tr": "Tavuk Bonfile (200-250gr), Krema, Turşu, Mantar, Demiglass Sos, Patates Cipsi ve Akdeniz Yeşillikleri",
+              "en": "Chicken Fillet (200-250gr), Cream, Pickles, Mushrooms, Demiglace Sauce, Potato Chips and Mediterranean Greens"
+            },
+            "contents": {
+              "tr": ["Tavuk Bonfile (200-250gr)", "Krema", "Turşu", "Mantar", "Demiglass Sos", "Patates Cipsi", "Akdeniz Yeşillikleri"],
+              "en": ["Chicken Fillet (200-250gr)", "Cream", "Pickles", "Mushrooms", "Demiglace Sauce", "Potato Chips", "Mediterranean Greens"]
+            },
+            "options": [],
+            "extras": {
+              "drinkOptions": [
+                {
+                  "id": "b1_drink1",
+                  "name": {
+                    "tr": "Kutu İçecek",
+                    "en": "Can Drink"
+                  },
+                  "price": 60
+                }
+              ],
+              "extraOptions": [
+                {
+                  "id": "b1_extra1",
+                  "name": {
+                    "tr": "Ekstra Baget Ekmek",
+                    "en": "Extra Baguette Bread"
+                  },
+                  "price": 5
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "salad",
+        "name": {
+          "tr": "Salata",
+          "en": "Salad"
+        },
+        "products": [
+          {
+            "id": "s1",
+            "name": {
+              "tr": "Diyet Tavuk Salata",
+              "en": "Diet Chicken Salad"
+            },
+            "price": 200,
+            "description": {
+              "tr": "Akdeniz Yeşillikleri, Kızarmış Tavuk Göğsü (150gr), Elma, Keten Tohumu, Cherry Domates, Tane Mısır ve Biber",
+              "en": "Mediterranean Greens, Fried Chicken Breast (150gr), Apple, Flax Seeds, Cherry Tomatoes, Corn Kernels and Pepper"
+            },
+            "contents": {
+              "tr": ["Akdeniz Yeşillikleri", "Kızarmış Tavuk Göğsü (150gr)", "Elma", "Keten Tohumu", "Cherry Domates", "Tane Mısır", "Biber"],
+              "en": ["Mediterranean Greens", "Fried Chicken Breast (150gr)", "Apple", "Flax Seeds", "Cherry Tomatoes", "Corn Kernels", "Pepper"]
+            },
+            "options": []
+          },
+          {
+            "id": "s2",
+            "name": {
+              "tr": "Bahar Salata",
+              "en": "Spring Salad"
+            },
+            "price": 200,
+            "description": {
+              "tr": "Akdeniz Yeşillikleri, Beyaz Peynir, Cherry Domates, Tane Mısır, Biber ve Özel Yicem Sosu",
+              "en": "Mediterranean Greens, White Cheese, Cherry Tomatoes, Corn Kernels, Pepper and Special Yicem Sauce"
+            },
+            "contents": {
+              "tr": ["Akdeniz Yeşillikleri", "Beyaz Peynir", "Cherry Domates", "Tane Mısır", "Biber", "Özel Yicem Sosu"],
+              "en": ["Mediterranean Greens", "White Cheese", "Cherry Tomatoes", "Corn Kernels", "Pepper", "Special Yicem Sauce"]
+            },
+            "options": []
+          },
+          {
+            "id": "s3",
+            "name": {
+              "tr": "Sezar Salata",
+              "en": "Caesar Salad"
+            },
+            "price": 200,
+            "description": {
+              "tr": "Kızarmış Tavuk Göğsü (150gr), Akdeniz Yeşillikleri, Cherry Domates, Mısır, Biber, Kruton Ekmek, Parmesan Peyniri ve Özel Yicem Sosu",
+              "en": "Fried Chicken Breast (150gr), Mediterranean Greens, Cherry Tomatoes, Corn, Pepper, Croutons, Parmesan Cheese and Special Yicem Sauce"
+            },
+            "contents": {
+              "tr": ["Kızarmış Tavuk Göğsü (150gr)", "Akdeniz Yeşillikleri", "Cherry Domates", "Mısır", "Biber", "Kruton Ekmek", "Parmesan Peyniri", "Özel Yicem Sosu"],
+              "en": ["Fried Chicken Breast (150gr)", "Mediterranean Greens", "Cherry Tomatoes", "Corn", "Pepper", "Croutons", "Parmesan Cheese", "Special Yicem Sauce"]
+            },
+            "options": []
+          },
+          {
+            "id": "s4",
+            "name": {
+              "tr": "Çıtır Tavuk Salata",
+              "en": "Crispy Chicken Salad"
+            },
+            "price": 200,
+            "description": {
+              "tr": "Çıtır Tavuk Parçaları (150gr), Akdeniz Yeşillikleri, Cherry Domates, Mısır, Biber ve Yicem Sosu",
+              "en": "Crispy Chicken Pieces (150gr), Mediterranean Greens, Cherry Tomatoes, Corn, Pepper and Yicem Sauce"
+            },
+            "contents": {
+              "tr": ["Çıtır Tavuk Parçaları (150gr)", "Akdeniz Yeşillikleri", "Cherry Domates", "Mısır", "Biber", "Yicem Sosu"],
+              "en": ["Crispy Chicken Pieces (150gr)", "Mediterranean Greens", "Cherry Tomatoes", "Corn", "Pepper", "Yicem Sauce"]
+            },
+            "options": []
+          },
+          {
+            "id": "s5",
+            "name": {
+              "tr": "Hellim Salata",
+              "en": "Halloumi Salad"
+            },
+            "price": 230,
+            "description": {
+              "tr": "Hellim Peyniri, Akdeniz Yeşillikleri, Cherry Domates, Mısır, Biber ve Kruton Ekmek",
+              "en": "Halloumi Cheese, Mediterranean Greens, Cherry Tomatoes, Corn, Pepper and Croutons"
+            },
+            "contents": {
+              "tr": ["Hellim Peyniri", "Akdeniz Yeşillikleri", "Cherry Domates", "Mısır", "Biber", "Kruton Ekmek"],
+              "en": ["Halloumi Cheese", "Mediterranean Greens", "Cherry Tomatoes", "Corn", "Pepper", "Croutons"]
+            },
+            "options": []
+          },
+          {
+            "id": "s6",
+            "name": {
+              "tr": "Tonno Salata",
+              "en": "Tuna Salad"
+            },
+            "price": 230,
+            "description": {
+              "tr": "Ton Balığı (160gr), Akdeniz Yeşillikleri, Cherry Domates, Mısır ve Biber",
+              "en": "Tuna Fish (160gr), Mediterranean Greens, Cherry Tomatoes, Corn and Pepper"
+            },
+            "contents": {
+              "tr": ["Ton Balığı (160gr)", "Akdeniz Yeşillikleri", "Cherry Domates", "Mısır", "Biber"],
+              "en": ["Tuna Fish (160gr)", "Mediterranean Greens", "Cherry Tomatoes", "Corn", "Pepper"]
+            },
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "name": {
+          "tr": "İçecekler",
+          "en": "Drinks"
+        },
+        "products": [
+          {
+            "id": "d1",
+            "name": {
+              "tr": "RedBull",
+              "en": "RedBull"
+            },
+            "price": 80,
+            "description": {
+              "tr": "RedBull Enerji İçeceği",
+              "en": "RedBull Energy Drink"
+            },
+            "contents": {
+              "tr": ["RedBull Enerji İçeceği"],
+              "en": ["RedBull Energy Drink"]
+            },
+            "options": []
+          },
+          {
+            "id": "d2",
+            "name": {
+              "tr": "Coca Cola",
+              "en": "Coca Cola"
+            },
+            "price": 60,
+            "description": {
+              "tr": "Coca Cola",
+              "en": "Coca Cola"
+            },
+            "contents": {
+              "tr": ["Coca Cola"],
+              "en": ["Coca Cola"]
+            },
+            "options": [
+              {
+                "id": "d2_o1",
+                "label": {
+                  "tr": "Coca Cola",
+                  "en": "Coca Cola"
+                },
+                "price": 0
+              },
+              {
+                "id": "d2_o2",
+                "label": {
+                  "tr": "Coca Cola Zero",
+                  "en": "Coca Cola Zero"
+                },
+                "price": 0
+              }
+            ]
+          },
+          {
+            "id": "d3",
+            "name": {
+              "tr": "Pepsi",
+              "en": "Pepsi"
+            },
+            "price": 60,
+            "description": {
+              "tr": "Pepsi",
+              "en": "Pepsi"
+            },
+            "contents": {
+              "tr": ["Pepsi"],
+              "en": ["Pepsi"]
+            },
+            "options": [
+              {
+                "id": "d3_o1",
+                "label": {
+                  "tr": "Pepsi",
+                  "en": "Pepsi"
+                },
+                "price": 0
+              },
+              {
+                "id": "d3_o2",
+                "label": {
+                  "tr": "Pepsi Max",
+                  "en": "Pepsi Max"
+                },
+                "price": 0
+              }
+            ]
+          },
+          {
+            "id": "d4",
+            "name": {
+              "tr": "Fanta",
+              "en": "Fanta"
+            },
+            "price": 60,
+            "description": {
+              "tr": "Fanta",
+              "en": "Fanta"
+            },
+            "contents": {
+              "tr": ["Fanta"],
+              "en": ["Fanta"]
+            },
+            "options": []
+          },
+          {
+            "id": "d5",
+            "name": {
+              "tr": "Sprite",
+              "en": "Sprite"
+            },
+            "price": 60,
+            "description": {
+              "tr": "Sprite",
+              "en": "Sprite"
+            },
+            "contents": {
+              "tr": ["Sprite"],
+              "en": ["Sprite"]
+            },
+            "options": [
+              {
+                "id": "d5_o1",
+                "label": {
+                  "tr": "Sprite",
+                  "en": "Sprite"
+                },
+                "price": 0
+              },
+              {
+                "id": "d5_o2",
+                "label": {
+                  "tr": "7UP",
+                  "en": "7UP"
+                },
+                "price": 0
+              }
+            ]
+          },
+          {
+            "id": "d6",
+            "name": {
+              "tr": "Ice Tea",
+              "en": "Ice Tea"
+            },
+            "price": 60,
+            "description": {
+              "tr": "Ice Tea",
+              "en": "Ice Tea"
+            },
+            "contents": {
+              "tr": ["Ice Tea"],
+              "en": ["Ice Tea"]
+            },
+            "options": [
+              {
+                "id": "d6_o1",
+                "label": {
+                  "tr": "Şeftali",
+                  "en": "Peach"
+                },
+                "price": 0
+              },
+              {
+                "id": "d6_o2",
+                "label": {
+                  "tr": "Limon",
+                  "en": "Lemon"
+                },
+                "price": 0
+              }
+            ]
+          },
+          {
+            "id": "d7",
+            "name": {
+              "tr": "Litrelik İçecek",
+              "en": "Liter Drink"
+            },
+            "price": 60,
+            "description": {
+              "tr": "Litrelik İçecek",
+              "en": "Liter Drink"
+            },
+            "contents": {
+              "tr": ["Litrelik İçecek"],
+              "en": ["Liter Drink"]
+            },
+            "options": [
+              {
+                "id": "d7_o1",
+                "label": {
+                  "tr": "Coca Cola",
+                  "en": "Coca Cola"
+                },
+                "price": 0
+              },
+              {
+                "id": "d7_o2",
+                "label": {
+                  "tr": "Pepsi",
+                  "en": "Pepsi"
+                },
+                "price": 0
+              },
+              {
+                "id": "d7_o3",
+                "label": {
+                  "tr": "Fanta",
+                  "en": "Fanta"
+                },
+                "price": 0
+              }
+            ]
+          },
+          {
+            "id": "d8",
+            "name": {
+              "tr": "Yörükoğlu Ayran",
+              "en": "Yörükoğlu Ayran"
+            },
+            "price": 40,
+            "description": {
+              "tr": "Yörükoğlu Ayran",
+              "en": "Yörükoğlu Ayran"
+            },
+            "contents": {
+              "tr": ["Yörükoğlu Ayran"],
+              "en": ["Yörükoğlu Ayran"]
+            },
+            "options": []
+          },
+          {
+            "id": "d9",
+            "name": {
+              "tr": "Su",
+              "en": "Water"
+            },
+            "price": 20,
+            "description": {
+              "tr": "Su",
+              "en": "Water"
+            },
+            "contents": {
+              "tr": ["Su"],
+              "en": ["Water"]
+            },
+            "options": []
+          },
+          {
+            "id": "d10",
+            "name": {
+              "tr": "Soda",
+              "en": "Soda"
+            },
+            "price": 20,
+            "description": {
+              "tr": "Soda",
+              "en": "Soda"
+            },
+            "contents": {
+              "tr": ["Soda"],
+              "en": ["Soda"]
+            },
+            "options": []
+          },
+          {
+            "id": "d11",
+            "name": {
+              "tr": "Şalgam",
+              "en": "Turnip Juice"
+            },
+            "price": 40,
+            "description": {
+              "tr": "Şalgam",
+              "en": "Turnip Juice"
+            },
+            "contents": {
+              "tr": ["Şalgam"],
+              "en": ["Turnip Juice"]
+            },
+            "options": [
+              {
+                "id": "d11_o1",
+                "label": {
+                  "tr": "Normal",
+                  "en": "Normal"
+                },
+                "price": 0
+              },
+              {
+                "id": "d11_o2",
+                "label": {
+                  "tr": "Acılı",
+                  "en": "Spicy"
+                },
+                "price": 0
+              }
+            ]
+          },
+          {
+            "id": "d12",
+            "name": {
+              "tr": "Çay",
+              "en": "Tea"
+            },
+            "price": 20,
+            "description": {
+              "tr": "Çay",
+              "en": "Tea"
+            },
+            "contents": {
+              "tr": ["Çay"],
+              "en": ["Tea"]
+            },
+            "options": []
+          },
+          {
+            "id": "d13",
+            "name": {
+              "tr": "Türk Kahvesi",
+              "en": "Turkish Coffee"
+            },
+            "price": 30,
+            "description": {
+              "tr": "Türk Kahvesi",
+              "en": "Turkish Coffee"
+            },
+            "contents": {
+              "tr": ["Türk Kahvesi"],
+              "en": ["Turkish Coffee"]
+            },
+            "options": []
+          },
+          {
+            "id": "d14",
+            "name": {
+              "tr": "4'lü Cam İçecek",
+              "en": "4 Glass Drinks"
+            },
+            "price": 200,
+            "description": {
+              "tr": "4'lü Cam İçecek",
+              "en": "4 Glass Drinks"
+            },
+            "contents": {
+              "tr": ["4'lü Cam İçecek"],
+              "en": ["4 Glass Drinks"]
+            },
+            "options": []
+          }
+        ]
+      }
+    ]
+  }
+}
