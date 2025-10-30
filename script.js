@@ -4397,7 +4397,10 @@ class RestaurantApp {
                 const groupBlock = document.createElement('div');
                 groupBlock.className = 'extra-group';
                 const groupTitle = document.createElement('h5');
-                const groupLabel = (group.translations && group.translations[this.currentLanguage]) || group.name || '';
+                let groupLabel = (group.translations && group.translations[this.currentLanguage]) || group.name || '';
+                if (groupLabel && typeof groupLabel === 'object') {
+                    groupLabel = groupLabel.name || '';
+                }
                 groupTitle.textContent = groupLabel;
                 groupBlock.appendChild(groupTitle);
 
@@ -4424,7 +4427,10 @@ class RestaurantApp {
                         this.updateTotalPrice();
                     });
 
-                    const optLabel = (opt.translations && opt.translations[this.currentLanguage]) || opt.name || '';
+                    let optLabel = (opt.translations && opt.translations[this.currentLanguage]) || opt.name || '';
+                    if (optLabel && typeof optLabel === 'object') {
+                        optLabel = optLabel.name || '';
+                    }
                     const spanText = document.createElement('span');
                     spanText.textContent = `${optLabel}`;
                     const spanPrice = document.createElement('span');
