@@ -1,4 +1,47 @@
 // Restaurant Menu Website - JavaScript
+
+// Ürün ID -> kesin resim yolu (gerekli gördükçe doldurulabilir)
+const PRODUCT_IMAGE_MAP = {
+    // Örnek:
+    // 'p_margherita': './pic/Pizzalar/margarita.jpg',
+};
+
+// Klasörlere göre mevcut görsel dosyaları (pic/ altı)
+const AVAILABLE_IMAGES = {
+    'Pizzalar': [
+        '4-peynirli-yicem.jpg','brokoli-yicem.jpg','diavola-yicem.jpg','donerli-yicem.jpg','ıspanak-tulum-yicem.jpg','kavurmali-yicem.jpg','klasik-yicem.jpg','margarita.jpg','mix-yicem-pizza.jpg','sosisli-yicem.jpg','sucuklu-yicem.jpg','tavuklu-yicem.jpg','tonno-yicem.jpg'
+    ],
+    'Ayvalik-Tostu': [
+        'sanayi-tostu.jpg','soguk-sandvic.jpg','yicem-donerli.jpg','yicem-evkofteli.jpg','yicem-karisik.jpg','yicem-kasarli-jambon.jpg','yicem-kasarli.jpg','yicem-kavurma.jpg','yicem-mega-karisik.jpg','yicem-salam.jpg','yicem-schnitzel.jpg','yicem-sucuklu.jpg','yicem-super-karisik.jpg','yicem-yengen.jpg','yicem-yengenn.jpg'
+    ],
+    'Tavuk-Doner': [
+        '3lu-tavuk-doner.jpg','5lı-tavuk-doner.jpg','pilav-ustu-tavuk-doner.jpg','tavuk-doner-beyti.jpg','tavuk-doner-porsiyon.jpg','tavuk-doner.jpg','tavuk-iskender.jpg'
+    ],
+    'Et-Doner': [
+        '3lu-etdoner.jpg','5li-etdoner.jpg','ayvalik-etdoner.jpg','et-doner-porsiyon.jpg','et-doner.jpg','et-iskender.jpg','kasarli-etdoner.jpg','pilavustu-etdoner.jpg','soslu-doner.jpg'
+    ],
+    'Makarnalar': [
+        'alfredo.jpg','arabiata.jpg','bolonez.jpg','manti.jpg','Napoliten.jpg','pesto.jpg','ton-balikli.jpg','turkusulu.jpg'
+    ],
+    'Hamburger': [
+        'cheeseburger.jpg','hamburger.jpg','tavukburger.jpg'
+    ],
+    'Kofte-Spesiyel': [
+        'ekmekarasi.jpg','kasarli-kofte.jpg','sefin-izgarasi.jpg'
+    ],
+    'Aperatifler': [
+        'citir.jpg','elmadilim.jpg','parmakpatates.jpg'
+    ],
+    'Bistro': [
+        'barbekusoslutavuk.jpg','cafedeparis.jpg','chicken-quesadilla.jpg','chicken-stroganoff.jpg','dagkekigi-kremali.jpg','kasarli-mantarli-quesadilla.jpg','mantarli-kori-tavuk.jpg','mexicanososlutavuk.jpg','tatliacisoslutavuk.jpg','tavuk-wrap.jpg','viyana.jpg'
+    ],
+    'Salata': [
+        'baharsalata.jpg','citir-tavuk-salata.jpg','diyet-tavuk-salata.jpg','hellim-salata.jpg','sezar.jpg','tonnosalata.jpg'
+    ],
+    'Icecek': [
+        '4lucamicecek.jpg','ayran.jpg','cay.jpg','cocacola.jpg','fanta.jpg','icetea.jpg','litrelikicecek.jpg','pepsi.jpg','redbull.jpg','salgam.jpg','soda.jpg','sprite.jpg','su.jpg','turk-kahvesi.jpg'
+    ]
+};
 class RestaurantApp {
     constructor() {
         this.currentLanguage = 'tr';
@@ -360,56 +403,7 @@ class RestaurantApp {
         try { return String(value); } catch (_) { return ''; }
     }
 
-// --- BEGIN: Static image maps (top-level constants) ---
-}
-
-// Ürün ID -> kesin resim yolu (gerekli gördükçe doldurulabilir)
-const PRODUCT_IMAGE_MAP = {
-    // Örnek:
-    // 'p_margherita': './pic/Pizzalar/margarita.jpg',
-};
-
-// Klasörlere göre mevcut görsel dosyaları (pic/ altı)
-const AVAILABLE_IMAGES = {
-    'Pizzalar': [
-        '4-peynirli-yicem.jpg','brokoli-yicem.jpg','diavola-yicem.jpg','donerli-yicem.jpg','ıspanak-tulum-yicem.jpg','kavurmali-yicem.jpg','klasik-yicem.jpg','margarita.jpg','mix-yicem-pizza.jpg','sosisli-yicem.jpg','sucuklu-yicem.jpg','tavuklu-yicem.jpg','tonno-yicem.jpg'
-    ],
-    'Ayvalik-Tostu': [
-        'sanayi-tostu.jpg','soguk-sandvic.jpg','yicem-donerli.jpg','yicem-evkofteli.jpg','yicem-karisik.jpg','yicem-kasarli-jambon.jpg','yicem-kasarli.jpg','yicem-kavurma.jpg','yicem-mega-karisik.jpg','yicem-salam.jpg','yicem-schnitzel.jpg','yicem-sucuklu.jpg','yicem-super-karisik.jpg','yicem-yengen.jpg','yicem-yengenn.jpg'
-    ],
-    'Tavuk-Doner': [
-        '3lu-tavuk-doner.jpg','5lı-tavuk-doner.jpg','pilav-ustu-tavuk-doner.jpg','tavuk-doner-beyti.jpg','tavuk-doner-porsiyon.jpg','tavuk-doner.jpg','tavuk-iskender.jpg'
-    ],
-    'Et-Doner': [
-        '3lu-etdoner.jpg','5li-etdoner.jpg','ayvalik-etdoner.jpg','et-doner-porsiyon.jpg','et-doner.jpg','et-iskender.jpg','kasarli-etdoner.jpg','pilavustu-etdoner.jpg','soslu-doner.jpg'
-    ],
-    'Makarnalar': [
-        'alfredo.jpg','arabiata.jpg','bolonez.jpg','manti.jpg','Napoliten.jpg','pesto.jpg','ton-balikli.jpg','turkusulu.jpg'
-    ],
-    'Hamburger': [
-        'cheeseburger.jpg','hamburger.jpg','tavukburger.jpg'
-    ],
-    'Kofte-Spesiyel': [
-        'ekmekarasi.jpg','kasarli-kofte.jpg','sefin-izgarasi.jpg'
-    ],
-    'Aperatifler': [
-        'citir.jpg','elmadilim.jpg','parmakpatates.jpg'
-    ],
-    'Bistro': [
-        'barbekusoslutavuk.jpg','cafedeparis.jpg','chicken-quesadilla.jpg','chicken-stroganoff.jpg','dagkekigi-kremali.jpg','kasarli-mantarli-quesadilla.jpg','mantarli-kori-tavuk.jpg','mexicanososlutavuk.jpg','tatliacisoslutavuk.jpg','tavuk-wrap.jpg','viyana.jpg'
-    ],
-    'Salata': [
-        'baharsalata.jpg','citir-tavuk-salata.jpg','diyet-tavuk-salata.jpg','hellim-salata.jpg','sezar.jpg','tonnosalata.jpg'
-    ],
-    'Icecek': [
-        '4lucamicecek.jpg','ayran.jpg','cay.jpg','cocacola.jpg','fanta.jpg','icetea.jpg','litrelikicecek.jpg','pepsi.jpg','redbull.jpg','salgam.jpg','soda.jpg','sprite.jpg','su.jpg','turk-kahvesi.jpg'
-    ]
-};
-
-// --- END: Static image maps ---
-
-// Sınıfın devamı
-class __KeepTypes__ {}
+// (removed misplaced class terminator and constants block)
 
 	// Build description for display: for pizzas always use language-specific description; others fallback to ingredients
 	getDisplayDescription(product, translation) {
