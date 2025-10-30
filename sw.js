@@ -1,28 +1,27 @@
-const CACHE_NAME = 'yicem-v3';
+const CACHE_NAME = 'yicem-v4';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/styles.css',
-  '/script.js',
-  '/manifest.json',
-  '/favicon.png',
-  '/logo.png',
-  '/qr.png',
-  '/sitemap.xml',
-  '/yicem_menu.json',
-  '/yicem_menu_translated.json'
+  'index.html',
+  'styles.css',
+  'script.js',
+  'manifest.json',
+  'favicon.png',
+  'logo.png',
+  'qr.png',
+  'sitemap.xml',
+  'yicem_menu.json',
+  'yicem_menu_translated.json'
 ];
 
-// Install event
 self.addEventListener('install', event => {
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then(cache => {
-        console.log('Opened cache');
-        return cache.addAll(urlsToCache);
-      })
+      .then(cache => cache.addAll(urlsToCache).catch(() => Promise.resolve()))
   );
 });
+
+// Install event
+// (install moved above)
 
 // Fetch event
 self.addEventListener('fetch', event => {
@@ -70,4 +69,5 @@ self.addEventListener('activate', event => {
       );
     })
   );
+  self.clients.claim();
 });
