@@ -820,34 +820,39 @@ class RestaurantApp {
     }
 
     // Product Data
-	loadProducts() {
-		try {
-			// Öncelikle çevirili birleşik menü JSON'unu yüklemeyi dene
-			fetch('./yicem_menu_translated.json')
-				.then(res => {
-					if (!res.ok) throw new Error('Menu JSON not found');
-					return res.json();
-				})
-				.then(data => {
-					this.products = this.mapTranslatedMenuToProducts(data);
-					// Pizzalar ve Ayvalık Tostu için ingredients'i çevirilerden dil bazlı tamamla
-					this.normalizeIngredientsForCategories(['pizzalar','ayvalik-tostu']);
-					// Döner kategorileri için açıklama, menü seçenekleri ve içerik normalizasyonu
-					this.normalizeDonerCategories(['tavuk-doner','et-doner']);
-					console.log(`Total products loaded (translated menu): ${this.products.length}`);
-					this.renderProducts();
-				})
-				.catch(() => {
-					// Yükleme başarısız: boş liste göster
-					this.products = [];
-					this.renderProducts();
-				});
-		} catch (error) {
-			console.error('Error loading products:', error);
-			// Hata durumunda boş array
-			this.products = [];
-			this.renderProducts();
+	async loadProducts() {
+		const menuSources = [
+			{ path: './yicem_menu_translated.json', label: 'translated' },
+			{ path: './yicem_menu.json', label: 'default' }
+		];
+
+		for (const source of menuSources) {
+			try {
+				const response = await fetch(source.path, { cache: 'no-store' });
+				if (!response.ok) {
+					throw new Error(`${source.path} responded with ${response.status}`);
+				}
+				const data = await response.json();
+				const mappedProducts = this.mapTranslatedMenuToProducts(data);
+				if (!Array.isArray(mappedProducts) || mappedProducts.length === 0) {
+					throw new Error(`${source.path} did not contain any products`);
+				}
+				this.products = mappedProducts;
+				// Pizzalar ve Ayvalık Tostu için ingredients'i çevirilerden dil bazlı tamamla
+				this.normalizeIngredientsForCategories(['pizzalar','ayvalik-tostu']);
+				// Döner kategorileri için açıklama, menü seçenekleri ve içerik normalizasyonu
+				this.normalizeDonerCategories(['tavuk-doner','et-doner']);
+				console.log(`Total products loaded (${source.label} menu): ${this.products.length}`);
+				this.renderProducts();
+				return;
+			} catch (error) {
+				console.warn(`Failed to load menu from ${source.path}:`, error);
+			}
 		}
+
+		console.error('No menu sources could be loaded, rendering empty product list');
+		this.products = [];
+		this.renderProducts();
 	}
 
 	// yicem_menu_translated.json -> dahili ürün yapısına dönüştür
