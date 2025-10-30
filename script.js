@@ -342,6 +342,22 @@ class RestaurantApp {
         return result;
     }
 
+    // Normalize any incoming label/value into a displayable string
+    normalizeLabel(value) {
+        if (value == null) return '';
+        if (typeof value === 'string') return value;
+        if (typeof value === 'number') return String(value);
+        if (typeof value === 'object') {
+            // Try common shapes
+            if (value.name && typeof value.name === 'string') return value.name;
+            const lang = this.currentLanguage || 'tr';
+            if (value[lang] && typeof value[lang] === 'string') return value[lang];
+            if (value.tr && typeof value.tr === 'string') return value.tr;
+            if (value.en && typeof value.en === 'string') return value.en;
+        }
+        try { return String(value); } catch (_) { return ''; }
+    }
+
 	// Build description for display: for pizzas always use language-specific description; others fallback to ingredients
 	getDisplayDescription(product, translation) {
 		try {
@@ -4397,11 +4413,8 @@ class RestaurantApp {
                 const groupBlock = document.createElement('div');
                 groupBlock.className = 'extra-group';
                 const groupTitle = document.createElement('h5');
-                let groupLabel = (group.translations && group.translations[this.currentLanguage]) || group.name || '';
-                if (groupLabel && typeof groupLabel === 'object') {
-                    groupLabel = groupLabel.name || '';
-                }
-                groupTitle.textContent = groupLabel;
+                const groupLabelRaw = (group.translations && group.translations[this.currentLanguage]) || group.name || '';
+                groupTitle.textContent = this.normalizeLabel(groupLabelRaw);
                 groupBlock.appendChild(groupTitle);
 
                 const type = group.type === 'radio' ? 'radio' : 'checkbox';
@@ -4427,12 +4440,9 @@ class RestaurantApp {
                         this.updateTotalPrice();
                     });
 
-                    let optLabel = (opt.translations && opt.translations[this.currentLanguage]) || opt.name || '';
-                    if (optLabel && typeof optLabel === 'object') {
-                        optLabel = optLabel.name || '';
-                    }
+                    const optLabelRaw = (opt.translations && opt.translations[this.currentLanguage]) || opt.name || '';
                     const spanText = document.createElement('span');
-                    spanText.textContent = `${optLabel}`;
+                    spanText.textContent = this.normalizeLabel(optLabelRaw);
                     const spanPrice = document.createElement('span');
                     spanPrice.className = 'option-price';
                     if (priceDelta) spanPrice.textContent = `+₺${priceDelta}`;
