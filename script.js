@@ -1267,7 +1267,7 @@ class RestaurantApp {
         // Özel eşleştirme varsa onu kullan
         if (specialMappings[productName]) {
             const folder = this.resolvePicFolder(categoryFolder);
-            return `/pic/${folder}/${specialMappings[productName]}`;
+            return `./pic/${folder}/${specialMappings[productName]}`;
         }
         
         // Yoksa otomatik oluştur
@@ -1277,7 +1277,7 @@ class RestaurantApp {
             .replace(/^-|-$/g, '');
         
         const folder = this.resolvePicFolder(categoryFolder);
-        return `/pic/${folder}/${cleanName}.jpg`;
+        return `./pic/${folder}/${cleanName}.jpg`;
     }
 
     // KALDIRILDI: getAllProductsFromJson() - Artık mapTranslatedMenuToProducts() kullanılıyor
