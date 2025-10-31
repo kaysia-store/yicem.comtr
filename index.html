@@ -16,7 +16,7 @@
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Yi'Cem Antalya - Pizza & Ayvalık Tost">
     <meta property="og:description" content="Taze malzemelerle hazırlanan özel tarifler. Pizza, Ayvalık Tostu, Döner ve daha fazlası. Hemen sipariş ver!">
-    <meta property="og:image" content="https://yicem.com.tr/images/icon-512.svg">
+    <meta property="og:image" content="https://yicem.com.tr/favicon.png">
     <meta property="og:url" content="https://yicem.com.tr/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Yi'Cem Restoran">
@@ -26,7 +26,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Yi'Cem Antalya - Pizza & Ayvalık Tost">
     <meta name="twitter:description" content="Taze malzemelerle hazırlanan özel tarifler. Hemen sipariş ver!">
-    <meta name="twitter:image" content="https://yicem.com.tr/images/icon-512.svg">
+    <meta name="twitter:image" content="https://yicem.com.tr/favicon.png">
     
     <!-- Additional SEO Meta Tags -->
     <meta name="theme-color" content="#e53935">
@@ -40,7 +40,6 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="Yi'Cem">
     <meta name="msapplication-TileColor" content="#e53935">
-    <meta name="msapplication-config" content="/browserconfig.xml">
     
     <!-- Manifest -->
     <link rel="manifest" href="./manifest.json">
@@ -55,6 +54,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Yi'Cem Restoran",
+      "image": "https://yicem.com.tr/favicon.png",
+      "description": "Antalya Muratpaşa'da taze malzemelerle hazırlanan lezzetli pizzalar ve ayvalık tostları",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Fener Mah. 1968 Sk. No: 21/A",
+        "addressLocality": "Muratpaşa",
+        "addressRegion": "Antalya",
+        "addressCountry": "TR"
+      },
+      "telephone": "+902423231177",
+      "email": "info@yicem.com",
+      "url": "https://yicem.com.tr",
+      "servesCuisine": ["Turkish", "Italian", "Fast Food"],
+      "priceRange": "$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "09:00",
+          "closes": "20:30"
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <!-- Language Selection Modal -->
@@ -161,7 +198,7 @@
         <div class="container">
             <div class="hero-content">
             <h1 class="hero-title" data-translate="hero_title">Ne Yi'cem diye düşünme!</h1>
-            <p class="hero-subtitle" data-translate="hero_subtitle">Hemen indir</p>
+            <p class="hero-subtitle" data-translate="hero_subtitle">QR Menu Uygulmasını indir!</p>
             <button class="hero-download-btn" id="heroInstallBtn">
                 <i class="fas fa-download"></i>
                 <span data-translate="download">İndir</span>

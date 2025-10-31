@@ -1,0 +1,147 @@
+ÜRÜN ID - RESİM YOLU - ÜRÜN ADI EŞLEŞTİRMESİ
+================================================================================
+
+Format: [Ürün ID] | [Resim Yolu] | [Ürün Adı] | [Fiyat]
+================================================================================
+
+
+📁 Pizzalar
+--------------------------------------------------------------------------------
+p1       | ./pic/Pizzalar/margarita.jpg                       | Margarita Yicem                     | ₺180
+p2       | ./pic/Pizzalar/mix-yicem-pizza.jpg                 | Mix Yicem                           | ₺240
+p3       | ./pic/Pizzalar/kavurmali-yicem.jpg                 | Kavurmalı Yicem                     | ₺300
+p4       | ./pic/Pizzalar/tavuklu-yicem.jpg                   | Tavuklu Yicem                       | ₺240
+p5       | ./pic/Pizzalar/donerli-yicem.jpg                   | Dönerli Yicem                       | ₺300
+p6       | ./pic/Pizzalar/tonno-yicem.jpg                     | Tonno Yicem                         | ₺260
+p7       | ./pic/Pizzalar/sosisli-yicem.jpg                   | Sosisli Yicem                       | ₺240
+p8       | ./pic/Pizzalar/sucuklu-yicem.jpg                   | Sucuklu Yicem                       | ₺240
+p9       | ./pic/Pizzalar/diavola-yicem.jpg                   | Diavola Yicem                       | ₺240
+p10      | ./pic/Et-Doner/kasarli-etdoner.jpg                 | Klasik Vejeteryan                   | ₺240
+p11      | ./pic/Pizzalar/4-peynirli-yicem.jpg                | 4 Peynirli Yicem                    | ₺300
+p12      | ./pic/Pizzalar/ıspanak-tulum-yicem.jpg             | Ispanak + Tulum Yicem               | ₺250
+p13      | ./pic/Pizzalar/brokoli-yicem.jpg                   | Brokoli Peynir Yicem                | ₺250
+
+📁 Ayvalık Tostu
+--------------------------------------------------------------------------------
+t1       | ./pic/Ayvalik-Tostu/yicem-yengen.jpg               | Yicem Yengen                        | ₺170
+t2       | ./pic/Ayvalik-Tostu/yicem-karisik.jpg              | Yicem Karışık                       | ₺170
+t3       | ./pic/Ayvalik-Tostu/yicem-mega-karisik.jpg         | Yicem Mega Karışık                  | ₺190
+t4       | ./pic/Ayvalik-Tostu/yicem-super-karisik.jpg        | Yicem Süper Karışık                 | ₺220
+t5       | ./pic/Ayvalik-Tostu/yicem-kavurma.jpg              | Yicem Kavurma                       | ₺210
+t6       | ./pic/Ayvalik-Tostu/yicem-donerli.jpg              | Yicem Dönerli                       | ₺300
+t7       | ./pic/Ayvalik-Tostu/yicem-sucuklu.jpg              | Yicem Sucuk                         | ₺130
+t8       | ./pic/Ayvalik-Tostu/yicem-schnitzel.jpg            | Yicem Schnitzel                     | ₺130
+t9       | ./pic/Ayvalik-Tostu/yicem-salam.jpg                | Yicem Salam                         | ₺130
+t10      | ./pic/Ayvalik-Tostu/yicem-kasarli-jambon.jpg       | Yicem Kaşarlı Jambon                | ₺130
+t11      | ./pic/Ayvalik-Tostu/yicem-kasarli.jpg              | Yicem Kaşar                         | ₺100
+t12      | ./pic/Ayvalik-Tostu/yicem-evkofteli.jpg            | Yicem Ev Köfteli                    | ₺200
+t13      | ./pic/Ayvalik-Tostu/sanayi-tostu.jpg               | Yicem Sanayi Tostu                  | ₺130
+
+📁 Soğuk Sandviç
+--------------------------------------------------------------------------------
+s1       | ./pic/Salata/diyet-tavuk-salata.jpg                | Yicem Soğuk Sandviç                 | ₺220
+
+📁 Tavuk Döner
+--------------------------------------------------------------------------------
+cd1      | ./pic/Tavuk-Doner/tavuk-doner.jpg                  | Tavuk Döner                         | ₺160
+cd2      | ./pic/Tavuk-Doner/5lı-tavuk-doner.jpg              | Kaşarlı Tavuk Dürüm                 | ₺180
+cd3      | ./pic/Tavuk-Doner/tavuk-iskender.jpg               | Tavuk İskender                      | ₺230
+cd4      | ./pic/Tavuk-Doner/tavuk-doner-beyti.jpg            | Tavuk Döner Beyti                   | ₺250
+cd5      | ./pic/Tavuk-Doner/tavuk-doner-porsiyon.jpg         | Tavuk Döner Porsiyon                | ₺180
+cd6      | ./pic/Tavuk-Doner/pilav-ustu-tavuk-doner.jpg       | Pilavüstü Tavuk Döner               | ₺230
+cd7      | ./pic/Tavuk-Doner/3lu-tavuk-doner.jpg              | 3 Adet Tavuk Döner                  | ₺630
+cd8      | ./pic/Tavuk-Doner/5lı-tavuk-doner.jpg              | 5 Adet Tavuk Döner                  | ₺990
+
+📁 Et Döner
+--------------------------------------------------------------------------------
+bd1      | ./pic/Et-Doner/et-doner.jpg                        | Et Döner (70gr)                     | ₺210
+bd2      | ./pic/Et-Doner/et-doner.jpg                        | Et Döner (100gr)                    | ₺290
+bd3      | (Belirtilmemiş)                                    | Porsiyon Et Döner                   | ₺310
+bd4      | ./pic/Et-Doner/soslu-doner.jpg                     | Soslu Et Döner                      | ₺310
+bd5      | ./pic/Et-Doner/et-iskender.jpg                     | Et İskender                         | ₺350
+bd6      | (Belirtilmemiş)                                    | Pilavüstü Et Döner                  | ₺350
+bd7      | ./pic/Et-Doner/soslu-doner.jpg                     | Soslu Kaşarlı Et Dürüm (70gr)       | ₺230
+bd8      | ./pic/Et-Doner/soslu-doner.jpg                     | Soslu Kaşarlı Et Dürüm (100gr)      | ₺310
+bd9      | (Belirtilmemiş)                                    | Ayvalık Et Dürüm (70gr)             | ₺210
+bd10     | (Belirtilmemiş)                                    | Ayvalık Kaşarlı Et Döner (70gr)     | ₺230
+bd11     | (Belirtilmemiş)                                    | 3 Adet Et Döner (70gr)              | ₺780
+bd12     | (Belirtilmemiş)                                    | 3 Adet Et Döner (100gr)             | ₺1020
+bd13     | (Belirtilmemiş)                                    | 5 Adet Et Döner (70gr)              | ₺1240
+bd14     | (Belirtilmemiş)                                    | 5 Adet Et Döner (100gr)             | ₺1640
+
+📁 Makarnalar
+--------------------------------------------------------------------------------
+pa1      | ./pic/Makarnalar/alfredo.jpg                       | Alfredo                             | ₺200
+pa2      | ./pic/Makarnalar/Napoliten.jpg                     | Napoliten                           | ₺200
+pa3      | ./pic/Makarnalar/bolonez.jpg                       | Bolonez                             | ₺200
+pa4      | ./pic/Makarnalar/pesto.jpg                         | Pesto                               | ₺200
+pa5      | ./pic/Makarnalar/arabiata.jpg                      | Arabiata                            | ₺200
+pa6      | ./pic/Makarnalar/ton-balikli.jpg                   | Ton Balıklı                         | ₺200
+pa7      | ./pic/Icecek/su.jpg                                | Türk Usulü 4 Peynirli               | ₺200
+
+📁 Mantı
+--------------------------------------------------------------------------------
+ma1      | ./pic/Makarnalar/manti.jpg                         | Ev Yapımı Mantı                     | ₺200
+
+📁 Hamburger
+--------------------------------------------------------------------------------
+h1       | ./pic/Hamburger/hamburger.jpg                      | Hamburger                           | ₺250
+h2       | ./pic/Hamburger/cheeseburger.jpg                   | Cheeseburger                        | ₺270
+h3       | ./pic/Hamburger/tavukburger.jpg                    | Tavuk Burger                        | ₺170
+
+📁 Köfte Spesiyel
+--------------------------------------------------------------------------------
+k1       | ./pic/Kofte-Spesiyel/sefin-izgarasi.jpg            | Şefin Izgara Köftesi                | ₺300
+k2       | ./pic/Kofte-Spesiyel/ekmekarasi.jpg                | Ekmek Arası Köfte                   | ₺200
+k3       | ./pic/Kofte-Spesiyel/kasarli-kofte.jpg             | Ekmek Arası Kaşarlı Köfte           | ₺220
+
+📁 Aperatifler
+--------------------------------------------------------------------------------
+a1       | ./pic/Aperatifler/elmadilim.jpg                    | Elma Dilim Patates                  | ₺100
+a2       | ./pic/Aperatifler/parmakpatates.jpg                | Parmak Patates                      | ₺100
+a3       | ./pic/Salata/citir-tavuk-salata.jpg                | Çıtır Tavuk Tabağı                  | ₺200
+
+📁 Bistro
+--------------------------------------------------------------------------------
+b1       | ./pic/Bistro/chicken-stroganoff.jpg                | Chicken Stroganoff                  | ₺300
+b2       | ./pic/Tavuk-Doner/tavuk-doner-beyti.jpg            | Tavuk Quesadilla                    | ₺300
+b3       | (Belirtilmemiş)                                    | Kaşarlı Mantarlı Quesadilla         | ₺300
+b4       | ./pic/Bistro/viyana.jpg                            | Viyana Piliç Şinitzel               | ₺300
+b5       | ./pic/Tavuk-Doner/tavuk-doner-beyti.jpg            | Tavuk Wrap                          | ₺300
+b6       | (Belirtilmemiş)                                    | Dağ Kekiği Kremalı Tavuk            | ₺300
+b7       | (Belirtilmemiş)                                    | Mantarlı Köri Soslu Tavuk           | ₺300
+b8       | (Belirtilmemiş)                                    | Cafe de Paris Soslu Tavuk           | ₺300
+b9       | (Belirtilmemiş)                                    | Barbekü Soslu Tavuk                 | ₺300
+b10      | (Belirtilmemiş)                                    | Tatlı Acı Soslu Tavuk               | ₺300
+b11      | (Belirtilmemiş)                                    | Mexicano Soslu Tavuk                | ₺300
+b12      | ./pic/Tavuk-Doner/tavuk-doner-beyti.jpg            | Tavuk Menü                          | ₺300
+b13      | ./pic/Tavuk-Doner/tavuk-doner-beyti.jpg            | Tavuk Menü Diyet                    | ₺300
+
+📁 Salata
+--------------------------------------------------------------------------------
+s1       | ./pic/Salata/diyet-tavuk-salata.jpg                | Diyet Tavuk Salata                  | ₺200
+s2       | ./pic/Salata/baharsalata.jpg                       | Bahar Salata                        | ₺200
+s3       | ./pic/Salata/baharsalata.jpg                       | Sezar Salata                        | ₺200
+s4       | ./pic/Salata/citir-tavuk-salata.jpg                | Çıtır Tavuk Salata                  | ₺200
+s5       | ./pic/Salata/hellim-salata.jpg                     | Hellim Salata                       | ₺230
+s6       | ./pic/Salata/tonnosalata.jpg                       | Tonno Salata                        | ₺230
+
+📁 İçecekler
+--------------------------------------------------------------------------------
+d1       | ./pic/Icecek/redbull.jpg                           | RedBull                             | ₺80
+d2       | ./pic/Icecek/cocacola.jpg                          | Coca Cola                           | ₺60
+d3       | ./pic/Icecek/pepsi.jpg                             | Pepsi                               | ₺60
+d4       | ./pic/Icecek/fanta.jpg                             | Fanta                               | ₺60
+d5       | ./pic/Icecek/sprite.jpg                            | Sprite                              | ₺60
+d6       | ./pic/Icecek/icetea.jpg                            | Ice Tea                             | ₺60
+d7       | ./pic/Icecek/litrelikicecek.jpg                    | Litrelik İçecek                     | ₺60
+d8       | ./pic/Icecek/ayran.jpg                             | Yörükoğlu Ayran                     | ₺40
+d9       | ./pic/Icecek/su.jpg                                | Su                                  | ₺20
+d10      | ./pic/Icecek/soda.jpg                              | Soda                                | ₺20
+d11      | ./pic/Icecek/salgam.jpg                            | Şalgam                              | ₺40
+d12      | ./pic/Icecek/cay.jpg                               | Çay                                 | ₺20
+d13      | ./pic/Icecek/turk-kahvesi.jpg                      | Türk Kahvesi                        | ₺30
+
+
+---
+Toplam Ürün Sayısı: 98

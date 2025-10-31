@@ -1,4 +1,4 @@
-const CACHE_NAME = 'yicem-v4';
+const CACHE_NAME = 'yicem-v5'; // v5: Embedded menu data (gömülü menü verisi)
 const urlsToCache = [
   'index.html',
   'styles.css',
@@ -7,9 +7,7 @@ const urlsToCache = [
   'favicon.png',
   'logo.png',
   'qr.png',
-  'sitemap.xml',
-  'yicem_menu.json',
-  'yicem_menu_translated.json'
+  'sitemap.xml'
 ];
 
 self.addEventListener('install', event => {

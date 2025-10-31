@@ -2036,12 +2036,12 @@
           {
             "id": "t5",
             "name": {
-              "tr": "Yicem Kavurma",
-              "en": "Yicem Beef Stew",
-              "de": "Rindfleisch-Eintopf Yicem",
-              "ru": "Йицем с тушеной говядиной",
-              "fr": "Yicem au Ragoût de Bœuf",
-              "ar": "يجم باللحم المطبوخ"
+              "tr": "Yicem Kavurma Kaşarlı",
+              "en": "Yicem Beef Stew with Cheese",
+              "de": "Yicem Rindfleischeintopf mit Käse",
+              "ru": "Йицем Тушеная говядина с сыром",
+              "fr": "Yicem Ragoût de Bœuf au Fromage",
+              "ar": "يجم لحم مطبوخ بالجبن"
             },
             "price": 210,
             "description": {
@@ -2210,12 +2210,12 @@
           {
             "id": "t7",
             "name": {
-              "tr": "Yicem Sucuk",
-              "en": "Yicem Sucuk",
-              "de": "Yicem Sucuk",
-              "ru": "Yicem Sucuk",
-              "fr": "Yicem Sucuk",
-              "ar": "Yicem Sucuk"
+              "tr": "Yicem Sucuk Kaşarlı",
+              "en": "Yicem Sucuk with Cheese",
+              "de": "Yicem Sucuk mit Käse",
+              "ru": "Йицем Суджук с сыром",
+              "fr": "Yicem Sucuk au Fromage",
+              "ar": "يجم سوجق بالجبن"
             },
             "price": 130,
             "description": {
@@ -2378,12 +2378,12 @@
           {
             "id": "t9",
             "name": {
-              "tr": "Yicem Salam",
-              "en": "Yicem Salami",
-              "de": "Yicem Salami",
-              "ru": "Yicem Salami",
-              "fr": "Yicem Salami",
-              "ar": "Yicem Salami"
+              "tr": "Yicem Salam Kaşarlı",
+              "en": "Yicem Salami with Cheese",
+              "de": "Yicem Salami mit Käse",
+              "ru": "Йицем Салами с сыром",
+              "fr": "Yicem Salami au Fromage",
+              "ar": "يجم سلامي بالجبن"
             },
             "price": 130,
             "description": {
@@ -2546,14 +2546,14 @@
           {
             "id": "t11",
             "name": {
-              "tr": "Yicem Kaşar",
-              "en": "Yicem Cheddar",
-              "de": "Yicem Cheddar",
-              "ru": "Yicem Cheddar",
-              "fr": "Yicem Cheddar",
-              "ar": "Yicem Cheddar"
+              "tr": "Yicem Tulum veya Ezine Peynir",
+              "en": "Yicem Tulum or Ezine Cheese",
+              "de": "Yicem Tulum oder Ezine Käse",
+              "ru": "Йицем Тулум или Сыр Эзине",
+              "fr": "Yicem Tulum ou Fromage Ezine",
+              "ar": "يجم تولوم أو جبن إزينه"
             },
-            "price": 100,
+            "price": 150,
             "description": {
               "tr": "İsteğe Bağlı; Kaşar veya Beyaz Peynir, Siyah Zeytin, Ceviz, Domates, Yeşil Biber, Kekik",
               "en": "Optional; Cheddar or White Cheese, Black Olives, Walnuts, Tomatoes, Green Pepper, Thyme",
@@ -2832,12 +2832,12 @@
             },
             "price": 220,
             "description": {
-              "tr": "2 Ana Ürün + 4 Yan Ürün dahil, fazlası ekstra",
-              "en": "2 Main Products + 4 Side Products included, extras additional",
-              "de": "2 Main Products + 4 Side Products included, extras additional",
-              "ru": "2 Main Products + 4 Side Products included, extras additional",
-              "fr": "2 Main Products + 4 Side Products included, extras additional",
-              "ar": "2 Main Products + 4 Side Products included, extras additional"
+              "tr": "2 Ana ürün + 4 Yan ürün seçenekleri ile",
+              "en": "Choose 2 main products + 4 side products",
+              "de": "Wählen Sie 2 Hauptprodukte + 4 Beilagen",
+              "ru": "Выберите 2 основных продукта + 4 гарнира",
+              "fr": "Choisissez 2 produits principaux + 4 accompagnements",
+              "ar": "اختر منتجين رئيسيين + 4 منتجات جانبية"
             },
             "contents": {
               "tr": [],
@@ -2873,7 +2873,7 @@
                     "fr": "Thon",
                     "ar": "تونة"
                   },
-                  "price": 40
+                  "price": 20
                 },
                 {
                   "id": "main2",
@@ -2885,7 +2885,7 @@
                     "fr": "Fromage Blanc",
                     "ar": "جبن أبيض"
                   },
-                  "price": 40
+                  "price": 20
                 },
                 {
                   "id": "main3",
@@ -2897,7 +2897,7 @@
                     "fr": "Ezine Cheese",
                     "ar": "Ezine Cheese"
                   },
-                  "price": 40
+                  "price": 20
                 },
                 {
                   "id": "main4",
@@ -2909,7 +2909,7 @@
                     "fr": "Salami",
                     "ar": "سلامي"
                   },
-                  "price": 40
+                  "price": 20
                 },
                 {
                   "id": "main5",
@@ -2921,7 +2921,7 @@
                     "fr": "Jambon",
                     "ar": "لحم خنزير"
                   },
-                  "price": 40
+                  "price": 20
                 }
               ],
               "sideProducts": [
@@ -2935,7 +2935,7 @@
                     "fr": "Black Olives",
                     "ar": "Black Olives"
                   },
-                  "price": 20
+                  "price": 10
                 },
                 {
                   "id": "side2",
@@ -2947,7 +2947,7 @@
                     "fr": "Maïs",
                     "ar": "ذرة"
                   },
-                  "price": 20
+                  "price": 10
                 },
                 {
                   "id": "side3",
@@ -2959,7 +2959,7 @@
                     "fr": "Tomates",
                     "ar": "طماطم"
                   },
-                  "price": 20
+                  "price": 10
                 },
                 {
                   "id": "side4",
@@ -2971,7 +2971,7 @@
                     "fr": "Cornichons",
                     "ar": "مخلل"
                   },
-                  "price": 20
+                  "price": 10
                 },
                 {
                   "id": "side5",
@@ -2983,7 +2983,7 @@
                     "fr": "Poivron Jalapeño",
                     "ar": "فلفل هالبينو"
                   },
-                  "price": 20
+                  "price": 10
                 },
                 {
                   "id": "side6",
@@ -2995,7 +2995,7 @@
                     "fr": "Green Pepper",
                     "ar": "Green Pepper"
                   },
-                  "price": 20
+                  "price": 10
                 },
                 {
                   "id": "side7",
@@ -3007,7 +3007,7 @@
                     "fr": "Salade Russe",
                     "ar": "سلطة روسية"
                   },
-                  "price": 20
+                  "price": 10
                 }
               ]
             }
@@ -3263,12 +3263,12 @@
             },
             "price": 230,
             "description": {
-              "tr": "Tavuk Döner Beyti (100gr) - İskender tarzı",
-              "en": "Chicken Doner Beyti (100gr) - Iskender style",
-              "de": "Chicken Doner Beyti (100gr) - Iskender style",
-              "ru": "Chicken Doner Beyti (100gr) - Iskender style",
-              "fr": "Chicken Doner Beyti (100gr) - Iskender style",
-              "ar": "Chicken Doner Beyti (100gr) - Iskender style"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -3365,12 +3365,12 @@
             },
             "price": 250,
             "description": {
-              "tr": "Tavuk Döner Beyti (100gr) - Özel sos ile",
-              "en": "Chicken Doner Beyti (100gr) - With special sauce",
-              "de": "Chicken Doner Beyti (100gr) - With special sauce",
-              "ru": "Chicken Doner Beyti (100gr) - With special sauce",
-              "fr": "Chicken Doner Beyti (100gr) - With special sauce",
-              "ar": "Chicken Doner Beyti (100gr) - With special sauce"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -3461,12 +3461,12 @@
             },
             "price": 180,
             "description": {
-              "tr": "Tavuk Döner Porsiyon (100gr) - Porsiyon tabağı",
-              "en": "Chicken Doner Portion (100gr) - Portion plate",
-              "de": "Chicken Doner Portion (100gr) - Portion plate",
-              "ru": "Chicken Doner Portion (100gr) - Portion plate",
-              "fr": "Chicken Doner Portion (100gr) - Portion plate",
-              "ar": "Chicken Doner Portion (100gr) - Portion plate"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -3557,12 +3557,12 @@
             },
             "price": 230,
             "description": {
-              "tr": "Pilavüstü Tavuk Döner (100gr) - Pilav üzerine",
-              "en": "Chicken Doner on Rice (100gr) - Over rice",
-              "de": "Chicken Doner on Rice (100gr) - Over rice",
-              "ru": "Chicken Doner on Rice (100gr) - Over rice",
-              "fr": "Chicken Doner on Rice (100gr) - Over rice",
-              "ar": "Chicken Doner on Rice (100gr) - Over rice"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -4098,12 +4098,12 @@
             },
             "price": 310,
             "description": {
-              "tr": "Et Döner (100gr), Pilav, Salata, Marul, Domates, Turşu",
-              "en": "Beef Doner (100gr), Rice, Salad, Lettuce, Tomatoes, Pickles",
-              "de": "Rindfleisch-Döner (100g), Reis, Salat, Salat, Tomaten, Essiggurken",
-              "ru": "Донер из говядины (100гр), Рис, Салат, Салат, Помидоры, Маринованные огурцы",
-              "fr": "Döner Bœuf (100g), Riz, Salade, Laitue, Tomates, Cornichons",
-              "ar": "دونر لحم (100غ), أرز, سلطة, خس, طماطم, مخلل"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -4376,12 +4376,12 @@
             },
             "price": 350,
             "description": {
-              "tr": "Et Döner (100gr), Yoğurt, Tereyağı, Domates Sosu, Marul, Domates, Turşu",
-              "en": "Beef Doner (100gr), Yogurt, Butter, Tomato Sauce, Lettuce, Tomatoes, Pickles",
-              "de": "Rindfleisch-Döner (100g), Joghurt, Butter, Tomatensauce, Salat, Tomaten, Essiggurken",
-              "ru": "Донер из говядины (100гр), Йогурт, Масло, Томатный соус, Салат, Помидоры, Маринованные огурцы",
-              "fr": "Döner Bœuf (100g), Yaourt, Beurre, Sauce Tomate, Laitue, Tomates, Cornichons",
-              "ar": "دونر لحم (100غ), زبادي, زبدة, صلصة طماطم, خس, طماطم, مخلل"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -4506,12 +4506,12 @@
             },
             "price": 350,
             "description": {
-              "tr": "Et Döner (100gr), Pilav, Salata, Sos, Marul, Domates, Turşu",
-              "en": "Beef Doner (100gr), Rice, Salad, Sauce, Lettuce, Tomatoes, Pickles",
-              "de": "Rindfleisch-Döner (100g), Reis, Salat, Sauce, Salat, Tomaten, Essiggurken",
-              "ru": "Донер из говядины (100гр), Рис, Салат, Соус, Салат, Помидоры, Маринованные огурцы",
-              "fr": "Döner Bœuf (100g), Riz, Salade, Sauce, Laitue, Tomates, Cornichons",
-              "ar": "دونر لحم (100غ), أرز, سلطة, صلصة, خس, طماطم, مخلل"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -4875,21 +4875,21 @@
           {
             "id": "bd9",
             "name": {
-              "tr": "Ayvalık Et Dürüm (70gr)",
-              "en": "Ayvalık Beef Wrap (70gr)",
-              "de": "Ayvalık Rindfleisch-Wrap (70g)",
-              "ru": "Айвалык донер из говядины (70гр)",
-              "fr": "Wrap Döner Bœuf Ayvalık (70g)",
-              "ar": "لفة دونر لحم أيفاليك (70غ)"
+              "tr": "Ayvalık Et Döner (70gr)",
+              "en": "Ayvalık Beef Doner (70gr)",
+              "de": "Ayvalık Rindfleisch Döner (70gr)",
+              "ru": "Дёнер Айвалык (70г)",
+              "fr": "Döner d'Ayvalık (70gr)",
+              "ar": "دونر أيفاليك (70غ)"
             },
             "price": 210,
             "description": {
-              "tr": "Et Döner (70gr), Ayvalık Sosu, Marul, Domates, Turşu",
-              "en": "Beef Doner (70gr), Ayvalık Sauce, Lettuce, Tomatoes, Pickles",
-              "de": "Rindfleisch-Döner (70g), Ayvalık-Sauce, Salat, Tomaten, Essiggurken",
-              "ru": "Донер из говядины (70гр), Соус Айвалык, Салат, Помидоры, Маринованные огурцы",
-              "fr": "Döner Bœuf (70g), Sauce Ayvalık, Laitue, Tomates, Cornichons",
-              "ar": "دونر لحم (70غ), صلصة أيفاليك, خس, طماطم, مخلل"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -5487,12 +5487,12 @@
             },
             "price": 200,
             "description": {
-              "tr": "Jülyen Tavuk Parçaları (100-120gr), Dağ Mantarı, Sarımsak, Krema, Fesleğen - Tavsiye Penne",
-              "en": "Julienne Chicken Pieces (100-120gr), Forest Mushrooms, Garlic, Cream, Basil - Recommended Penne",
-              "de": "Julienne Chicken Pieces  (100-120g), Forest Mushrooms, Garlic, Cream, Basil - Recommended Penne",
-              "ru": "Julienne Chicken Pieces  (100-120gr), Forest Mushrooms, Garlic, Cream, Basil - Recommended Penne",
-              "fr": "Julienne Chicken Pieces  (100-120g), Forest Mushrooms, Garlic, Cream, Basil - Recommended Penne",
-              "ar": "Julienne Chicken Pieces  (100-120غr), Forest Mushrooms, Garlic, Cream, Basil - Recommended Penne"
+              "tr": "Kremalı Alfredo makarnası - Yoğun kremalı sos, parmesan peyniri ve taze otlarla hazırlanan nefis İtalyan makarnası. Antalya'da en lezzetli Alfredo makarnası.",
+              "en": "Creamy Alfredo Pasta - Delicious Italian pasta prepared with rich creamy sauce, parmesan cheese and fresh herbs. The most delicious Alfredo pasta in Antalya.",
+              "de": "Cremige Alfredo Pasta - Köstliche italienische Pasta mit cremiger Sauce, Parmesan und frischen Kräutern. Die leckerste Alfredo Pasta in Antalya.",
+              "ru": "Кремовая паста Альфредо - Вкусная итальянская паста с густым сливочным соусом, пармезаном и свежими травами. Самая вкусная паста Альфредо в Анталье.",
+              "fr": "Pâtes Alfredo Crémeuses - Délicieuses pâtes italiennes préparées avec une sauce crémeuse riche, parmesan et herbes fraîches. Les pâtes Alfredo les plus délicieuses à Antalya.",
+              "ar": "معكرونة ألفريدو كريمية - معكرونة إيطالية لذيذة محضرة بصلصة كريمية غنية وجبن البارميزان وأعشاب طازجة. ألذ معكرونة ألفريدو في أنطاليا."
             },
             "contents": {
               "tr": [
@@ -5629,12 +5629,12 @@
             },
             "price": 200,
             "description": {
-              "tr": "Domates, Sarımsak, Taze Fesleğen, Havuç, Baharat - Tavsiye Spagetti",
-              "en": "Tomatoes, Garlic, Fresh Basil, Carrot, Spices - Recommended Spaghetti",
-              "de": "Tomaten, Garlic, Fresh Basil, Carrot, Spices - Recommended Spaghetti",
-              "ru": "Помидоры, Garlic, Fresh Basil, Carrot, Spices - Recommended Spaghetti",
-              "fr": "Tomates, Garlic, Fresh Basil, Carrot, Spices - Recommended Spaghetti",
-              "ar": "طماطم, Garlic, Fresh Basil, Carrot, Spices - Recommended Spaghetti"
+              "tr": "Napoliten makarnası - Klasik Napoli usulü domates sosu, mozzarella peyniri ve taze fesleğen ile hazırlanan otantik İtalyan makarnası. Antalya Muratpaşa'da en lezzetli Napoliten makarnası.",
+              "en": "Neapolitan Pasta - Authentic Italian pasta prepared with classic Neapolitan tomato sauce, mozzarella cheese and fresh basil. The most delicious Neapolitan pasta in Antalya Muratpaşa.",
+              "de": "Neapolitanische Pasta - Authentische italienische Pasta mit klassischer neapolitanischer Tomatensauce, Mozzarella und frischem Basilikum. Die leckerste neapolitanische Pasta in Antalya Muratpaşa.",
+              "ru": "Неаполитанская паста - Аутентичная итальянская паста с классическим неаполитанским томатным соусом, моцареллой и свежим базиликом. Самая вкусная неаполитанская паста в Анталье Муратпаша.",
+              "fr": "Pâtes Néapolitaines - Pâtes italiennes authentiques préparées avec une sauce tomate néapolitaine classique, mozzarella et basilic frais. Les pâtes néapolitaines les plus délicieuses à Antalya Muratpaşa.",
+              "ar": "معكرونة نابولي - معكرونة إيطالية أصيلة محضرة بصلصة طماطم نابولية كلاسيكية وجبن موزاريلا وريحان طازج. ألذ معكرونة نابولية في أنطاليا مراتباشا."
             },
             "contents": {
               "tr": [
@@ -5771,12 +5771,12 @@
             },
             "price": 200,
             "description": {
-              "tr": "Dana Kıyma (100gr), Sarımsak, Soğan, Kereviz Sapı, Havuç, Defne Yaprağı, Baharat - Tavsiye Spagetti",
-              "en": "Beef Mince (100gr), Garlic, Onion, Celery Stalk, Carrot, Bay Leaf, Spices - Recommended Spaghetti",
-              "de": "Rindfleischhackfleisch (100g), Knoblauch, Zwiebel, Selleriestiel, Karotte, Lorbeerblatt, Gewürze - Empfohlen Spaghetti",
-              "ru": "Говяжий фарш (100гр), Чеснок, Лук, Сельдерей, Морковь, Лавровый лист, Специи - Рекомендуется Спагетти",
-              "fr": "Viande Hachée de Bœuf (100g), Ail, Oignon, Branche de Céleri, Carotte, Feuille de Laurier, Épices - Recommandé Spaghetti",
-              "ar": "لحم بقري مفروم (100غ), ثوم, بصل, ساق الكرفس, جزر, ورقة الغار, توابل - موصى به سباغيتي"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -5925,12 +5925,12 @@
             },
             "price": 200,
             "description": {
-              "tr": "Sarımsak, Taze Fesleğen, Kekik, Krema, Baharat - Tavsiye Penne",
-              "en": "Garlic, Fresh Basil, Thyme, Cream, Spices - Recommended Penne",
-              "de": "Knoblauch, Frisches Basilikum, Thymian, Sahne, Gewürze - Empfohlen Penne",
-              "ru": "Чеснок, Свежий базилик, Тимьян, Сливки, Специи - Рекомендуется Пенне",
-              "fr": "Ail, Basilic Frais, Thym, Crème, Épices - Recommandé Penne",
-              "ar": "ثوم, ريحان طازج, زعتر, كريمة, توابل - موصى به بيني"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -6067,12 +6067,12 @@
             },
             "price": 200,
             "description": {
-              "tr": "Domates, Sarımsak, Acı Sos, Dilim Siyah Zeytin - Tavsiye Penne",
-              "en": "Tomatoes, Garlic, Hot Sauce, Sliced Black Olives - Recommended Penne",
-              "de": "Tomaten, Knoblauch, Scharfe Sauce, Geschnittene Schwarze Oliven - Empfohlen Penne",
-              "ru": "Помидоры, Чеснок, Острый соус, Нарезанные черные оливки - Рекомендуется Пенне",
-              "fr": "Tomates, Ail, Sauce Piquante, Olives Noires Tranchées - Recommandé Penne",
-              "ar": "طماطم, ثوم, صلصة حارة, زيتون أسود مقطع - موصى به بيني"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -6203,12 +6203,12 @@
             },
             "price": 200,
             "description": {
-              "tr": "Ton Balığı (100gr), Krema, Zeytin, Mısır, Turşu - Tavsiye Penne",
-              "en": "Tuna Fish (100gr), Cream, Olives, Corn, Pickles - Recommended Penne",
-              "de": "Thunfisch (100g), Sahne, Oliven, Mais, Essiggurken - Empfohlen Penne",
-              "ru": "Тунец (100гр), Сливки, Оливки, Кукуруза, Маринованные огурцы - Рекомендуется Пенне",
-              "fr": "Thon (100g), Crème, Olives, Maïs, Cornichons - Recommandé Penne",
-              "ar": "تونة (100غ), كريمة, زيتون, ذرة, مخلل - موصى به بيني"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -6345,12 +6345,12 @@
             },
             "price": 200,
             "description": {
-              "tr": "Bergama Tulumu, Ezine Peyniri, Kaşar, Beyaz Peynir, Krema, Fesleğen - Tavsiye Penne",
-              "en": "Bergama Tulum, Ezine Cheese, Cheddar, White Cheese, Cream, Basil - Recommended Penne",
-              "de": "Bergama Tulum, Ezine Käse, Cheddar, Weißer Käse, Sahne, Basilikum - Empfohlen Penne",
-              "ru": "Бергама Туллум, Сыр Эзине, Чеддер, Белый сыр, Сливки, Базилик - Рекомендуется Пенне",
-              "fr": "Bergama Tulum, Fromage Ezine, Cheddar, Fromage Blanc, Crème, Basilic - Recommandé Penne",
-              "ar": "برغاما تولوم, جبن إزينه, شيدر, جبن أبيض, كريمة, ريحان - موصى به بيني"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -6506,12 +6506,12 @@
             },
             "price": 200,
             "description": {
-              "tr": "Haşlanmış Mantı, %100 Dana Kıyma (250gr), Tereyağında Kavrulmuş Pul Biber ve Nane Sosu",
-              "en": "Boiled Manti, 100% Beef Mince (250gr), Red Pepper Flakes and Mint Sauce Fried in Butter",
-              "de": "Gekochte Manti, 100% Rindfleisch-Hackfleisch (250gr), In Butter gebratene Paprikaflocken und Minzsauce",
-              "ru": "Вареные манты, 100% говяжий фарш (250гр), Обжаренные в масле хлопья перца и мятный соус",
-              "fr": "Manti Bouillis, 100% Viande de Bœuf Hachée (250gr), Flocons de Piment Frits au Beurre et Sauce à la Menthe",
-              "ar": "منتي مسلوق، 100% لحم بقري مفروم (250غ)، رقائق فلفل محمرة بالزبدة وصلصة النعناع"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -6637,12 +6637,12 @@
             },
             "price": 250,
             "description": {
-              "tr": "120gr Ev Yapımı Köfte, Marul, Turşu, Domates",
-              "en": "120gr Homemade Patty, Lettuce, Pickles, Tomatoes",
-              "de": "120gr Homemade Patty, Lettuce, Essiggurken, Tomaten",
-              "ru": "120gr Homemade Patty, Lettuce, Маринованные огурцы, Помидоры",
-              "fr": "120gr Homemade Patty, Lettuce, Cornichons, Tomates",
-              "ar": "120gr Homemade Patty, Lettuce, مخلل, طماطم"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -6721,12 +6721,12 @@
             },
             "price": 270,
             "description": {
-              "tr": "120gr Ev Yapımı Köfte, Cheddar Peyniri, Marul, Turşu, Domates",
-              "en": "120gr Homemade Patty, Cheddar Cheese, Lettuce, Pickles, Tomatoes",
-              "de": "120gr Homemade Patty, Cheddar Cheese, Lettuce, Essiggurken, Tomaten",
-              "ru": "120gr Homemade Patty, Cheddar Cheese, Lettuce, Маринованные огурцы, Помидоры",
-              "fr": "120gr Homemade Patty, Cheddar Cheese, Lettuce, Cornichons, Tomates",
-              "ar": "120gr Homemade Patty, Cheddar Cheese, Lettuce, مخلل, طماطم"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -6811,12 +6811,12 @@
             },
             "price": 170,
             "description": {
-              "tr": "Tavuk Burger, Marul, Turşu, Domates, Özel Sos",
-              "en": "Chicken Burger, Lettuce, Pickles, Tomatoes, Special Sauce",
-              "de": "Chicken Burger, Lettuce, Essiggurken, Tomaten, Special Sauce",
-              "ru": "Chicken Burger, Lettuce, Маринованные огурцы, Помидоры, Special Sauce",
-              "fr": "Chicken Burger, Lettuce, Cornichons, Tomates, Special Sauce",
-              "ar": "Chicken Burger, Lettuce, مخلل, طماطم, Special Sauce"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -6914,12 +6914,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "180gr Izgara Köfte, Pilav, Salata",
-              "en": "180gr Grilled Meatballs, Rice, Salad",
-              "de": "180gr Grilled Meatballs, Rice, Salad",
-              "ru": "180gr Grilled Meatballs, Rice, Salad",
-              "fr": "180gr Grilled Meatballs, Rice, Salad",
-              "ar": "180gr Grilled Meatballs, Rice, Salad"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -6992,12 +6992,12 @@
             },
             "price": 200,
             "description": {
-              "tr": "120gr Ekmek Arası Köfte",
-              "en": "120gr Meatball Sandwich",
-              "de": "120gr Meatball Sandwich",
-              "ru": "120gr Meatball Sandwich",
-              "fr": "120gr Meatball Sandwich",
-              "ar": "120gr Meatball Sandwich"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -7058,12 +7058,12 @@
             },
             "price": 220,
             "description": {
-              "tr": "120gr Ekmek Arası Kaşarlı Köfte",
-              "en": "120gr Cheddar Meatball Sandwich",
-              "de": "120gr Cheddar Meatball Sandwich",
-              "ru": "120gr Cheddar Meatball Sandwich",
-              "fr": "120gr Cheddar Meatball Sandwich",
-              "ar": "120gr Cheddar Meatball Sandwich"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -7298,12 +7298,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "Tavuk Bonfile (200-250gr), Krema, Turşu, Mantar, Demiglass Sos, Patates Cipsi ve Akdeniz Yeşillikleri",
-              "en": "Chicken Fillet (200-250gr), Cream, Pickles, Mushrooms, Demiglace Sauce, Potato Chips and Mediterranean Greens",
-              "de": "Chicken Fillet  (200-250g), Cream, Essiggurken, Pilze, Demiglace Sauce, Potato Chips and Mediterranean Greens",
-              "ru": "Chicken Fillet  (200-250gr), Cream, Маринованные огурцы, Грибы, Demiglace Sauce, Potato Chips and Mediterranean Greens",
-              "fr": "Chicken Fillet  (200-250g), Cream, Cornichons, Champignons, Demiglace Sauce, Potato Chips and Mediterranean Greens",
-              "ar": "Chicken Fillet  (200-250غr), Cream, مخلل, فطر, Demiglace Sauce, Potato Chips and Mediterranean Greens"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -7405,12 +7405,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "Tortilla Lavaş İçerisinde Baharatlarla Tatlandırılmış Tavuk Parçaları (200gr), Kaşar Peyniri, Biber, Mısır, Zeytin ve Barbekü Sos",
-              "en": "Spiced Chicken Pieces (200gr), Cheddar Cheese, Pepper, Corn, Olives and BBQ Sauce in Tortilla Lavash",
-              "de": "Gewürzte Hähnchenstücke (200g), Cheddar-Käse, Paprika, Mais, Oliven und BBQ-Sauce in Tortilla-Lavash",
-              "ru": "Приправленные кусочки курицы (200гр), сыр Чеддер, перец, кукуруза, оливки и соус барбекю в тортилья лаваше",
-              "fr": "Morceaux de Poulet Épicés (200g), Fromage Cheddar, Poivron, Maïs, Olives et Sauce BBQ dans Tortilla Lavash",
-              "ar": "قطع دجاج متبلة (200غ), جبن شيدر, فلفل, ذرة, زيتون وصلصة باربيكيو في خبز التورتيلا"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -7492,12 +7492,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "Tortilla Lavaş İçerisinde Kaşar Peyniri, Mantar, Mısır ve Zeytin",
-              "en": "Cheddar Cheese, Mushrooms, Corn and Olives in Tortilla Lavash",
-              "de": "Cheddar-Käse, Pilze, Mais und Oliven in Tortilla-Lavash",
-              "ru": "Сыр Чеддер, грибы, кукуруза и оливки в тортилья лаваше",
-              "fr": "Fromage Cheddar, Champignons, Maïs et Olives dans Tortilla Lavash",
-              "ar": "جبن شيدر, فطر, ذرة وزيتون في خبز التورتيلا"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -7567,12 +7567,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "Panelenmiş Tavuk Göğsü (200gr), Akdeniz Yeşillikleri",
-              "en": "Breaded Chicken Breast (200gr), Mediterranean Greens",
-              "de": "Panierte Hähnchenbrust (200g), Mittelmeergrün",
-              "ru": "Панированная куриная грудка (200гр), средиземноморская зелень",
-              "fr": "Blanc de Poulet Pané (200g), Verts Méditerranéens",
-              "ar": "صدر دجاج مقطع (200غ), خضار البحر المتوسط"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -7630,12 +7630,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "Tavuk Bonfile (200gr), Soğan, Sarımsak, Biber, Dağ Kekiği, Mantar, Kajun Baharatı, Patates Cipsi ve Salata",
-              "en": "Chicken Fillet (200gr), Onion, Garlic, Pepper, Mountain Thyme, Mushrooms, Cajun Spices, Potato Chips and Salad",
-              "de": "Hähnchenfilet (200g), Zwiebel, Knoblauch, Paprika, Bergthymian, Pilze, Cajun-Gewürze, Kartoffelchips und Salat",
-              "ru": "Куриное филе (200гр), лук, чеснок, перец, горный тимьян, грибы, каджунские специи, картофельные чипсы и салат",
-              "fr": "Filet de Poulet (200g), Oignon, Ail, Poivron, Thym des Montagnes, Champignons, Épices Cajun, Chips de Pommes de Terre et Salade",
-              "ar": "فيليه دجاج (200غ), بصل, ثوم, فلفل, زعتر جبلي, فطر, توابل كاجون, شيبس وسلطة"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -7735,12 +7735,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "Jülyen Tavuk (200gr), Krema, Karabiber, Kekik, Sarımsak, Biber, Mantar, Akdeniz Yeşillikleri",
-              "en": "Julienne Chicken (200gr), Cream, Black Pepper, Thyme, Garlic, Pepper, Mushrooms, Mediterranean Greens",
-              "de": "Julienne-Hähnchen (200g), Sahne, Schwarzer Pfeffer, Thymian, Knoblauch, Paprika, Pilze, Mittelmeergrün",
-              "ru": "Жюльен курица (200гр), сливки, черный перец, тимьян, чеснок, перец, грибы, средиземноморская зелень",
-              "fr": "Poulet Julienne (200g), Crème, Poivre Noir, Thym, Ail, Poivron, Champignons, Verts Méditerranéens",
-              "ar": "دجاج جوليان (200غ), كريمة, فلفل أسود, زعتر, ثوم, فلفل, فطر, خضار البحر المتوسط"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -7834,12 +7834,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "Jülyen Tavuk Parçaları (200gr), Krema, Mantar, Köri, Akdeniz Yeşillikleri",
-              "en": "Julienne Chicken Pieces (200gr), Cream, Mushrooms, Curry, Mediterranean Greens",
-              "de": "Julienne-Hähnchenstücke (200g), Sahne, Pilze, Curry, Mittelmeergrün",
-              "ru": "Приправленные кусочки курицы (200гр), сливки, грибы, карри, средиземноморская зелень",
-              "fr": "Morceaux de Poulet Julienne (200g), Crème, Champignons, Curry, Verts Méditerranéens",
-              "ar": "قطع دجاج جوليان (200غ), كريمة, فطر, كاري, خضار البحر المتوسط"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -7915,12 +7915,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "Jülyen Tavuk (200gr), Krema, Cafe de Paris Sos, Karabiber, Sarımsak, Biber, Mantar, Akdeniz Yeşillikleri",
-              "en": "Julienne Chicken (200gr), Cream, Cafe de Paris Sauce, Black Pepper, Garlic, Pepper, Mushrooms, Mediterranean Greens",
-              "de": "Julienne-Hähnchen (200g), Sahne, Cafe de Paris-Sauce, Schwarzer Pfeffer, Knoblauch, Paprika, Pilze, Mittelmeergrün",
-              "ru": "Жюльен курица (200гр), сливки, соус Cafe de Paris, черный перец, чеснок, перец, грибы, средиземноморская зелень",
-              "fr": "Poulet Julienne (200g), Crème, Sauce Cafe de Paris, Poivre Noir, Ail, Poivron, Champignons, Verts Méditerranéens",
-              "ar": "دجاج جوليان (200غ), كريمة, صلصة كافيه دي باريس, فلفل أسود, ثوم, فلفل, فطر, خضار البحر المتوسط"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -8014,12 +8014,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "Jülyen Tavuk, Barbekü Sosu, Biber, Mantar, Dağ Kekiği, Akdeniz Yeşillikleri",
-              "en": "Julienne Chicken, BBQ Sauce, Pepper, Mushrooms, Mountain Thyme, Mediterranean Greens",
-              "de": "Julienne-Hähnchen, BBQ-Sauce, Paprika, Pilze, Bergthymian, Mittelmeergrün",
-              "ru": "Жюльен курица, соус барбекю, перец, грибы, горный тимьян, средиземноморская зелень",
-              "fr": "Poulet Julienne, Sauce BBQ, Poivron, Champignons, Thym des Montagnes, Verts Méditerranéens",
-              "ar": "دجاج جوليان, صلصة باربيكيو, فلفل, فطر, زعتر جبلي, خضار البحر المتوسط"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -8101,12 +8101,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "Jülyen Tavuk, Chilli Sos, Biber, Mantar, Akdeniz Yeşillikleri",
-              "en": "Julienne Chicken, Chilli Sauce, Pepper, Mushrooms, Mediterranean Greens",
-              "de": "Julienne-Hähnchen, Chilli-Sauce, Paprika, Pilze, Mittelmeergrün",
-              "ru": "Жюльен курица, соус чили, перец, грибы, средиземноморская зелень",
-              "fr": "Poulet Julienne, Sauce Piquante, Poivron, Champignons, Verts Méditerranéens",
-              "ar": "دجاج جوليان, صلصة حارة, فلفل, فطر, خضار البحر المتوسط"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -8182,12 +8182,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "Jülyen Tavuk, Mexicano Sos, Jalepeno, Biber, Mantar, Akdeniz Yeşillikleri",
-              "en": "Julienne Chicken, Mexican Sauce, Jalapeño, Pepper, Mushrooms, Mediterranean Greens",
-              "de": "Julienne-Hähnchen, Mexikanische Sauce, Jalapeño, Paprika, Pilze, Mittelmeergrün",
-              "ru": "Жюльен курица, мексиканский соус, халапеньо, перец, грибы, средиземноморская зелень",
-              "fr": "Poulet Julienne, Sauce Mexicaine, Jalapeño, Poivron, Champignons, Verts Méditerranéens",
-              "ar": "دجاج جوليان, صلصة مكسيكية, هالبينو, فلفل, فطر, خضار البحر المتوسط"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -8269,12 +8269,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "Tavuk Izgara (200gr)",
-              "en": "Grilled Chicken (200gr)",
-              "de": "Gegrilltes Hähnchen (200g)",
-              "ru": "Жареная курица (200гр)",
-              "fr": "Poulet Grillé (200g)",
-              "ar": "دجاج مشوي (200غ)"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -8326,12 +8326,12 @@
             },
             "price": 300,
             "description": {
-              "tr": "Tavuk Izgara (200gr), Fırında Patates, Sebze Garnitür",
-              "en": "Grilled Chicken (200gr), Baked Potatoes, Vegetable Garnish",
-              "de": "Gegrilltes Hähnchen (200g), Ofenkartoffeln, Gemüsegarnitur",
-              "ru": "Жареная курица (200гр), запеченный картофель, овощной гарнир",
-              "fr": "Poulet Grillé (200g), Pommes de Terre au Four, Garniture Légumes",
-              "ar": "دجاج مشوي (200غ), بطاطس مخبوزة, مقبلات خضار"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -8408,12 +8408,12 @@
             },
             "price": 200,
             "description": {
-              "tr": "Akdeniz Yeşillikleri, Kızarmış Tavuk Göğsü (150gr), Elma, Keten Tohumu, Cherry Domates, Tane Mısır ve Biber",
-              "en": "Mediterranean Greens, Fried Chicken Breast (150gr), Apple, Flax Seeds, Cherry Tomatoes, Corn Kernels and Pepper",
-              "de": "Mediterranean Greens, Fried Chicken Breast  (150g), Apple, Flax Seeds, Kirschtomaten, Corn Kernels and Pepper",
-              "ru": "Mediterranean Greens, Fried Chicken Breast  (150gr), Apple, Flax Seeds, Черри помидоры, Corn Kernels and Pepper",
-              "fr": "Mediterranean Greens, Fried Chicken Breast  (150g), Apple, Flax Seeds, Tomates Cerises, Corn Kernels and Pepper",
-              "ar": "Mediterranean Greens, Fried Chicken Breast  (150غr), Apple, Flax Seeds, طماطم كرزية, Corn Kernels and Pepper"
+              "tr": "2 Ana ürün + 4 Yan ürün seçenekleri ile",
+              "en": "Choose 2 main products + 4 side products",
+              "de": "Wählen Sie 2 Hauptprodukte + 4 Beilagen",
+              "ru": "Выберите 2 основных продукта + 4 гарнира",
+              "fr": "Choisissez 2 produits principaux + 4 accompagnements",
+              "ar": "اختر منتجين رئيسيين + 4 منتجات جانبية"
             },
             "contents": {
               "tr": [
@@ -8485,12 +8485,12 @@
             },
             "price": 200,
             "description": {
-              "tr": "Akdeniz Yeşillikleri, Beyaz Peynir, Cherry Domates, Tane Mısır, Biber ve Özel Yicem Sosu",
-              "en": "Mediterranean Greens, White Cheese, Cherry Tomatoes, Corn Kernels, Pepper and Special Yicem Sauce",
-              "de": "Mediterranean Greens, Weißer Käse, Kirschtomaten, Corn Kernels, Pepper and Special Yicem Sauce",
-              "ru": "Mediterranean Greens, Белый сыр, Черри помидоры, Corn Kernels, Pepper and Special Yicem Sauce",
-              "fr": "Mediterranean Greens, Fromage Blanc, Tomates Cerises, Corn Kernels, Pepper and Special Yicem Sauce",
-              "ar": "Mediterranean Greens, جبن أبيض, طماطم كرزية, Corn Kernels, Pepper and Special Yicem Sauce"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -8556,12 +8556,12 @@
             },
             "price": 200,
             "description": {
-              "tr": "Kızarmış Tavuk Göğsü (150gr), Akdeniz Yeşillikleri, Cherry Domates, Mısır, Biber, Kruton Ekmek, Parmesan Peyniri ve Özel Yicem Sosu",
-              "en": "Fried Chicken Breast (150gr), Mediterranean Greens, Cherry Tomatoes, Corn, Pepper, Croutons, Parmesan Cheese and Special Yicem Sauce",
-              "de": "Fried Chicken Breast  (150g), Mediterranean Greens, Kirschtomaten, Mais, Paprika, Croutons, Parmesan Cheese and Special Yicem Sauce",
-              "ru": "Fried Chicken Breast  (150gr), Mediterranean Greens, Черри помидоры, Кукуруза, Перец, Croutons, Parmesan Cheese and Special Yicem Sauce",
-              "fr": "Fried Chicken Breast  (150g), Mediterranean Greens, Tomates Cerises, Maïs, Poivron, Croutons, Parmesan Cheese and Special Yicem Sauce",
-              "ar": "Fried Chicken Breast  (150غr), Mediterranean Greens, طماطم كرزية, ذرة, فلفل, Croutons, Parmesan Cheese and Special Yicem Sauce"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -8639,12 +8639,12 @@
             },
             "price": 200,
             "description": {
-              "tr": "Çıtır Tavuk Parçaları (150gr), Akdeniz Yeşillikleri, Cherry Domates, Mısır, Biber ve Yicem Sosu",
-              "en": "Crispy Chicken Pieces (150gr), Mediterranean Greens, Cherry Tomatoes, Corn, Pepper and Yicem Sauce",
-              "de": "Crispy Chicken Pieces  (150g), Mediterranean Greens, Kirschtomaten, Mais, Pepper and Yicem Sauce",
-              "ru": "Crispy Chicken Pieces  (150gr), Mediterranean Greens, Черри помидоры, Кукуруза, Pepper and Yicem Sauce",
-              "fr": "Crispy Chicken Pieces  (150g), Mediterranean Greens, Tomates Cerises, Maïs, Pepper and Yicem Sauce",
-              "ar": "Crispy Chicken Pieces  (150غr), Mediterranean Greens, طماطم كرزية, ذرة, Pepper and Yicem Sauce"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -8710,12 +8710,12 @@
             },
             "price": 230,
             "description": {
-              "tr": "Hellim Peyniri, Akdeniz Yeşillikleri, Cherry Domates, Mısır, Biber ve Kruton Ekmek",
-              "en": "Halloumi Cheese, Mediterranean Greens, Cherry Tomatoes, Corn, Pepper and Croutons",
-              "de": "Halloumi Cheese, Mediterranean Greens, Kirschtomaten, Mais, Pepper and Croutons",
-              "ru": "Halloumi Cheese, Mediterranean Greens, Черри помидоры, Кукуруза, Pepper and Croutons",
-              "fr": "Halloumi Cheese, Mediterranean Greens, Tomates Cerises, Maïs, Pepper and Croutons",
-              "ar": "Halloumi Cheese, Mediterranean Greens, طماطم كرزية, ذرة, Pepper and Croutons"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
@@ -8781,12 +8781,12 @@
             },
             "price": 230,
             "description": {
-              "tr": "Ton Balığı (160gr), Akdeniz Yeşillikleri, Cherry Domates, Mısır ve Biber",
-              "en": "Tuna Fish (160gr), Mediterranean Greens, Cherry Tomatoes, Corn and Pepper",
-              "de": "Thunfisch  (160g), Mediterranean Greens, Kirschtomaten, Corn and Pepper",
-              "ru": "Тунец  (160gr), Mediterranean Greens, Черри помидоры, Corn and Pepper",
-              "fr": "Thon  (160g), Mediterranean Greens, Tomates Cerises, Corn and Pepper",
-              "ar": "تونة  (160غr), Mediterranean Greens, طماطم كرزية, Corn and Pepper"
+              "tr": "",
+              "en": "",
+              "de": "",
+              "ru": "",
+              "fr": "",
+              "ar": ""
             },
             "contents": {
               "tr": [
