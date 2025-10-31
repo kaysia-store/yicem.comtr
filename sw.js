@@ -1,13 +1,14 @@
-const CACHE_NAME = 'yicem-v5'; // v5: Embedded menu data (gömülü menü verisi)
+const CACHE_NAME = 'yicem-v6'; // v6: GitHub Pages compatibility fix
 const urlsToCache = [
-  'index.html',
-  'styles.css',
-  'script.js',
-  'manifest.json',
-  'favicon.png',
-  'logo.png',
-  'qr.png',
-  'sitemap.xml'
+  '/index.html',
+  '/styles.css',
+  '/script.js',
+  '/manifest.json',
+  '/favicon.png',
+  '/logo.png',
+  '/qr.png',
+  '/sitemap.xml',
+  '/robots.txt'
 ];
 
 self.addEventListener('install', event => {
